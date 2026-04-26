@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% block titlu %}Sumar Date{% endblock %}
+
+{% block continut %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>📋 Sumar Date CSV</h2>
+    <div class="d-flex gap-2">
+        <a href="{{ url_for('analiza.preturi') }}" class="btn btn-outline-success">💶 Analiză Prețuri</a>
+        <a href="{{ url_for('analiza.grafic') }}" class="btn btn-outline-primary">📊 Grafice Custom</a>
+        <a href="{{ url_for('analiza.index') }}" class="btn btn-outline-secondary">⬆ Încarcă alt CSV</a>
+    </div>
+</div>
+
+<!-- Carduri generale -->
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card text-center border-primary">
+            <div class="card-body">
+                <h3 class="text-primary">{{ stats.total_randuri }}</h3>
+                <p class="mb-0">Înregistrări totale</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center border-info">
+            <div class="card-body">
+                <h3 class="text-info">{{ stats.total_coloane }}</h3>
+                <p class="mb-0">Coloane</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center border-warning">
+            <div class="card-body">
+                <h3 class="text-warning">
+                    {{ stats.valori_lipsa.values() | sum }}
+                </h3>
+                <p class="mb-0">Valori lipsă totale</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center border-success">
+            <div class="card-body">
+                <h3 class="text-success">{{ stats.coloane | length }}</h3>
+                <p class="mb-0">Câmpuri disponibile</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tipuri coloane si valori lipsa -->
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header"><strong>Tipuri de date per coloană</strong></div>
+            <div class="card-body p-0">
+                <table class="table table-sm mb-0">
+                    <thead class="table-light">
+                        <tr><th>Coloană</th><th>Tip</th><th>Valori lipsă</th></tr>
+                    </thead>
+                    <tbody>
+                        {% for col in stats.coloane %}
+                        <tr>
+                            <td>{{ col }}</td>
+                            <td><span class="badge bg-secondary">{{ stats.tipuri[col] }}</span></td>
+                            <td>
+                                {% if stats.valori_lipsa[col] > 0 %}
+                                <span class="badge bg-warning text-dark">{{ stats.valori_lipsa[col] }}</span>
+                                {% else %}
+                                <span class="text-success">✓</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistici numerice -->
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header"><strong>Statistici coloane numerice</strong></div>
+            <div class="card-body p-0">
+                {% if desc %}
+                <div class="table-responsive">
+                    <table class="table table-sm mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Statistică</th>
+                                {% for col in desc.keys() %}<th>{{ col }}</th>{% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for stat in ['count','mean','std','min','25%','50%','75%','max'] %}
+                            <tr>
+                                <td><strong>{{ stat }}</strong></td>
+                                {% for col in desc.keys() %}
+                                <td>{{ desc[col][stat] }}</td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <p class="p-3 text-muted">Nu există coloane numerice.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Preview date -->
+<div class="card">
+    <div class="card-header"><strong>Previzualizare primele 10 înregistrări</strong></div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-sm table-hover mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        {% for col in coloane %}<th style="font-size:0.75rem">{{ col }}</th>{% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in preview %}
+                    <tr>
+                        {% for col in coloane %}
+                        <td style="font-size:0.75rem; white-space:nowrap;">{{ row[col] }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

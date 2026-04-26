@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% block titlu %}Analiză Prețuri{% endblock %}
+
+{% block continut %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>💶 Analiză Prețuri Instrumente</h2>
+    <div class="d-flex gap-2">
+        <a href="{{ url_for('analiza.sumar') }}" class="btn btn-outline-info">📋 Sumar</a>
+        <a href="{{ url_for('analiza.grafic') }}" class="btn btn-outline-primary">📊 Grafice Custom</a>
+        <a href="{{ url_for('analiza.index') }}" class="btn btn-outline-secondary">⬆ CSV nou</a>
+    </div>
+</div>
+
+<!-- KPI-uri -->
+{% if stat_preturi %}
+<div class="row mb-4">
+    <div class="col-md-2">
+        <div class="card text-center border-success">
+            <div class="card-body py-2">
+                <small class="text-muted">Preț minim</small>
+                <h5 class="text-success mb-0">{{ stat_preturi.minim }} €</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card text-center border-danger">
+            <div class="card-body py-2">
+                <small class="text-muted">Preț maxim</small>
+                <h5 class="text-danger mb-0">{{ stat_preturi.maxim }} €</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card text-center border-primary">
+            <div class="card-body py-2">
+                <small class="text-muted">Preț mediu</small>
+                <h5 class="text-primary mb-0">{{ stat_preturi.medie }} €</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card text-center border-info">
+            <div class="card-body py-2">
+                <small class="text-muted">Mediană</small>
+                <h5 class="text-info mb-0">{{ stat_preturi.mediana }} €</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card text-center border-warning">
+            <div class="card-body py-2">
+                <small class="text-muted">Deviație std.</small>
+                <h5 class="text-warning mb-0">{{ stat_preturi.std }} €</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card text-center border-dark">
+            <div class="card-body py-2">
+                <small class="text-muted">Total investit</small>
+                <h5 class="mb-0">{{ "{:,.0f}".format(stat_preturi.total_investit) }} €</h5>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Grafice -->
+{% for key, img in grafice.items() %}
+<div class="card mb-4">
+    <div class="card-body text-center">
+        <img src="data:image/png;base64,{{ img }}"
+             class="img-fluid" alt="Grafic"
+             style="max-width:100%; border-radius:8px;">
+    </div>
+</div>
+{% endfor %}
+{% endblock %}

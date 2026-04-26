@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% block titlu %}Grafice Custom{% endblock %}
+
+{% block continut %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>📊 Grafice Custom</h2>
+    <div class="d-flex gap-2">
+        <a href="{{ url_for('analiza.sumar') }}" class="btn btn-outline-info">📋 Sumar</a>
+        <a href="{{ url_for('analiza.preturi') }}" class="btn btn-outline-success">💶 Analiză Prețuri</a>
+        <a href="{{ url_for('analiza.index') }}" class="btn btn-outline-secondary">⬆ CSV nou</a>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header"><strong>Configurează graficul</strong></div>
+    <div class="card-body">
+        <form method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label class="form-label">Tip grafic</label>
+                    <select name="tip_grafic" class="form-select" id="selectTip">
+                        <option value="">-- Selectează --</option>
+                        {% for val, label in tipuri_grafice %}
+                        <option value="{{ val }}" {% if tip_grafic == val %}selected{% endif %}>
+                            {{ label }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Coloană X (principală)</label>
+                    <select name="col_x" class="form-select">
+                        <option value="">-- Selectează --</option>
+                        <optgroup label="Numerice">
+                            {% for c in coloane_numerice %}
+                            <option value="{{ c }}" {% if col_x == c %}selected{% endif %}>{{ c }}</option>
+                            {% endfor %}
+                        </optgroup>
+                        <optgroup label="Categorice">
+                            {% for c in coloane_categorice %}
+                            <option value="{{ c }}" {% if col_x == c %}selected{% endif %}>{{ c }}</option>
+                            {% endfor %}
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Coloană Y (secundară, opțional)</label>
+                    <select name="col_y" class="form-select">
+                        <option value="">-- Niciuna --</option>
+                        <optgroup label="Numerice">
+                            {% for c in coloane_numerice %}
+                            <option value="{{ c }}" {% if col_y == c %}selected{% endif %}>{{ c }}</option>
+                            {% endfor %}
+                        </optgroup>
+                        <optgroup label="Categorice">
+                            {% for c in coloane_categorice %}
+                            <option value="{{ c }}" {% if col_y == c %}selected{% endif %}>{{ c }}</option>
+                            {% endfor %}
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary">Generează grafic</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% if eroare %}
+<div class="alert alert-danger">⚠ {{ eroare }}</div>
+{% endif %}
+
+{% if img %}
+<div class="card">
+    <div class="card-header"><strong>Rezultat</strong></div>
+    <div class="card-body text-center">
+        <img src="data:image/png;base64,{{ img }}"
+             class="img-fluid" alt="Grafic generat"
+             style="max-width:100%; border-radius:8px;">
+    </div>
+</div>
+{% endif %}
+{% endblock %}

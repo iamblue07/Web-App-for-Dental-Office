@@ -1,0 +1,641 @@
+﻿Cod_Instrument,Nume_Instrument,Categorie,Subcategorie,Furnizor,Tara_Origine,Material,Pret_Unitar_EUR,Cantitate,Valoare_Totala_EUR,Data_Achizitie,Garantie_Luni,Data_Expirare_Garantie,Conditie,Stoc_Minim,Rating_Calitate,Autoclavabil,Utilizari_Maxime,Note
+GEN-0010,Excavator dublu 17/18,General,Diagnostic,Kerr Dental,SUA,Otel inoxidabil,70.78,13,920.14,2024-04-12,60,2029-03-17,Demo,5,3.9,Da,1000,Lot special
+END-0020,Ace rotative Reciproc Blue 25,Endodontie,Diagnostic,KaVo Kerr,Germania,Aliaj titan-nichel,109.73,10,1097.3,2021-06-05,12,2022-05-31,Nou,5,4.1,Da,500,Recomandat de medic specialist
+RAD-0036,Tablier protectie plumb pediatric,Radiologie,Profilaxie,KaVo Kerr,Germania,Silicon medical,282.4,14,3953.6,2024-02-23,36,2027-02-07,Nou,3,4.0,Da,50,Verificat la receptie
+PAR-0016,Set chiurete Gracey complet (7 piese),Parodontologie,Sterilizare,Satelec,Franta,Otel inoxidabil german,788.74,17,13408.58,2021-07-05,36,2024-06-19,Nou,1,4.3,Nu,500,Sterilizabil autoclav
+GEN-0002,Oglinda dentara nr.5,General,Sterilizare,Henry Schein Dental,SUA,Otel inoxidabil,38.96,20,779.2,2020-04-18,60,2025-03-23,Nou,5,4.1,Da,Nelimitat,Livrare urgenta
+END-0008,Ace Hedstrom 25mm (6 buc),Endodontie,Chirurgie,KaVo Kerr,Germania,Aliaj titan-nichel,23.6,4,94.4,2021-07-26,6,2022-01-22,Nou,2,3.7,Da,500,Sterilizabil autoclav
+END-0058,Ruler endodontic,Endodontie,Profilaxie,Dentsply Sirona,Germania,Otel inoxidabil,34.86,1,34.86,2020-07-16,6,2021-01-12,Nou,4,3.7,Da,50,Verificat la receptie
+END-0024,Motor endodontic X-Smart Plus,Endodontie,Chirurgie,KaVo Kerr,Germania,Aliaj titan-nichel,2190.38,3,6571.14,2020-05-16,24,2022-05-06,Nou,3,4.9,Da,200,
+ORT-0020,Cleste Mathieu needle holder,Ortodontie,Tratament,Dentsply Sirona,Germania,Otel inoxidabil,94.0,2,188.0,2020-06-01,24,2022-05-22,Demo,1,3.6,Nu,200,Lot special
+CHI-0076,Pensa Kocher dreapta,Chirurgie Orala,Sterilizare,GC Europe,Belgia,Otel inoxidabil german,88.14,4,352.56,2023-07-16,36,2026-06-30,Nou,5,3.6,Nu,500,
+CHI-0044,Retractor Langenbeck,Chirurgie Orala,Diagnostic,KaVo Kerr,Germania,Otel inoxidabil german,92.09,2,184.18,2023-09-14,6,2024-03-12,Nou,2,3.6,Nu,50,Sterilizabil autoclav
+GEN-0070,Varf ultrasonic universal,General,Sterilizare,Hu-Friedy Europe,Germania,Aliaj titan-nichel,70.88,14,992.32,2023-08-13,60,2028-07-17,Nou,1,3.8,Da,Nelimitat,Inlocuieste modelul anterior
+END-0060,Endo stand 10 gauri,Endodontie,Chirurgie,Dentsply Sirona,Germania,Plastic autoclavabil,30.05,16,480.8,2022-03-24,60,2027-02-26,Nou,3,4.7,Nu,100,
+PAR-0017,Set chiurete Gracey complet (7 piese),Parodontologie,Sterilizare,Acteon Group,Franta,Otel inoxidabil german,807.42,6,4844.52,2021-06-09,6,2021-12-06,Nou,5,4.4,Nu,200,Necesita calibrare anuala
+STE-0068,Masca chirurgicala tip IIR (50 buc),Sterilizare,Auxiliar,Acteon Group,Franta,Silicon medical,27.89,13,362.57,2023-05-24,6,2023-11-20,Nou,1,3.8,Da,Nelimitat,
+ORT-0022,Spatula pozitionare bracket,Ortodontie,Chirurgie,Dentsply Sirona,Germania,Otel inoxidabil,54.46,8,435.68,2024-01-25,6,2024-07-23,Demo,3,4.3,Da,200,Inlocuieste modelul anterior
+PED-0025,Plugger compozit pediatric,Pedodontie,Profilaxie,Kerr Dental,SUA,Otel inoxidabil,52.04,5,260.2,2020-01-22,60,2024-12-26,Reconditionat,2,4.1,Da,Nelimitat,Livrare urgenta
+STE-0017,Sigilator pungi sterilizare Melag,Sterilizare,Auxiliar,W&H Dentalwerk,Austria,Aluminiu anodizat,1390.63,5,6953.15,2023-07-03,36,2026-06-17,Nou,1,4.4,Nu,200,Livrare urgenta
+CHI-0060,Needle holder Hegar 15cm,Chirurgie Orala,Sterilizare,GC Europe,Belgia,Otel inoxidabil german,195.35,6,1172.1,2022-01-08,60,2026-12-13,Nou,3,4.5,Nu,100,Lot special
+GEN-0045,Oglinda frontala cu maner,General,Diagnostic,GC Europe,Belgia,Otel inoxidabil,56.83,18,1022.94,2020-11-26,12,2021-11-21,Nou,4,4.5,Nu,200,
+GEN-0046,Pensa pentru vata,General,Sterilizare,Densply Romania,Romania,Otel inoxidabil,48.3,2,96.6,2022-04-27,36,2025-04-11,Nou,5,4.9,Nu,200,
+PRO-0054,Matrice sectoriala metal (set 10),Prostetica,Diagnostic,Dentsply Sirona,Germania,Otel inoxidabil,57.62,17,979.54,2021-03-01,36,2024-02-14,Nou,3,3.9,Da,1,
+ORT-0027,Deschizator buze transparent,Ortodontie,Profilaxie,American Orthodontics,SUA,Plastic autoclavabil,43.36,2,86.72,2025-11-05,24,2027-10-26,Nou,1,3.6,Nu,1000,Livrare urgenta
+RAD-0032,Tablier protectie plumb adult,Radiologie,Sterilizare,Dentsply Sirona,Germania,Silicon medical,501.34,18,9024.12,2025-09-09,24,2027-08-30,Nou,3,4.2,Da,Nelimitat,Verificat la receptie
+STE-0004,Autoclav clasa B W&H Lexa B,Sterilizare,Tratament,Acteon Group,Franta,Aluminiu anodizat,3999.09,10,39990.9,2020-02-12,6,2020-08-10,Nou,5,3.8,Da,1,
+ORT-0049,Cleste Nance,Ortodontie,Chirurgie,3M Oral Care,SUA,Otel inoxidabil german,149.68,2,299.36,2023-10-02,6,2024-03-30,Nou,5,4.5,Da,100,Verificat la receptie
+PRO-0011,Lingura amprenta superioara L,Prostetica,Diagnostic,GC Europe,Belgia,Aluminiu anodizat,18.66,9,167.94,2023-09-10,60,2028-08-14,Nou,2,4.5,Da,500,Recomandat de medic specialist
+GEN-0069,Varf ultrasonic universal,General,Sterilizare,Densply Romania,Romania,Aliaj titan-nichel,79.94,19,1518.86,2023-03-28,36,2026-03-12,Nou,3,4.5,Nu,200,Verificat la receptie
+ORT-0037,Bracket metalic MBT (set 20),Ortodontie,Sterilizare,Dentsply Sirona,Germania,Otel inoxidabil,279.4,7,1955.8,2025-09-29,6,2026-03-28,Nou,1,3.9,Nu,500,Inlocuieste modelul anterior
+PRO-0061,Portamalgam Dentsply,Prostetica,Profilaxie,Dentsply Sirona,Germania,Otel inoxidabil german,117.29,16,1876.64,2021-05-11,60,2026-04-15,Nou,3,4.0,Da,1000,Verificat la receptie
+PAR-0022,Scaler ultrasonic Cavitron,Parodontologie,Auxiliar,Hu-Friedy Europe,Germania,Aliaj titan-nichel,4133.67,10,41336.7,2022-04-15,60,2027-03-20,Nou,4,3.7,Da,1000,Inlocuieste modelul anterior
+PRO-0045,Spatula composite Goldstein,Prostetica,Diagnostic,Dentsply Sirona,Germania,Otel inoxidabil german,124.78,19,2370.82,2021-11-23,60,2026-10-28,Nou,3,4.7,Da,200,Recomandat de medic specialist
+STE-0020,Sigilator pungi sterilizare Melag,Sterilizare,Chirurgie,Densply Romania,Romania,Aluminiu anodizat,1229.66,12,14755.92,2024-08-14,24,2026-08-04,Nou,2,3.9,Da,1000,Inlocuieste modelul anterior
+PED-0016,Cleste extractie 151S pediatric,Pedodontie,Chirurgie,GC Europe,Belgia,Otel inoxidabil german,105.31,20,2106.2,2023-05-10,60,2028-04-13,Nou,5,4.3,Nu,Nelimitat,Recomandat de medic specialist
+END-0055,Ace Gates Glidden nr.2 (6 buc),Endodontie,Profilaxie,KaVo Kerr,Germania,Carbon,29.62,17,503.54,2023-06-07,12,2024-06-01,Nou,1,3.9,Da,200,Verificat la receptie
+RAD-0045,Film radiologie Speed D (150 buc),Radiologie,Chirurgie,Dentsply Sirona,Germania,Silicon medical,152.96,11,1682.56,2023-05-18,24,2025-05-07,Nou,3,3.6,Da,1,Recomandat de medic specialist
+END-0012,Ace Hedstrom 25mm (6 buc),Endodontie,Diagnostic,Dentsply Sirona,Germania,Aliaj titan-nichel,30.63,5,153.15,2024-09-13,12,2025-09-08,Nou,5,3.9,Nu,Nelimitat,Lot special
+RAD-0011,Suport film radiologic adult (set 3),Radiologie,Auxiliar,Henry Schein Dental,SUA,Plastic autoclavabil,95.97,7,671.79,2023-08-27,12,2024-08-21,Nou,3,3.8,Nu,Nelimitat,
+STE-0029,Cassete Hu-Friedy IMS marime M,Sterilizare,Chirurgie,W&H Dentalwerk,Austria,Aluminiu anodizat,130.9,20,2618.0,2022-08-25,36,2025-08-09,Nou,2,3.8,Nu,200,
+CHI-0046,Retractor Langenbeck,Chirurgie Orala,Auxiliar,GC Europe,Belgia,Otel inoxidabil german,113.83,4,455.32,2025-11-04,12,2026-10-30,Nou,3,4.9,Da,1000,
+ORT-0019,Cleste Mathieu needle holder,Ortodontie,Auxiliar,American Orthodontics,SUA,Otel inoxidabil,136.58,20,2731.6,2023-09-05,60,2028-08-09,Nou,1,4.5,Da,1000,Livrare urgenta
+ORT-0058,Elastice ortodontice 1/4 (100 buc),Ortodontie,Auxiliar,Dentsply Sirona,Germania,Silicon medical,16.53,8,132.24,2024-04-30,6,2024-10-27,Nou,1,4.0,Da,Nelimitat,
+PAR-0026,Varf ultrasonic paro TFI-10,Parodontologie,Sterilizare,Acteon Group,Franta,Aliaj titan-nichel,47.8,11,525.8,2020-07-27,60,2025-07-01,Nou,3,4.2,Da,1,Recomandat de medic specialist
+ORT-0054,Pin pusher instrucor,Ortodontie,Chirurgie,Dentsply Sirona,Germania,Otel inoxidabil,63.68,8,509.44,2024-12-24,60,2029-11-28,Nou,4,3.9,Nu,Nelimitat,
+PRO-0027,Arc facial Denar,Prostetica,Sterilizare,3M Oral Care,SUA,Aliaj titan-nichel,508.04,10,5080.4,2023-09-23,12,2024-09-17,Nou,5,3.6,Da,1,Livrare urgenta
+CHI-0072,Trusa extractie completa (20 piese),Chirurgie Orala,Tratament,Henry Schein Dental,SUA,Otel inoxidabil german,2857.11,8,22856.88,2022-03-28,24,2024-03-17,Nou,1,3.7,Da,Nelimitat,
+IMP-0053,Osteotom Summers 3mm,Implantologie,Sterilizare,NSK Europe,Japonia,Titan,197.19,8,1577.52,2020-08-25,12,2021-08-20,Nou,4,3.7,Da,100,Recomandat de medic specialist
+IMP-0052,Osteotom Summers 3mm,Implantologie,Auxiliar,Zimmer Biomet,SUA,Titan,106.06,7,742.42,2021-09-28,60,2026-09-02,Nou,5,4.5,Da,100,Inlocuieste modelul anterior
+CHI-0008,Lame bisturiu nr.15 (100 buc),Chirurgie Orala,Chirurgie,Henry Schein Dental,SUA,Otel inoxidabil,93.14,11,1024.54,2024-08-01,24,2026-07-22,Nou,4,4.5,Nu,500,Verificat la receptie
+PRO-0028,Arc facial Denar,Prostetica,Chirurgie,3M Oral Care,SUA,Aliaj titan-nichel,315.99,10,3159.9,2025-03-21,36,2028-03-05,Nou,2,3.7,Da,200,Recomandat de medic specialist
+PAR-0041,Needle holder Castroviejo,Parodontologie,Profilaxie,Acteon Group,Franta,Otel inoxidabil german,192.14,14,2689.96,2023-02-07,24,2025-01-27,Nou,3,4.8,Da,Nelimitat,Livrare urgenta
+ORT-0039,Bracket ceramic (set 20),Ortodontie,Chirurgie,Ormco,SUA,Silicon medical,533.88,14,7474.32,2021-12-20,12,2022-12-15,Nou,2,4.3,Da,200,Inlocuieste modelul anterior
+GEN-0068,Dispozitiv detartraj ultrasonic EMS,General,Diagnostic,Densply Romania,Romania,Aliaj titan-nichel,2257.89,7,15805.23,2024-10-07,6,2025-04-05,Nou,2,4.9,Da,50,
+ORT-0057,Elastice ortodontice 1/4 (100 buc),Ortodontie,Diagnostic,3M Oral Care,SUA,Silicon medical,15.64,17,265.88,2021-08-26,36,2024-08-10,Nou,2,4.7,Nu,1,Necesita calibrare anuala
+PRO-0049,Matrice Tofflemire set complet,Prostetica,Profilaxie,GC Europe,Belgia,Otel inoxidabil,98.19,12,1178.28,2020-08-10,24,2022-07-31,Nou,1,3.6,Nu,100,Livrare urgenta
+IMP-0046,Cover screw implant,Implantologie,Sterilizare,Nobel Biocare,Elvetia,Titan,61.8,20,1236.0,2024-12-17,12,2025-12-12,Nou,1,3.7,Nu,100,
+PAR-0010,Chiureta Gracey 7/8 SG,Parodontologie,Profilaxie,Mectron,Italia,Otel inoxidabil german,72.88,8,583.04,2024-03-30,36,2027-03-15,Nou,1,4.2,Da,Nelimitat,Recomandat de medic specialist
+END-0046,Sistem irigatie NaviTip,Endodontie,Tratament,Acteon Group,Franta,Plastic autoclavabil,130.21,9,1171.89,2023-08-24,24,2025-08-13,Nou,3,3.8,Da,Nelimitat,Lot special
+CHI-0013,Elevator Luxator PDL 3mm,Chirurgie Orala,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,154.84,6,929.04,2025-07-17,36,2028-07-01,Nou,5,3.9,Da,500,
+GEN-0029,Chiureta Gracey 11/12,General,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil german,72.85,14,1019.9,2023-02-07,6,2023-08-06,Nou,2,4.5,Nu,500,Verificat la receptie
+CHI-0083,Dalta os cu maner,Chirurgie Orala,Sterilizare,Henry Schein Dental,SUA,Otel inoxidabil german,63.54,6,381.24,2020-04-17,60,2025-03-22,Nou,5,4.4,Da,50,
+GEN-0059,Tava instrument inox,General,Chirurgie,Kerr Dental,SUA,Otel inoxidabil,65.17,1,65.17,2021-01-16,24,2023-01-06,Nou,2,4.0,Nu,500,Recomandat de medic specialist
+PRO-0010,Lingura amprenta superioara M,Prostetica,Sterilizare,Kerr Dental,SUA,Aluminiu anodizat,42.94,3,128.82,2023-05-10,24,2025-04-29,Nou,4,4.7,Da,100,Sterilizabil autoclav
+GEN-0055,Kit examinare de baza (4 piese),General,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil german,255.93,16,4094.88,2021-03-08,36,2024-02-21,Reconditionat,4,4.6,Da,500,Sterilizabil autoclav
+CHI-0052,Pensa Adson cu dinti,Chirurgie Orala,Tratament,KaVo Kerr,Germania,Otel inoxidabil german,67.66,15,1014.9,2023-02-01,60,2028-01-06,Reconditionat,5,3.7,Nu,100,Lot special
+PED-0010,Cleste extractie 150S pediatric,Pedodontie,Tratament,Kerr Dental,SUA,Otel inoxidabil german,193.02,14,2702.28,2022-10-13,12,2023-10-08,Nou,5,4.6,Nu,500,
+RAD-0022,Negatoscop LED dentar,Radiologie,Chirurgie,Dentsply Sirona,Germania,Aluminiu anodizat,479.66,16,7674.56,2022-05-09,12,2023-05-04,Nou,3,4.3,Da,1,Sterilizabil autoclav
+PRO-0059,Cheie silicon inregistrare ocluzie,Prostetica,Profilaxie,Kerr Dental,SUA,Silicon medical,47.2,1,47.2,2025-07-31,12,2026-07-26,Nou,1,4.9,Da,50,Inlocuieste modelul anterior
+GEN-0027,Chiureta Gracey 1/2,General,Diagnostic,Densply Romania,Romania,Otel inoxidabil german,124.8,20,2496.0,2025-12-06,6,2026-06-04,Nou,5,3.9,Da,100,Inlocuieste modelul anterior
+ORT-0068,Set instrumente debonding (5 piese),Ortodontie,Chirurgie,Dentsply Sirona,Germania,Carbon,309.2,20,6184.0,2022-01-09,60,2026-12-14,Nou,1,3.6,Da,200,Inlocuieste modelul anterior
+GEN-0011,Excavator dublu 17/18,General,Sterilizare,Densply Romania,Romania,Otel inoxidabil,80.05,11,880.55,2021-04-01,24,2023-03-22,Nou,4,3.5,Da,500,Verificat la receptie
+GEN-0058,Kit examinare de baza (4 piese),General,Profilaxie,GC Europe,Belgia,Otel inoxidabil german,260.85,9,2347.65,2020-02-11,60,2025-01-15,Reconditionat,1,3.9,Da,1000,Sterilizabil autoclav
+ORT-0012,Cleste indoire arc Tweed,Ortodontie,Profilaxie,American Orthodontics,SUA,Otel inoxidabil german,105.71,12,1268.52,2023-05-10,36,2026-04-24,Nou,4,4.8,Nu,1,
+IMP-0049,Healing abutment 5mm,Implantologie,Tratament,NSK Europe,Japonia,Titan,85.87,8,686.96,2025-08-08,60,2030-07-13,Nou,1,5.0,Nu,Nelimitat,Necesita calibrare anuala
+ORT-0045,Banda molar cu tub (set 4),Ortodontie,Profilaxie,Ormco,SUA,Otel inoxidabil,80.17,10,801.7,2023-01-30,60,2028-01-04,Nou,5,3.6,Da,1,Livrare urgenta
+END-0017,Ace rotative WaveOne Gold Primary,Endodontie,Chirurgie,KaVo Kerr,Germania,Aliaj titan-nichel,125.17,1,125.17,2025-11-26,36,2028-11-10,Nou,5,3.8,Da,Nelimitat,
+PRO-0032,Spatula laborator cearã,Prostetica,Auxiliar,3M Oral Care,SUA,Otel inoxidabil,60.29,14,844.06,2023-11-02,60,2028-10-06,Nou,2,4.5,Nu,1,
+STE-0008,Termodezinfector Miele G7783CD,Sterilizare,Diagnostic,SciCan,Canada,Aluminiu anodizat,9761.31,17,165942.27,2021-07-10,36,2024-06-24,Nou,3,4.3,Da,200,
+CHI-0086,Spatula Tucker,Chirurgie Orala,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil,57.4,15,861.0,2025-06-29,24,2027-06-19,Nou,2,4.1,Nu,1000,
+CHI-0025,Cleste extractie 150 superior,Chirurgie Orala,Chirurgie,KaVo Kerr,Germania,Otel inoxidabil german,180.79,9,1627.11,2022-02-05,60,2027-01-10,Nou,3,4.2,Da,50,Recomandat de medic specialist
+ORT-0017,Cleste Mathieu needle holder,Ortodontie,Profilaxie,3M Oral Care,SUA,Otel inoxidabil,176.51,15,2647.65,2020-11-04,12,2021-10-30,Nou,2,4.8,Da,1,Inlocuieste modelul anterior
+ORT-0021,Spatula pozitionare bracket,Ortodontie,Diagnostic,Dentsply Sirona,Germania,Otel inoxidabil,62.3,5,311.5,2024-08-26,6,2025-02-22,Nou,5,4.1,Da,50,Verificat la receptie
+PRO-0006,Lingura amprenta superioara S,Prostetica,Profilaxie,3M Oral Care,SUA,Aluminiu anodizat,29.93,16,478.88,2020-01-24,60,2024-12-28,Nou,2,3.8,Nu,200,Inlocuieste modelul anterior
+PED-0028,Plugger compozit pediatric,Pedodontie,Auxiliar,Kerr Dental,SUA,Otel inoxidabil,107.25,5,536.25,2025-08-27,36,2028-08-11,Nou,1,4.0,Da,1000,Livrare urgenta
+ORT-0069,Set instrumente debonding (5 piese),Ortodontie,Chirurgie,Dentsply Sirona,Germania,Carbon,341.66,15,5124.9,2023-12-10,36,2026-11-24,Nou,3,4.4,Da,1,Sterilizabil autoclav
+RAD-0021,Halter film radiologic tip Kim,Radiologie,Auxiliar,Dentsply Sirona,Germania,Plastic autoclavabil,56.06,15,840.9,2020-06-16,24,2022-06-06,Nou,5,4.6,Da,50,Lot special
+PED-0022,Excavator pediatric mic,Pedodontie,Chirurgie,Kerr Dental,SUA,Otel inoxidabil,47.44,12,569.28,2023-01-25,24,2025-01-14,Nou,5,4.1,Da,100,Sterilizabil autoclav
+STE-0046,Covor de lucru steril (100 buc),Sterilizare,Auxiliar,SciCan,Canada,Silicon medical,65.31,9,587.79,2022-08-22,60,2027-07-27,Nou,2,4.1,Nu,1,Inlocuieste modelul anterior
+STE-0037,Indicator chimic sterilizare clasa 5 (250 buc),Sterilizare,Profilaxie,Densply Romania,Romania,Silicon medical,46.26,13,601.38,2022-11-12,24,2024-11-01,Nou,2,3.9,Da,Nelimitat,
+STE-0003,Autoclav clasa B Melag 22B,Sterilizare,Diagnostic,SciCan,Canada,Aluminiu anodizat,6324.03,4,25296.12,2020-11-14,6,2021-05-13,Nou,4,3.6,Da,200,
+STE-0059,Solutie dezinfectant suprafete (5L),Sterilizare,Tratament,Densply Romania,Romania,Silicon medical,62.14,7,434.98,2021-10-29,36,2024-10-13,Nou,3,4.5,Da,100,Inlocuieste modelul anterior
+CHI-0057,Foarfece chirurgical Dean,Chirurgie Orala,Sterilizare,Henry Schein Dental,SUA,Otel inoxidabil german,138.85,3,416.55,2025-04-01,6,2025-09-28,Nou,4,4.7,Da,500,
+STE-0031,Cassete Hu-Friedy IMS marime L,Sterilizare,Diagnostic,SciCan,Canada,Aluminiu anodizat,259.39,16,4150.24,2020-03-22,6,2020-09-18,Nou,1,4.0,Nu,100,Verificat la receptie
+RAD-0031,Tablier protectie plumb adult,Radiologie,Profilaxie,Henry Schein Dental,SUA,Silicon medical,502.89,18,9052.02,2023-05-20,6,2023-11-16,Reconditionat,4,4.9,Da,50,
+GEN-0035,Scaler sickle H6/H7,General,Profilaxie,Hu-Friedy Europe,Germania,Otel inoxidabil german,69.23,9,623.07,2022-01-01,60,2026-12-06,Reconditionat,3,3.6,Da,1000,Recomandat de medic specialist
+END-0028,Spatula amestec MTA,Endodontie,Profilaxie,Dentsply Sirona,Germania,Otel inoxidabil,47.42,10,474.2,2020-12-01,36,2023-11-16,Nou,3,4.7,Da,1,Livrare urgenta
+CHI-0051,Retractor Minnesota,Chirurgie Orala,Auxiliar,GC Europe,Belgia,Otel inoxidabil german,90.44,5,452.2,2022-10-23,6,2023-04-21,Nou,4,4.3,Nu,50,Lot special
+CHI-0005,Bisturiu maner nr.4,Chirurgie Orala,Profilaxie,Henry Schein Dental,SUA,Otel inoxidabil german,89.12,18,1604.16,2020-01-05,36,2022-12-20,Nou,3,4.8,Da,Nelimitat,Lot special
+PED-0021,Excavator pediatric mic,Pedodontie,Chirurgie,GC Europe,Belgia,Otel inoxidabil,63.55,7,444.85,2022-10-06,24,2024-09-25,Nou,2,4.9,Da,1000,Verificat la receptie
+PAR-0031,Sonda Nabers furcatie,Parodontologie,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil german,68.39,18,1231.02,2025-12-24,6,2026-06-22,Nou,2,4.5,Nu,Nelimitat,
+PAR-0024,Varf ultrasonic paro TFI-10,Parodontologie,Tratament,Satelec,Franta,Aliaj titan-nichel,103.1,12,1237.2,2022-03-15,12,2023-03-10,Nou,2,5.0,Da,1000,
+END-0045,Cavit W temporar (kit),Endodontie,Sterilizare,NSK Europe,Japonia,Silicon medical,89.02,20,1780.4,2024-06-14,60,2029-05-19,Nou,5,5.0,Da,100,Necesita calibrare anuala
+END-0054,Ace Gates Glidden nr.2 (6 buc),Endodontie,Tratament,KaVo Kerr,Germania,Carbon,57.88,1,57.88,2023-08-12,60,2028-07-16,Nou,1,4.4,Da,100,
+ORT-0003,Cleste bracket Weingart,Ortodontie,Chirurgie,American Orthodontics,SUA,Otel inoxidabil german,136.78,20,2735.6,2025-09-12,12,2026-09-07,Nou,3,4.7,Da,Nelimitat,Sterilizabil autoclav
+END-0032,Spreader endodontic D11T,Endodontie,Diagnostic,Dentsply Sirona,Germania,Otel inoxidabil german,125.94,15,1889.1,2021-12-09,12,2022-12-04,Reconditionat,2,3.7,Nu,50,Sterilizabil autoclav
+PED-0019,Coroana metalica prefabricata NiCr (set 5),Pedodontie,Auxiliar,GC Europe,Belgia,Aliaj titan-nichel,90.6,14,1268.4,2022-04-15,36,2025-03-30,Nou,5,4.9,Da,500,
+ORT-0064,Retractor obraz Lip Bumper,Ortodontie,Auxiliar,3M Oral Care,SUA,Plastic autoclavabil,24.67,12,296.04,2023-10-18,12,2024-10-12,Nou,4,5.0,Da,Nelimitat,Livrare urgenta
+CHI-0021,Elevator Cryer dreapta,Chirurgie Orala,Auxiliar,KaVo Kerr,Germania,Otel inoxidabil german,78.61,7,550.27,2022-10-19,60,2027-09-23,Nou,1,3.7,Nu,500,
+STE-0026,Cassete Hu-Friedy IMS marime M,Sterilizare,Auxiliar,W&H Dentalwerk,Austria,Aluminiu anodizat,153.0,9,1377.0,2025-10-11,36,2028-09-25,Nou,5,3.8,Da,500,
+STE-0019,Sigilator pungi sterilizare Melag,Sterilizare,Chirurgie,SciCan,Canada,Aluminiu anodizat,1499.51,5,7497.55,2024-02-09,24,2026-01-29,Nou,5,3.5,Nu,1,Inlocuieste modelul anterior
+CHI-0042,Cleste extractie dinte de minte 222,Chirurgie Orala,Diagnostic,GC Europe,Belgia,Otel inoxidabil german,172.62,20,3452.4,2025-07-08,12,2026-07-03,Nou,2,3.6,Da,1,Lot special
+IMP-0021,Cheie dinamometrica implant,Implantologie,Sterilizare,Zimmer Biomet,SUA,Titan,735.26,14,10293.64,2021-03-09,6,2021-09-05,Nou,2,4.3,Da,200,Lot special
+ORT-0051,Cleste distal end cutter,Ortodontie,Tratament,American Orthodontics,SUA,Carbon,180.47,17,3067.99,2021-01-17,36,2024-01-02,Nou,1,4.0,Da,Nelimitat,
+STE-0040,Indicator biologic attest 3M (25 buc),Sterilizare,Sterilizare,SciCan,Canada,Silicon medical,165.17,6,991.02,2024-12-21,12,2025-12-16,Nou,2,4.4,Da,1,Necesita calibrare anuala
+CHI-0011,Elevator Luxator PDL 3mm,Chirurgie Orala,Profilaxie,GC Europe,Belgia,Otel inoxidabil german,139.68,18,2514.24,2020-08-01,12,2021-07-27,Nou,1,4.7,Nu,1,
+GEN-0041,Scaler Jacquette 34/35,General,Profilaxie,Hu-Friedy Europe,Germania,Otel inoxidabil german,74.59,16,1193.44,2020-10-25,36,2023-10-10,Nou,5,3.8,Nu,50,Sterilizabil autoclav
+IMP-0054,Osteotom Summers 4mm,Implantologie,Tratament,Straumann Group,Elvetia,Titan,96.77,5,483.85,2020-02-16,12,2021-02-10,Nou,3,4.3,Da,50,Verificat la receptie
+RAD-0029,Tablier protectie plumb adult,Radiologie,Diagnostic,Dentsply Sirona,Germania,Silicon medical,399.4,6,2396.4,2023-03-14,12,2024-03-08,Reconditionat,2,3.7,Da,500,
+CHI-0082,Dalta os cu maner,Chirurgie Orala,Profilaxie,Henry Schein Dental,SUA,Otel inoxidabil german,80.41,5,402.05,2020-04-30,24,2022-04-20,Nou,4,4.9,Da,50,Verificat la receptie
+CHI-0049,Retractor Minnesota,Chirurgie Orala,Diagnostic,KaVo Kerr,Germania,Otel inoxidabil german,125.52,8,1004.16,2021-10-07,36,2024-09-21,Nou,5,4.0,Da,100,Inlocuieste modelul anterior
+ORT-0018,Cleste Mathieu needle holder,Ortodontie,Chirurgie,Dentsply Sirona,Germania,Otel inoxidabil,81.67,18,1470.06,2021-05-21,36,2024-05-05,Nou,3,4.4,Da,1000,Inlocuieste modelul anterior
+STE-0048,Covor de lucru steril (100 buc),Sterilizare,Diagnostic,SciCan,Canada,Silicon medical,48.65,8,389.2,2025-04-12,24,2027-04-02,Demo,5,4.6,Da,500,
+ORT-0066,Retractor obraz Lip Bumper,Ortodontie,Chirurgie,Dentsply Sirona,Germania,Plastic autoclavabil,28.87,7,202.09,2023-03-17,24,2025-03-06,Nou,1,4.8,Da,Nelimitat,Necesita calibrare anuala
+END-0051,Microscop dentar Global D Vario,Endodontie,Profilaxie,Acteon Group,Franta,Aluminiu anodizat,13533.47,14,189468.58,2020-08-09,12,2021-08-04,Nou,2,4.0,Da,100,Recomandat de medic specialist
+IMP-0035,Elevator periost Goldman-Fox,Implantologie,Tratament,Nobel Biocare,Elvetia,Otel inoxidabil german,164.18,19,3119.42,2023-12-07,60,2028-11-10,Nou,2,4.4,Da,500,
+IMP-0018,Surubelnita implant manuala,Implantologie,Auxiliar,Straumann Group,Elvetia,Titan,187.37,14,2623.18,2025-08-07,12,2026-08-02,Nou,2,3.9,Nu,Nelimitat,
+GEN-0008,Excavator dublu 17/18,General,Profilaxie,Kerr Dental,SUA,Otel inoxidabil,88.08,15,1321.2,2021-08-08,24,2023-07-29,Nou,5,4.3,Nu,100,Recomandat de medic specialist
+END-0003,Ace K-File 25mm nr.15 (6 buc),Endodontie,Diagnostic,NSK Europe,Japonia,Aliaj titan-nichel,33.59,3,100.77,2021-01-26,60,2025-12-31,Nou,4,3.6,Nu,1000,Recomandat de medic specialist
+IMP-0003,Trusa implant Nobel Biocare (set complet),Implantologie,Chirurgie,Zimmer Biomet,SUA,Titan,3789.1,13,49258.3,2020-11-19,24,2022-11-09,Reconditionat,4,4.3,Da,1000,
+IMP-0051,Healing abutment 5mm,Implantologie,Sterilizare,NSK Europe,Japonia,Titan,95.53,17,1624.01,2024-08-28,36,2027-08-13,Nou,1,4.5,Da,100,Lot special
+PAR-0040,Retractor tisular Molt 4,Parodontologie,Profilaxie,Satelec,Franta,Otel inoxidabil german,99.66,20,1993.2,2023-06-06,60,2028-05-10,Nou,5,4.0,Da,1,Necesita calibrare anuala
+STE-0050,Gel lubrifiant instrumente (500ml),Sterilizare,Profilaxie,W&H Dentalwerk,Austria,Silicon medical,39.75,17,675.75,2024-11-08,12,2025-11-03,Nou,3,3.6,Da,1000,
+IMP-0041,Membrane colagenica resorbabila,Implantologie,Auxiliar,NSK Europe,Japonia,Silicon medical,122.61,6,735.66,2024-12-12,36,2027-11-27,Nou,4,3.8,Da,50,
+PED-0040,Caseta sterilizare pediatrie,Pedodontie,Profilaxie,Henry Schein Dental,SUA,Aluminiu anodizat,117.23,12,1406.76,2021-09-27,24,2023-09-17,Nou,1,3.5,Da,50,Inlocuieste modelul anterior
+GEN-0037,Scaler sickle H6/H7,General,Profilaxie,Kerr Dental,SUA,Otel inoxidabil german,65.6,11,721.6,2023-07-09,6,2024-01-05,Nou,3,4.3,Da,200,Inlocuieste modelul anterior
+IMP-0057,Kit sinus lift (6 piese),Implantologie,Diagnostic,Straumann Group,Elvetia,Titan,1469.99,1,1469.99,2022-09-28,6,2023-03-27,Nou,4,4.9,Nu,50,
+CHI-0012,Elevator Luxator PDL 3mm,Chirurgie Orala,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,89.99,12,1079.88,2020-11-23,60,2025-10-28,Nou,4,4.9,Da,1000,Sterilizabil autoclav
+GEN-0026,Chiureta Gracey 1/2,General,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,110.7,17,1881.9,2022-12-22,12,2023-12-17,Reconditionat,1,4.8,Da,200,Necesita calibrare anuala
+CHI-0050,Retractor Minnesota,Chirurgie Orala,Profilaxie,Henry Schein Dental,SUA,Otel inoxidabil german,119.61,4,478.44,2021-05-30,36,2024-05-14,Nou,5,4.7,Da,1,Necesita calibrare anuala
+GEN-0024,Pensa hemostaza Halsted,General,Sterilizare,Henry Schein Dental,SUA,Otel inoxidabil,85.28,19,1620.32,2022-10-05,60,2027-09-09,Nou,5,3.6,Da,100,Inlocuieste modelul anterior
+END-0027,Apex locator Root ZX II,Endodontie,Auxiliar,KaVo Kerr,Germania,Aliaj titan-nichel,1353.47,13,17595.11,2025-07-03,12,2026-06-28,Nou,1,4.1,Nu,50,Verificat la receptie
+ORT-0024,Spatula pozitionare bracket,Ortodontie,Sterilizare,American Orthodontics,SUA,Otel inoxidabil,33.77,18,607.86,2022-04-28,60,2027-04-02,Nou,2,4.0,Da,100,
+PAR-0044,Needle holder Castroviejo,Parodontologie,Auxiliar,Mectron,Italia,Otel inoxidabil german,160.65,18,2891.7,2025-04-17,12,2026-04-12,Nou,2,4.8,Da,50,Recomandat de medic specialist
+END-0036,Obtulator vertical Buchanan,Endodontie,Auxiliar,Acteon Group,Franta,Otel inoxidabil,91.54,20,1830.8,2024-07-03,6,2024-12-30,Nou,3,4.5,Nu,100,
+END-0035,Obtulator vertical Buchanan,Endodontie,Diagnostic,NSK Europe,Japonia,Otel inoxidabil,174.76,12,2097.12,2024-08-10,24,2026-07-31,Nou,4,4.4,Da,100,Livrare urgenta
+IMP-0036,Elevator periost Goldman-Fox,Implantologie,Sterilizare,Zimmer Biomet,SUA,Otel inoxidabil german,133.55,20,2671.0,2021-11-20,24,2023-11-10,Demo,3,3.9,Da,50,Verificat la receptie
+PED-0033,Spatula spatula sigilant,Pedodontie,Auxiliar,Kerr Dental,SUA,Otel inoxidabil,59.08,7,413.56,2022-10-10,60,2027-09-14,Nou,1,4.3,Da,1,Lot special
+ORT-0038,Bracket ceramic (set 20),Ortodontie,Chirurgie,Ormco,SUA,Silicon medical,414.82,20,8296.4,2020-08-12,6,2021-02-08,Nou,2,4.7,Da,1,Verificat la receptie
+STE-0058,Solutie dezinfectant suprafete (5L),Sterilizare,Tratament,Acteon Group,Franta,Silicon medical,80.85,2,161.7,2020-10-16,60,2025-09-20,Reconditionat,4,3.6,Da,Nelimitat,Verificat la receptie
+CHI-0070,Trusa extractie completa (20 piese),Chirurgie Orala,Auxiliar,GC Europe,Belgia,Otel inoxidabil german,3365.4,7,23557.8,2025-11-17,12,2026-11-12,Nou,3,4.7,Da,1,Necesita calibrare anuala
+IMP-0044,Abutment titan standard,Implantologie,Diagnostic,Zimmer Biomet,SUA,Titan,205.31,14,2874.34,2021-06-25,36,2024-06-09,Nou,4,3.6,Da,100,
+PED-0050,Set freze pediatrie (10 buc),Pedodontie,Chirurgie,Kerr Dental,SUA,Carbon,127.77,8,1022.16,2021-08-20,6,2022-02-16,Nou,5,4.4,Da,50,Sterilizabil autoclav
+IMP-0060,Motor implant NSK Surgic Pro,Implantologie,Auxiliar,Zimmer Biomet,SUA,Aliaj titan-nichel,8419.75,8,67358.0,2025-03-15,24,2027-03-05,Nou,4,5.0,Da,50,
+ORT-0029,Arc NiTi rotund 0.014 (10 buc),Ortodontie,Sterilizare,3M Oral Care,SUA,Aliaj titan-nichel,45.42,20,908.4,2024-10-28,6,2025-04-26,Nou,1,4.8,Da,200,Inlocuieste modelul anterior
+ORT-0009,Cleste indoire arc Tweed,Ortodontie,Chirurgie,American Orthodontics,SUA,Otel inoxidabil german,203.28,14,2845.92,2021-02-07,6,2021-08-06,Nou,3,4.9,Da,100,
+IMP-0038,Membrane colagenica resorbabila,Implantologie,Profilaxie,NSK Europe,Japonia,Silicon medical,180.03,3,540.09,2021-01-16,36,2024-01-01,Nou,3,4.5,Nu,100,Necesita calibrare anuala
+PED-0035,Spatula spatula sigilant,Pedodontie,Profilaxie,Henry Schein Dental,SUA,Otel inoxidabil,57.26,16,916.16,2021-01-07,60,2025-12-12,Nou,1,4.2,Nu,500,Lot special
+RAD-0013,Suport film radiologic pediatric (set 3),Radiologie,Diagnostic,KaVo Kerr,Germania,Plastic autoclavabil,66.59,7,466.13,2024-01-08,24,2025-12-28,Nou,2,3.5,Da,50,Recomandat de medic specialist
+IMP-0020,Cheie dinamometrica implant,Implantologie,Auxiliar,Straumann Group,Elvetia,Titan,367.03,8,2936.24,2023-12-25,12,2024-12-19,Nou,1,4.3,Nu,Nelimitat,Inlocuieste modelul anterior
+STE-0042,Distilator apa Aqua 4 Melag,Sterilizare,Sterilizare,W&H Dentalwerk,Austria,Aluminiu anodizat,1335.04,12,16020.48,2022-01-15,36,2024-12-30,Nou,5,3.8,Da,1,
+PRO-0030,Spatula laborator cearã,Prostetica,Diagnostic,Kerr Dental,SUA,Otel inoxidabil,59.56,20,1191.2,2021-06-05,60,2026-05-10,Nou,1,4.0,Da,500,Inlocuieste modelul anterior
+STE-0039,Indicator chimic sterilizare clasa 5 (250 buc),Sterilizare,Auxiliar,SciCan,Canada,Silicon medical,66.75,9,600.75,2025-09-04,6,2026-03-03,Nou,5,4.6,Da,200,Lot special
+CHI-0085,Malet chirurgical inox,Chirurgie Orala,Tratament,GC Europe,Belgia,Otel inoxidabil,78.06,7,546.42,2022-07-15,6,2023-01-11,Nou,1,4.9,Da,Nelimitat,Sterilizabil autoclav
+PAR-0014,Chiureta Gracey 13/14 SG,Parodontologie,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil german,72.44,6,434.64,2025-07-09,12,2026-07-04,Nou,4,3.7,Da,1,Recomandat de medic specialist
+STE-0064,Container deseuri taioase 1L (10 buc),Sterilizare,Chirurgie,SciCan,Canada,Plastic autoclavabil,33.32,14,466.48,2021-01-22,36,2024-01-07,Nou,5,4.7,Da,Nelimitat,Necesita calibrare anuala
+PRO-0013,Lingura amprenta superioara L,Prostetica,Diagnostic,3M Oral Care,SUA,Aluminiu anodizat,30.59,16,489.44,2025-07-10,12,2026-07-05,Nou,2,4.6,Da,1,
+PAR-0033,Chiureta Langer 1/2,Parodontologie,Profilaxie,Hu-Friedy Europe,Germania,Otel inoxidabil german,118.47,8,947.76,2022-11-25,36,2025-11-09,Nou,4,4.1,Da,500,
+CHI-0033,Cleste extractie molar superior 53L,Chirurgie Orala,Auxiliar,GC Europe,Belgia,Otel inoxidabil german,234.96,12,2819.52,2025-11-03,36,2028-10-18,Nou,2,4.8,Da,1000,
+ORT-0055,Pin pusher instrucor,Ortodontie,Tratament,American Orthodontics,SUA,Otel inoxidabil,63.91,19,1214.29,2024-12-09,36,2027-11-24,Nou,4,4.3,Da,Nelimitat,Sterilizabil autoclav
+PRO-0042,Freza ceramica (set 10),Prostetica,Chirurgie,Dentsply Sirona,Germania,Carbon,156.02,12,1872.24,2021-04-08,60,2026-03-13,Nou,1,3.7,Nu,500,Lot special
+RAD-0019,Halter film radiologic tip Kim,Radiologie,Profilaxie,KaVo Kerr,Germania,Plastic autoclavabil,77.45,13,1006.85,2022-01-27,24,2024-01-17,Nou,1,4.8,Da,500,
+ORT-0060,Ligatura metalica (1000 buc),Ortodontie,Diagnostic,American Orthodontics,SUA,Otel inoxidabil,31.46,20,629.2,2025-12-01,36,2028-11-15,Nou,3,3.9,Da,200,
+CHI-0053,Pensa Adson cu dinti,Chirurgie Orala,Chirurgie,KaVo Kerr,Germania,Otel inoxidabil german,82.91,15,1243.65,2020-01-03,60,2024-12-07,Nou,2,4.8,Da,100,Recomandat de medic specialist
+GEN-0014,Spatula de ciment,General,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil,59.12,18,1064.16,2021-05-30,12,2022-05-25,Nou,5,3.7,Nu,50,Lot special
+ORT-0074,Cleste formator arc tip Burstone,Ortodontie,Tratament,3M Oral Care,SUA,Otel inoxidabil german,208.52,3,625.56,2023-04-04,24,2025-03-24,Nou,2,4.7,Da,50,Lot special
+PED-0051,Set freze pediatrie (10 buc),Pedodontie,Auxiliar,GC Europe,Belgia,Carbon,159.1,19,3022.9,2022-10-03,36,2025-09-17,Nou,3,3.9,Nu,200,Livrare urgenta
+PED-0011,Cleste extractie 150S pediatric,Pedodontie,Tratament,Kerr Dental,SUA,Otel inoxidabil german,147.34,10,1473.4,2025-07-30,6,2026-01-26,Nou,4,4.3,Da,1,
+GEN-0050,Sonda exploratoare nr.23,General,Diagnostic,GC Europe,Belgia,Otel inoxidabil,63.63,13,827.19,2023-02-13,36,2026-01-28,Nou,1,4.2,Da,50,Lot special
+STE-0007,Autoclav clasa S SciCan Statim 5000,Sterilizare,Profilaxie,W&H Dentalwerk,Austria,Aluminiu anodizat,8137.99,4,32551.96,2022-01-10,24,2023-12-31,Demo,4,3.8,Da,Nelimitat,
+PED-0036,Spatula spatula sigilant,Pedodontie,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil,50.15,10,501.5,2020-03-30,36,2023-03-15,Nou,1,4.6,Da,200,Recomandat de medic specialist
+PED-0017,Cleste extractie 151S pediatric,Pedodontie,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil german,131.04,4,524.16,2024-09-02,60,2029-08-07,Nou,1,4.4,Da,1000,Verificat la receptie
+STE-0035,Indicator chimic sterilizare clasa 5 (250 buc),Sterilizare,Auxiliar,Densply Romania,Romania,Silicon medical,60.09,9,540.81,2021-08-16,24,2023-08-06,Nou,3,4.7,Da,Nelimitat,
+PED-0045,Oglinda pediatrica cu iluminare LED,Pedodontie,Sterilizare,Kerr Dental,SUA,Otel inoxidabil,63.07,8,504.56,2023-05-16,12,2024-05-10,Nou,1,4.3,Da,200,Sterilizabil autoclav
+CHI-0087,Spatula Tucker,Chirurgie Orala,Tratament,KaVo Kerr,Germania,Otel inoxidabil,72.59,19,1379.21,2025-11-21,6,2026-05-20,Nou,4,4.2,Nu,1000,
+END-0019,Ace rotative Reciproc Blue 25,Endodontie,Auxiliar,NSK Europe,Japonia,Aliaj titan-nichel,101.69,5,508.45,2021-10-07,36,2024-09-21,Nou,4,4.5,Da,50,
+IMP-0045,Abutment titan standard,Implantologie,Profilaxie,Zimmer Biomet,SUA,Titan,113.51,5,567.55,2021-08-08,6,2022-02-04,Nou,1,4.4,Da,1000,
+PRO-0029,Arc facial Denar,Prostetica,Profilaxie,GC Europe,Belgia,Aliaj titan-nichel,538.86,11,5927.46,2023-08-23,36,2026-08-07,Nou,1,4.2,Nu,Nelimitat,Necesita calibrare anuala
+END-0025,Apex locator Root ZX II,Endodontie,Auxiliar,Dentsply Sirona,Germania,Aliaj titan-nichel,2075.27,3,6225.81,2023-10-16,60,2028-09-19,Demo,4,4.6,Da,500,Sterilizabil autoclav
+GEN-0007,Penseta dentara anatomica,General,Tratament,Densply Romania,Romania,Otel inoxidabil,43.18,11,474.98,2020-08-17,12,2021-08-12,Nou,3,4.1,Da,50,
+CHI-0068,Aspirator chirurgical Frazier,Chirurgie Orala,Tratament,GC Europe,Belgia,Otel inoxidabil,88.41,20,1768.2,2025-08-29,6,2026-02-25,Nou,3,4.7,Da,1,
+PRO-0055,Matrice sectoriala metal (set 10),Prostetica,Sterilizare,GC Europe,Belgia,Otel inoxidabil,87.28,4,349.12,2021-05-06,6,2021-11-02,Nou,2,4.1,Da,1,Inlocuieste modelul anterior
+IMP-0008,Implant titan 3.5x10mm,Implantologie,Diagnostic,NSK Europe,Japonia,Titan,235.71,3,707.13,2023-10-27,60,2028-09-30,Nou,5,4.1,Da,Nelimitat,Necesita calibrare anuala
+RAD-0035,Tablier protectie plumb pediatric,Radiologie,Sterilizare,KaVo Kerr,Germania,Silicon medical,232.95,3,698.85,2024-12-29,6,2025-06-27,Reconditionat,4,3.8,Da,1000,Necesita calibrare anuala
+PAR-0006,Chiureta Gracey 5/6 SG,Parodontologie,Auxiliar,Satelec,Franta,Otel inoxidabil german,145.82,15,2187.3,2022-01-12,60,2026-12-17,Nou,3,4.4,Da,200,Inlocuieste modelul anterior
+PED-0041,Canula aspiratie pediatrica,Pedodontie,Profilaxie,Hu-Friedy Europe,Germania,Plastic autoclavabil,12.02,2,24.04,2025-01-02,60,2029-12-07,Nou,1,3.9,Nu,50,
+PRO-0058,Pana interdentara lemn (100 buc),Prostetica,Diagnostic,3M Oral Care,SUA,Silicon medical,14.49,18,260.82,2024-11-01,12,2025-10-27,Nou,1,4.9,Da,1,Verificat la receptie
+CHI-0036,Cleste extractie molar superior 53L,Chirurgie Orala,Chirurgie,KaVo Kerr,Germania,Otel inoxidabil german,180.91,5,904.55,2021-06-21,60,2026-05-26,Nou,1,3.6,Nu,200,Necesita calibrare anuala
+RAD-0046,Film radiologie Speed D (150 buc),Radiologie,Sterilizare,Dentsply Sirona,Germania,Silicon medical,149.77,12,1797.24,2025-06-09,36,2028-05-24,Nou,2,3.7,Da,Nelimitat,
+ORT-0065,Retractor obraz Lip Bumper,Ortodontie,Chirurgie,American Orthodontics,SUA,Plastic autoclavabil,22.21,15,333.15,2020-05-31,24,2022-05-21,Nou,2,4.8,Nu,Nelimitat,Necesita calibrare anuala
+PAR-0023,Varf ultrasonic paro TFI-10,Parodontologie,Diagnostic,Acteon Group,Franta,Aliaj titan-nichel,80.76,10,807.6,2020-07-11,36,2023-06-26,Nou,3,4.9,Da,50,
+PRO-0002,Spatula amestec silicon (set 3),Prostetica,Chirurgie,3M Oral Care,SUA,Otel inoxidabil,61.02,1,61.02,2022-01-02,36,2024-12-17,Nou,2,4.8,Da,1000,
+GEN-0060,Tava instrument inox,General,Diagnostic,Densply Romania,Romania,Otel inoxidabil,60.47,18,1088.46,2023-09-16,24,2025-09-05,Nou,3,4.0,Da,100,
+ORT-0026,Deschizator buze transparent,Ortodontie,Sterilizare,American Orthodontics,SUA,Plastic autoclavabil,22.96,5,114.8,2024-09-20,60,2029-08-25,Nou,1,4.2,Da,200,Necesita calibrare anuala
+RAD-0012,Suport film radiologic pediatric (set 3),Radiologie,Profilaxie,KaVo Kerr,Germania,Plastic autoclavabil,130.77,3,392.31,2025-04-13,60,2030-03-18,Nou,4,3.7,Da,200,Recomandat de medic specialist
+RAD-0040,Guler tiroidian protectie,Radiologie,Auxiliar,Henry Schein Dental,SUA,Silicon medical,108.43,18,1951.74,2025-03-13,12,2026-03-08,Nou,1,3.7,Nu,1,Verificat la receptie
+IMP-0023,Cheie dinamometrica implant,Implantologie,Auxiliar,Nobel Biocare,Elvetia,Titan,469.78,11,5167.58,2025-02-08,12,2026-02-03,Nou,3,4.2,Nu,100,Livrare urgenta
+CHI-0006,Bisturiu maner nr.4,Chirurgie Orala,Chirurgie,GC Europe,Belgia,Otel inoxidabil german,82.37,13,1070.81,2023-12-06,60,2028-11-09,Nou,5,3.6,Nu,Nelimitat,
+RAD-0028,Dispozitiv pozitionare senzor XCP,Radiologie,Tratament,Dentsply Sirona,Germania,Plastic autoclavabil,220.76,10,2207.6,2021-12-04,24,2023-11-24,Nou,3,5.0,Da,100,
+STE-0054,Solutie dezinfectant Optim 33 (1L),Sterilizare,Sterilizare,SciCan,Canada,Silicon medical,33.15,10,331.5,2022-01-09,12,2023-01-04,Nou,3,4.3,Da,500,Inlocuieste modelul anterior
+END-0030,Plugger endodontic Machtou,Endodontie,Tratament,KaVo Kerr,Germania,Otel inoxidabil german,118.94,4,475.76,2020-12-17,24,2022-12-07,Nou,4,5.0,Da,Nelimitat,Recomandat de medic specialist
+PRO-0034,Lupе binoculare protetic 2.5x,Prostetica,Diagnostic,3M Oral Care,SUA,Aluminiu anodizat,879.89,2,1759.78,2021-01-05,12,2021-12-31,Nou,5,4.9,Da,1000,Inlocuieste modelul anterior
+GEN-0039,Scaler Jacquette 34/35,General,Auxiliar,Henry Schein Dental,SUA,Otel inoxidabil german,89.39,19,1698.41,2023-08-12,36,2026-07-27,Nou,2,4.3,Da,100,
+ORT-0041,Bracket ceramic (set 20),Ortodontie,Tratament,Dentsply Sirona,Germania,Silicon medical,328.97,11,3618.67,2021-12-04,60,2026-11-08,Nou,3,3.6,Nu,500,
+STE-0052,Gel lubrifiant instrumente (500ml),Sterilizare,Profilaxie,Densply Romania,Romania,Silicon medical,75.47,5,377.35,2024-12-07,6,2025-06-05,Nou,1,3.8,Da,50,
+IMP-0031,Formator os rotund,Implantologie,Profilaxie,Nobel Biocare,Elvetia,Titan,142.45,18,2564.1,2025-09-01,36,2028-08-16,Nou,4,4.1,Da,1,Livrare urgenta
+PED-0047,Oglinda pediatrica cu iluminare LED,Pedodontie,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil,110.52,7,773.64,2022-06-07,36,2025-05-22,Nou,3,4.0,Da,1000,
+ORT-0044,Banda molar cu tub (set 4),Ortodontie,Chirurgie,Dentsply Sirona,Germania,Otel inoxidabil,79.8,19,1516.2,2025-01-12,60,2029-12-17,Nou,5,4.0,Da,200,Inlocuieste modelul anterior
+RAD-0014,Suport film radiologic pediatric (set 3),Radiologie,Tratament,Dentsply Sirona,Germania,Plastic autoclavabil,127.39,15,1910.85,2024-09-09,12,2025-09-04,Nou,2,4.8,Da,500,Recomandat de medic specialist
+ORT-0056,Pin pusher instrucor,Ortodontie,Diagnostic,American Orthodontics,SUA,Otel inoxidabil,96.75,2,193.5,2025-05-22,24,2027-05-12,Nou,1,4.6,Da,1,Lot special
+CHI-0066,Aspirator chirurgical Frazier,Chirurgie Orala,Tratament,GC Europe,Belgia,Otel inoxidabil,39.32,2,78.64,2023-10-01,24,2025-09-20,Nou,4,4.1,Da,1000,
+STE-0061,Container deseuri taioase 1L (10 buc),Sterilizare,Profilaxie,Acteon Group,Franta,Plastic autoclavabil,34.89,14,488.46,2021-01-04,36,2023-12-20,Nou,5,3.8,Da,1,Inlocuieste modelul anterior
+GEN-0034,Chiureta universala Columbia,General,Chirurgie,Henry Schein Dental,SUA,Otel inoxidabil german,90.06,7,630.42,2024-06-20,24,2026-06-10,Nou,1,5.0,Nu,1000,Verificat la receptie
+PAR-0050,Spatula osoasa Lucas,Parodontologie,Chirurgie,Mectron,Italia,Otel inoxidabil,65.86,6,395.16,2021-10-06,24,2023-09-26,Nou,1,4.5,Da,200,Sterilizabil autoclav
+PAR-0007,Chiureta Gracey 7/8 SG,Parodontologie,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,154.1,15,2311.5,2020-07-07,6,2021-01-03,Nou,3,3.5,Da,1000,Inlocuieste modelul anterior
+END-0057,Ruler endodontic,Endodontie,Chirurgie,Dentsply Sirona,Germania,Otel inoxidabil,32.69,6,196.14,2021-05-19,24,2023-05-09,Nou,1,4.1,Da,500,Inlocuieste modelul anterior
+END-0031,Plugger endodontic Machtou,Endodontie,Auxiliar,Acteon Group,Franta,Otel inoxidabil german,124.56,14,1743.84,2025-04-28,60,2030-04-02,Nou,4,3.9,Da,500,Sterilizabil autoclav
+ORT-0048,Cleste Nance,Ortodontie,Profilaxie,American Orthodontics,SUA,Otel inoxidabil german,152.84,15,2292.6,2025-11-16,60,2030-10-21,Nou,3,4.1,Nu,Nelimitat,Verificat la receptie
+ORT-0023,Spatula pozitionare bracket,Ortodontie,Chirurgie,3M Oral Care,SUA,Otel inoxidabil,40.44,4,161.76,2025-02-05,6,2025-08-04,Nou,5,5.0,Da,50,
+PED-0053,Set freze pediatrie (10 buc),Pedodontie,Diagnostic,Hu-Friedy Europe,Germania,Carbon,262.64,3,787.92,2020-07-17,6,2021-01-13,Nou,2,3.6,Da,500,
+ORT-0013,Cleste debonding ceramic,Ortodontie,Auxiliar,Dentsply Sirona,Germania,Otel inoxidabil german,201.51,19,3828.69,2023-04-26,24,2025-04-15,Nou,4,3.9,Da,500,Recomandat de medic specialist
+IMP-0030,Formator os rotund,Implantologie,Diagnostic,Nobel Biocare,Elvetia,Titan,117.72,16,1883.52,2023-03-29,12,2024-03-23,Nou,4,4.4,Nu,50,Necesita calibrare anuala
+ORT-0042,Banda molar cu tub (set 4),Ortodontie,Diagnostic,Ormco,SUA,Otel inoxidabil,74.68,10,746.8,2023-10-22,12,2024-10-16,Nou,2,3.6,Da,Nelimitat,Inlocuieste modelul anterior
+ORT-0071,Cleste formator arc tip Burstone,Ortodontie,Sterilizare,Dentsply Sirona,Germania,Otel inoxidabil german,252.17,2,504.34,2021-09-20,36,2024-09-04,Reconditionat,3,4.2,Da,500,
+ORT-0006,Cleste taiere ligatura,Ortodontie,Diagnostic,Dentsply Sirona,Germania,Carbon,185.95,5,929.75,2025-08-19,60,2030-07-24,Nou,1,4.8,Nu,1,Livrare urgenta
+PRO-0017,Lingura amprenta inferioara M,Prostetica,Sterilizare,GC Europe,Belgia,Aluminiu anodizat,33.82,18,608.76,2023-10-04,36,2026-09-18,Nou,4,4.9,Da,500,
+RAD-0039,Guler tiroidian protectie,Radiologie,Diagnostic,KaVo Kerr,Germania,Silicon medical,94.24,15,1413.6,2021-07-14,12,2022-07-09,Nou,4,3.9,Da,Nelimitat,Livrare urgenta
+PRO-0062,Portamalgam Dentsply,Prostetica,Sterilizare,Dentsply Sirona,Germania,Otel inoxidabil german,115.19,11,1267.09,2020-11-25,36,2023-11-10,Nou,3,4.5,Da,200,
+STE-0025,Pungi sterilizare 150x300mm (200 buc),Sterilizare,Sterilizare,SciCan,Canada,Silicon medical,88.78,17,1509.26,2025-04-30,36,2028-04-14,Nou,1,4.5,Da,200,Verificat la receptie
+CHI-0059,Foarfece chirurgical Dean,Chirurgie Orala,Sterilizare,Henry Schein Dental,SUA,Otel inoxidabil german,125.25,8,1002.0,2022-01-02,60,2026-12-07,Nou,4,4.6,Da,1000,Inlocuieste modelul anterior
+GEN-0018,Deschizator de gura Molt,General,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil german,46.79,14,655.06,2023-12-22,36,2026-12-06,Nou,1,4.5,Da,200,Inlocuieste modelul anterior
+ORT-0016,Cleste Mathieu needle holder,Ortodontie,Profilaxie,American Orthodontics,SUA,Otel inoxidabil,104.1,18,1873.8,2024-02-07,60,2029-01-11,Nou,3,4.7,Da,1000,Verificat la receptie
+ORT-0067,Retractor obraz Lip Bumper,Ortodontie,Chirurgie,3M Oral Care,SUA,Plastic autoclavabil,35.29,13,458.77,2024-12-06,36,2027-11-21,Nou,2,4.2,Da,Nelimitat,Livrare urgenta
+END-0049,Lupе binoculare 3.5x,Endodontie,Profilaxie,Dentsply Sirona,Germania,Aluminiu anodizat,1050.16,9,9451.44,2022-01-19,24,2024-01-09,Nou,2,4.0,Da,100,Verificat la receptie
+GEN-0001,Oglinda dentara nr.5,General,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil,69.49,8,555.92,2022-07-03,12,2023-06-28,Nou,5,3.6,Da,1,Sterilizabil autoclav
+PRO-0005,Lingura amprenta superioara S,Prostetica,Sterilizare,Kerr Dental,SUA,Aluminiu anodizat,36.9,15,553.5,2023-03-28,12,2024-03-22,Nou,2,4.9,Da,1,
+CHI-0037,Cleste extractie molar inferior 23,Chirurgie Orala,Auxiliar,GC Europe,Belgia,Otel inoxidabil german,137.29,18,2471.22,2021-12-26,60,2026-11-30,Nou,5,4.2,Da,100,Inlocuieste modelul anterior
+RAD-0009,Suport film radiologic adult (set 3),Radiologie,Diagnostic,Henry Schein Dental,SUA,Plastic autoclavabil,152.65,2,305.3,2024-01-31,24,2026-01-20,Nou,3,4.0,Da,1000,Livrare urgenta
+GEN-0047,Pensa pentru vata,General,Profilaxie,Hu-Friedy Europe,Germania,Otel inoxidabil,72.14,10,721.4,2024-05-16,36,2027-05-01,Nou,5,4.7,Da,100,
+GEN-0056,Kit examinare de baza (4 piese),General,Chirurgie,Densply Romania,Romania,Otel inoxidabil german,243.94,15,3659.1,2024-11-19,60,2029-10-24,Nou,2,4.7,Nu,50,
+IMP-0056,Osteotom Summers 4mm,Implantologie,Sterilizare,NSK Europe,Japonia,Titan,166.51,2,333.02,2025-08-08,60,2030-07-13,Nou,2,3.9,Da,50,
+IMP-0027,Foret secvential 3.5mm,Implantologie,Profilaxie,Nobel Biocare,Elvetia,Carbura de tungsten,93.89,9,845.01,2025-06-27,60,2030-06-01,Reconditionat,3,4.4,Da,100,Recomandat de medic specialist
+PAR-0004,Chiureta Gracey 5/6 SG,Parodontologie,Profilaxie,Acteon Group,Franta,Otel inoxidabil german,99.88,15,1498.2,2023-01-03,6,2023-07-02,Nou,3,3.8,Nu,100,Sterilizabil autoclav
+CHI-0016,Elevator Apexo nr.301,Chirurgie Orala,Sterilizare,Henry Schein Dental,SUA,Otel inoxidabil german,93.65,13,1217.45,2020-01-20,24,2022-01-09,Nou,5,3.7,Da,100,
+IMP-0039,Membrane colagenica resorbabila,Implantologie,Tratament,Straumann Group,Elvetia,Silicon medical,259.03,3,777.09,2025-02-20,24,2027-02-10,Nou,5,4.1,Nu,100,Sterilizabil autoclav
+GEN-0013,Spatula de ciment,General,Auxiliar,Kerr Dental,SUA,Otel inoxidabil,20.78,12,249.36,2023-06-13,12,2024-06-07,Nou,5,4.9,Nu,Nelimitat,
+STE-0009,Termodezinfector Miele G7783CD,Sterilizare,Tratament,SciCan,Canada,Aluminiu anodizat,9193.47,15,137902.05,2023-07-01,36,2026-06-15,Nou,4,3.9,Da,Nelimitat,Sterilizabil autoclav
+GEN-0073,Scaler manual Nevi 2,General,Auxiliar,Kerr Dental,SUA,Otel inoxidabil german,61.6,9,554.4,2023-08-17,6,2024-02-13,Reconditionat,4,4.8,Nu,200,
+PAR-0015,Chiureta Gracey 13/14 SG,Parodontologie,Sterilizare,Satelec,Franta,Otel inoxidabil german,88.91,7,622.37,2023-10-16,6,2024-04-13,Nou,1,4.9,Da,Nelimitat,Inlocuieste modelul anterior
+STE-0062,Container deseuri taioase 1L (10 buc),Sterilizare,Profilaxie,Acteon Group,Franta,Plastic autoclavabil,47.2,8,377.6,2021-09-27,36,2024-09-11,Nou,5,3.6,Da,Nelimitat,Livrare urgenta
+END-0039,Termoplastor Obtura III Max,Endodontie,Sterilizare,NSK Europe,Japonia,Aliaj titan-nichel,1794.17,17,30500.89,2021-10-13,6,2022-04-11,Nou,5,4.1,Da,50,Lot special
+PED-0003,Oglinda pediatrica nr.2,Pedodontie,Profilaxie,Kerr Dental,SUA,Otel inoxidabil,50.6,12,607.2,2021-06-09,60,2026-05-14,Nou,2,4.7,Da,Nelimitat,
+CHI-0018,Elevator Cryer stanga,Chirurgie Orala,Auxiliar,GC Europe,Belgia,Otel inoxidabil german,140.69,1,140.69,2025-05-28,6,2025-11-24,Nou,4,4.5,Da,Nelimitat,
+PED-0044,Oglinda pediatrica cu iluminare LED,Pedodontie,Profilaxie,Kerr Dental,SUA,Otel inoxidabil,48.52,12,582.24,2024-04-10,60,2029-03-15,Nou,4,4.1,Da,Nelimitat,Verificat la receptie
+STE-0051,Gel lubrifiant instrumente (500ml),Sterilizare,Tratament,Acteon Group,Franta,Silicon medical,84.09,10,840.9,2022-12-14,60,2027-11-18,Nou,3,4.3,Da,1000,Sterilizabil autoclav
+STE-0002,Autoclav clasa B Melag 22B,Sterilizare,Tratament,Acteon Group,Franta,Aluminiu anodizat,5061.04,10,50610.4,2020-04-27,6,2020-10-24,Nou,2,4.5,Da,50,Verificat la receptie
+STE-0015,Baie ultrasunet Biosonic UC300,Sterilizare,Sterilizare,Densply Romania,Romania,Aluminiu anodizat,865.78,16,13852.48,2025-07-01,60,2030-06-05,Nou,3,4.7,Da,Nelimitat,Lot special
+PRO-0036,Lupе binoculare protetic 2.5x,Prostetica,Diagnostic,Kerr Dental,SUA,Aluminiu anodizat,1093.98,19,20785.62,2020-02-03,60,2025-01-07,Demo,4,4.8,Da,500,Verificat la receptie
+RAD-0016,Sortier radiologie panoramica,Radiologie,Profilaxie,KaVo Kerr,Germania,Aluminiu anodizat,1349.39,8,10795.12,2021-09-02,60,2026-08-07,Nou,4,5.0,Da,200,
+STE-0047,Covor de lucru steril (100 buc),Sterilizare,Diagnostic,SciCan,Canada,Silicon medical,77.82,11,856.02,2024-06-16,12,2025-06-11,Nou,4,4.6,Da,500,Verificat la receptie
+STE-0065,Manusi nitril marime M (100 buc),Sterilizare,Chirurgie,SciCan,Canada,Silicon medical,34.99,15,524.85,2022-01-05,12,2022-12-31,Nou,1,3.6,Nu,Nelimitat,Verificat la receptie
+CHI-0010,Elevator Luxator PDL 3mm,Chirurgie Orala,Diagnostic,KaVo Kerr,Germania,Otel inoxidabil german,138.55,13,1801.15,2021-07-19,6,2022-01-15,Nou,4,4.7,Da,500,
+GEN-0062,Tava instrument inox,General,Diagnostic,Henry Schein Dental,SUA,Otel inoxidabil,58.33,12,699.96,2022-01-04,24,2023-12-25,Nou,5,3.7,Da,1000,
+PAR-0034,Chiureta Langer 1/2,Parodontologie,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil german,124.65,20,2493.0,2020-09-16,60,2025-08-21,Nou,1,4.0,Da,Nelimitat,Lot special
+CHI-0081,Cleste Rongeur Luer,Chirurgie Orala,Tratament,Henry Schein Dental,SUA,Otel inoxidabil german,123.62,17,2101.54,2021-07-07,36,2024-06-21,Demo,2,4.5,Da,1,Recomandat de medic specialist
+END-0021,Motor endodontic X-Smart Plus,Endodontie,Tratament,KaVo Kerr,Germania,Aliaj titan-nichel,3335.15,4,13340.6,2025-07-25,12,2026-07-20,Nou,1,3.9,Da,Nelimitat,Necesita calibrare anuala
+END-0042,Cavit W temporar (kit),Endodontie,Tratament,KaVo Kerr,Germania,Silicon medical,99.45,9,895.05,2021-01-05,24,2022-12-26,Nou,1,3.7,Da,1000,Recomandat de medic specialist
+STE-0011,Termodezinfector Miele G7783CD,Sterilizare,Profilaxie,W&H Dentalwerk,Austria,Aluminiu anodizat,9263.68,19,176009.92,2021-02-20,12,2022-02-15,Nou,2,4.0,Da,50,Recomandat de medic specialist
+GEN-0017,Deschizator de gura Molt,General,Profilaxie,Hu-Friedy Europe,Germania,Otel inoxidabil german,75.99,9,683.91,2025-06-11,12,2026-06-06,Nou,5,4.4,Nu,50,
+PRO-0019,Lingura amprenta inferioara M,Prostetica,Auxiliar,3M Oral Care,SUA,Aluminiu anodizat,33.8,6,202.8,2024-05-14,12,2025-05-09,Nou,3,4.6,Da,100,Necesita calibrare anuala
+IMP-0033,Elevator periost Molt 9,Implantologie,Sterilizare,Straumann Group,Elvetia,Otel inoxidabil german,98.13,18,1766.34,2024-02-11,60,2029-01-15,Nou,1,4.6,Da,200,Livrare urgenta
+PRO-0057,Pana interdentara lemn (100 buc),Prostetica,Sterilizare,3M Oral Care,SUA,Silicon medical,19.65,2,39.3,2022-11-23,24,2024-11-12,Nou,1,4.2,Nu,50,
+GEN-0061,Tava instrument inox,General,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil,78.43,6,470.58,2022-02-23,12,2023-02-18,Nou,3,4.6,Da,1,Lot special
+CHI-0031,Cleste extractie molar superior 53R,Chirurgie Orala,Tratament,GC Europe,Belgia,Otel inoxidabil german,233.96,15,3509.4,2020-11-17,36,2023-11-02,Nou,4,4.4,Da,200,
+END-0002,Ace K-File 21mm nr.10 (6 buc),Endodontie,Diagnostic,KaVo Kerr,Germania,Aliaj titan-nichel,36.01,8,288.08,2024-09-15,36,2027-08-31,Reconditionat,2,4.6,Da,Nelimitat,
+END-0047,Sistem irigatie NaviTip,Endodontie,Profilaxie,Acteon Group,Franta,Plastic autoclavabil,225.68,5,1128.4,2020-04-14,36,2023-03-30,Demo,3,4.9,Da,500,Sterilizabil autoclav
+CHI-0080,Cleste Rongeur Luer,Chirurgie Orala,Tratament,Henry Schein Dental,SUA,Otel inoxidabil german,156.61,14,2192.54,2023-07-03,60,2028-06-06,Nou,5,3.7,Da,Nelimitat,Inlocuieste modelul anterior
+STE-0044,Distilator apa Aqua 4 Melag,Sterilizare,Tratament,SciCan,Canada,Aluminiu anodizat,1222.58,17,20783.86,2024-11-17,36,2027-11-02,Nou,4,3.7,Da,100,
+RAD-0010,Suport film radiologic adult (set 3),Radiologie,Auxiliar,Dentsply Sirona,Germania,Plastic autoclavabil,152.86,6,917.16,2021-10-09,6,2022-04-07,Nou,1,3.6,Nu,500,
+STE-0010,Termodezinfector Miele G7783CD,Sterilizare,Profilaxie,Densply Romania,Romania,Aluminiu anodizat,13073.57,12,156882.84,2022-01-04,6,2022-07-03,Demo,4,4.5,Da,1,Sterilizabil autoclav
+GEN-0074,Scaler manual Nevi 2,General,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,69.07,12,828.84,2025-08-03,36,2028-07-18,Nou,2,3.9,Nu,1000,
+ORT-0010,Cleste indoire arc Tweed,Ortodontie,Sterilizare,3M Oral Care,SUA,Otel inoxidabil german,149.35,5,746.75,2022-09-27,60,2027-09-01,Nou,2,3.8,Nu,500,
+IMP-0013,Implant titan 4.8x10mm,Implantologie,Profilaxie,NSK Europe,Japonia,Titan,244.07,9,2196.63,2023-05-18,24,2025-05-07,Nou,1,3.8,Da,200,Verificat la receptie
+IMP-0050,Healing abutment 5mm,Implantologie,Diagnostic,NSK Europe,Japonia,Titan,84.23,6,505.38,2025-04-13,6,2025-10-10,Nou,1,3.5,Da,Nelimitat,
+IMP-0025,Foret pilot 2.0mm,Implantologie,Profilaxie,Nobel Biocare,Elvetia,Carbura de tungsten,69.82,14,977.48,2025-03-07,12,2026-03-02,Nou,2,3.8,Nu,1,Inlocuieste modelul anterior
+PAR-0036,Chiureta Langer 1/2,Parodontologie,Sterilizare,Satelec,Franta,Otel inoxidabil german,139.1,18,2503.8,2023-04-23,12,2024-04-17,Nou,3,4.9,Da,1,
+STE-0024,Pungi sterilizare 150x300mm (200 buc),Sterilizare,Diagnostic,Acteon Group,Franta,Silicon medical,51.42,19,976.98,2024-07-04,12,2025-06-29,Nou,1,4.6,Da,100,Recomandat de medic specialist
+ORT-0062,Ligatura metalica (1000 buc),Ortodontie,Sterilizare,Dentsply Sirona,Germania,Otel inoxidabil,20.62,3,61.86,2025-11-14,24,2027-11-04,Nou,5,4.3,Da,200,Lot special
+IMP-0002,Trusa implant Nobel Biocare (set complet),Implantologie,Sterilizare,Zimmer Biomet,SUA,Titan,2863.43,14,40088.02,2022-01-04,6,2022-07-03,Reconditionat,5,3.7,Da,Nelimitat,
+END-0005,Ace K-File 25mm nr.15 (6 buc),Endodontie,Diagnostic,KaVo Kerr,Germania,Aliaj titan-nichel,44.52,19,845.88,2021-03-22,12,2022-03-17,Nou,4,4.2,Da,Nelimitat,Sterilizabil autoclav
+END-0026,Apex locator Root ZX II,Endodontie,Chirurgie,Acteon Group,Franta,Aliaj titan-nichel,1451.37,4,5805.48,2023-09-18,12,2024-09-12,Reconditionat,4,4.5,Da,100,Lot special
+CHI-0027,Cleste extractie 151 inferior,Chirurgie Orala,Tratament,KaVo Kerr,Germania,Otel inoxidabil german,207.57,18,3736.26,2024-11-05,36,2027-10-21,Nou,2,4.2,Nu,200,
+END-0009,Ace Hedstrom 25mm (6 buc),Endodontie,Chirurgie,NSK Europe,Japonia,Aliaj titan-nichel,54.86,3,164.58,2020-03-30,6,2020-09-26,Nou,4,4.7,Da,1,
+PED-0042,Canula aspiratie pediatrica,Pedodontie,Chirurgie,Henry Schein Dental,SUA,Plastic autoclavabil,25.09,2,50.18,2021-07-27,60,2026-07-01,Demo,2,4.7,Da,50,Recomandat de medic specialist
+GEN-0040,Scaler Jacquette 34/35,General,Tratament,Densply Romania,Romania,Otel inoxidabil german,108.11,20,2162.2,2023-10-04,6,2024-04-01,Nou,2,4.5,Da,1,
+CHI-0026,Cleste extractie 150 superior,Chirurgie Orala,Tratament,GC Europe,Belgia,Otel inoxidabil german,154.35,14,2160.9,2024-03-04,24,2026-02-22,Nou,3,4.2,Da,Nelimitat,Recomandat de medic specialist
+RAD-0023,Negatoscop LED dentar,Radiologie,Sterilizare,KaVo Kerr,Germania,Aluminiu anodizat,407.73,16,6523.68,2025-08-15,60,2030-07-20,Nou,4,4.6,Da,200,Inlocuieste modelul anterior
+IMP-0043,Abutment titan standard,Implantologie,Profilaxie,Straumann Group,Elvetia,Titan,190.0,1,190.0,2022-05-24,36,2025-05-08,Nou,5,3.8,Da,1,Inlocuieste modelul anterior
+GEN-0067,Dispozitiv detartraj ultrasonic EMS,General,Diagnostic,Hu-Friedy Europe,Germania,Aliaj titan-nichel,1853.63,20,37072.6,2025-04-08,24,2027-03-29,Nou,3,4.6,Da,100,Livrare urgenta
+END-0053,Ace Gates Glidden nr.2 (6 buc),Endodontie,Profilaxie,Acteon Group,Franta,Carbon,60.33,3,180.99,2021-06-14,60,2026-05-19,Nou,4,4.1,Da,1,Livrare urgenta
+CHI-0058,Foarfece chirurgical Dean,Chirurgie Orala,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,147.1,10,1471.0,2020-11-15,12,2021-11-10,Reconditionat,1,3.7,Nu,50,
+CHI-0007,Lame bisturiu nr.15 (100 buc),Chirurgie Orala,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil,64.83,18,1166.94,2024-07-31,24,2026-07-21,Nou,1,4.4,Da,200,
+GEN-0042,Scaler Jacquette 34/35,General,Tratament,Henry Schein Dental,SUA,Otel inoxidabil german,107.48,1,107.48,2021-03-12,36,2024-02-25,Nou,5,4.2,Da,200,Lot special
+IMP-0010,Implant titan 4.1x12mm,Implantologie,Diagnostic,Straumann Group,Elvetia,Titan,215.92,5,1079.6,2024-04-05,12,2025-03-31,Nou,3,4.0,Da,200,
+IMP-0017,Surubelnita implant manuala,Implantologie,Profilaxie,Nobel Biocare,Elvetia,Titan,159.03,18,2862.54,2022-01-06,60,2026-12-11,Nou,4,4.9,Da,Nelimitat,
+CHI-0029,Cleste extractie molar superior 53R,Chirurgie Orala,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,144.47,9,1300.23,2025-05-05,6,2025-11-01,Nou,3,3.9,Da,100,Necesita calibrare anuala
+STE-0049,Gel lubrifiant instrumente (500ml),Sterilizare,Profilaxie,Acteon Group,Franta,Silicon medical,86.81,12,1041.72,2021-06-25,60,2026-05-30,Nou,2,3.9,Da,200,Lot special
+PAR-0019,Set chiurete Gracey complet (7 piese),Parodontologie,Tratament,Acteon Group,Franta,Otel inoxidabil german,532.5,20,10650.0,2023-04-05,24,2025-03-25,Reconditionat,2,5.0,Da,1000,Inlocuieste modelul anterior
+PRO-0008,Lingura amprenta superioara S,Prostetica,Chirurgie,GC Europe,Belgia,Aluminiu anodizat,16.65,12,199.8,2020-05-30,12,2021-05-25,Nou,5,4.8,Da,1,Verificat la receptie
+ORT-0025,Deschizator buze transparent,Ortodontie,Sterilizare,American Orthodontics,SUA,Plastic autoclavabil,31.21,6,187.26,2021-03-26,6,2021-09-22,Nou,3,4.7,Da,1,
+END-0038,Termoplastor Obtura III Max,Endodontie,Profilaxie,Acteon Group,Franta,Aliaj titan-nichel,1740.14,11,19141.54,2023-01-08,36,2025-12-23,Nou,1,3.8,Nu,Nelimitat,
+CHI-0067,Aspirator chirurgical Frazier,Chirurgie Orala,Tratament,GC Europe,Belgia,Otel inoxidabil,37.98,17,645.66,2020-06-17,24,2022-06-07,Nou,2,4.0,Da,1000,
+PED-0020,Excavator pediatric mic,Pedodontie,Chirurgie,GC Europe,Belgia,Otel inoxidabil,84.9,16,1358.4,2025-11-22,36,2028-11-06,Nou,2,4.2,Da,1000,Lot special
+GEN-0054,Sonda exploratoare nr.23,General,Chirurgie,GC Europe,Belgia,Otel inoxidabil,99.52,20,1990.4,2021-05-10,60,2026-04-14,Nou,3,4.3,Da,500,Inlocuieste modelul anterior
+ORT-0053,Pin pusher instrucor,Ortodontie,Tratament,3M Oral Care,SUA,Otel inoxidabil,96.97,20,1939.4,2021-06-20,60,2026-05-25,Nou,2,3.8,Nu,1,Recomandat de medic specialist
+RAD-0008,Suport film radiologic adult (set 3),Radiologie,Profilaxie,Henry Schein Dental,SUA,Plastic autoclavabil,127.64,9,1148.76,2020-08-05,12,2021-07-31,Nou,2,4.5,Da,50,Livrare urgenta
+PED-0046,Oglinda pediatrica cu iluminare LED,Pedodontie,Diagnostic,Henry Schein Dental,SUA,Otel inoxidabil,64.12,11,705.32,2020-11-19,36,2023-11-04,Nou,1,4.3,Da,200,
+GEN-0072,Varf ultrasonic universal,General,Chirurgie,Kerr Dental,SUA,Aliaj titan-nichel,55.88,11,614.68,2023-08-08,6,2024-02-04,Nou,3,4.1,Nu,Nelimitat,Livrare urgenta
+STE-0038,Indicator chimic sterilizare clasa 5 (250 buc),Sterilizare,Auxiliar,Densply Romania,Romania,Silicon medical,65.1,9,585.9,2020-11-24,36,2023-11-09,Nou,4,4.9,Nu,Nelimitat,Necesita calibrare anuala
+CHI-0002,Bisturiu maner nr.3,Chirurgie Orala,Tratament,Henry Schein Dental,SUA,Otel inoxidabil german,61.95,16,991.2,2025-05-26,12,2026-05-21,Nou,4,4.4,Da,50,Recomandat de medic specialist
+PED-0006,Matrice sectoriala pediatrica (set),Pedodontie,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil,84.51,1,84.51,2020-11-28,6,2021-05-27,Reconditionat,5,3.9,Nu,500,
+PED-0032,Spatula spatula sigilant,Pedodontie,Auxiliar,GC Europe,Belgia,Otel inoxidabil,56.06,10,560.6,2024-02-14,60,2029-01-18,Nou,2,4.2,Da,200,Livrare urgenta
+STE-0041,Indicator biologic attest 3M (25 buc),Sterilizare,Sterilizare,W&H Dentalwerk,Austria,Silicon medical,116.2,5,581.0,2024-08-07,24,2026-07-28,Nou,2,3.9,Da,Nelimitat,Inlocuieste modelul anterior
+END-0044,Cavit W temporar (kit),Endodontie,Chirurgie,Dentsply Sirona,Germania,Silicon medical,59.55,20,1191.0,2023-06-05,24,2025-05-25,Nou,4,4.8,Da,200,Livrare urgenta
+PRO-0064,Brunissoir sferic nr.2,Prostetica,Diagnostic,3M Oral Care,SUA,Otel inoxidabil german,65.27,18,1174.86,2023-06-14,36,2026-05-29,Nou,4,4.9,Da,1,
+PAR-0030,Sonda parodontala Williams,Parodontologie,Auxiliar,Mectron,Italia,Otel inoxidabil german,43.68,17,742.56,2024-03-15,60,2029-02-17,Nou,4,4.2,Da,100,Verificat la receptie
+RAD-0033,Tablier protectie plumb adult,Radiologie,Diagnostic,Henry Schein Dental,SUA,Silicon medical,431.28,15,6469.2,2023-10-19,6,2024-04-16,Nou,1,3.7,Da,1,Lot special
+STE-0030,Cassete Hu-Friedy IMS marime L,Sterilizare,Auxiliar,Densply Romania,Romania,Aluminiu anodizat,210.27,2,420.54,2022-04-07,12,2023-04-02,Nou,1,3.9,Da,1000,Verificat la receptie
+PRO-0052,Matrice Tofflemire set complet,Prostetica,Profilaxie,3M Oral Care,SUA,Otel inoxidabil,142.15,9,1279.35,2023-10-04,24,2025-09-23,Nou,1,3.9,Nu,Nelimitat,Recomandat de medic specialist
+CHI-0064,Needle holder Hegar 15cm,Chirurgie Orala,Tratament,Henry Schein Dental,SUA,Otel inoxidabil german,96.79,15,1451.85,2023-12-27,12,2024-12-21,Nou,3,4.8,Da,Nelimitat,
+RAD-0006,Senzor RVG Size 2 Carestream,Radiologie,Auxiliar,KaVo Kerr,Germania,Aliaj titan-nichel,5612.94,6,33677.64,2020-06-03,60,2025-05-08,Nou,4,4.4,Da,100,
+GEN-0003,Sonda parodontala CP-15,General,Diagnostic,Henry Schein Dental,SUA,Otel inoxidabil german,97.36,11,1070.96,2023-02-12,12,2024-02-07,Nou,3,3.7,Da,Nelimitat,Sterilizabil autoclav
+END-0033,Spreader endodontic D11T,Endodontie,Chirurgie,KaVo Kerr,Germania,Otel inoxidabil german,116.73,9,1050.57,2023-08-02,6,2024-01-29,Nou,5,4.1,Nu,Nelimitat,Necesita calibrare anuala
+PED-0005,Sonda pediatrica angulata,Pedodontie,Tratament,GC Europe,Belgia,Otel inoxidabil,46.39,10,463.9,2025-12-25,6,2026-06-23,Nou,2,4.4,Da,1000,Recomandat de medic specialist
+RAD-0004,Senzor RVG Size 2 Carestream,Radiologie,Diagnostic,KaVo Kerr,Germania,Aliaj titan-nichel,4872.04,19,92568.76,2020-06-15,12,2021-06-10,Nou,5,4.1,Nu,1,
+RAD-0043,Film radiologie Speed D (150 buc),Radiologie,Chirurgie,Dentsply Sirona,Germania,Silicon medical,157.71,5,788.55,2023-08-02,36,2026-07-17,Nou,2,4.0,Da,200,
+CHI-0020,Elevator Cryer dreapta,Chirurgie Orala,Tratament,KaVo Kerr,Germania,Otel inoxidabil german,91.82,19,1744.58,2023-01-07,12,2024-01-02,Reconditionat,2,4.2,Da,Nelimitat,
+GEN-0025,Pensa hemostaza Halsted,General,Diagnostic,Henry Schein Dental,SUA,Otel inoxidabil,105.23,11,1157.53,2022-09-04,24,2024-08-24,Nou,3,4.2,Nu,500,
+GEN-0064,Dispozitiv detartraj ultrasonic EMS,General,Chirurgie,Hu-Friedy Europe,Germania,Aliaj titan-nichel,2515.39,13,32700.07,2025-07-07,6,2026-01-03,Nou,1,3.7,Da,50,Recomandat de medic specialist
+PED-0034,Spatula spatula sigilant,Pedodontie,Profilaxie,Hu-Friedy Europe,Germania,Otel inoxidabil,27.78,18,500.04,2025-09-01,12,2026-08-27,Nou,2,3.7,Da,1000,Lot special
+PRO-0041,Freza ceramica (set 10),Prostetica,Sterilizare,GC Europe,Belgia,Carbon,138.1,1,138.1,2025-08-02,12,2026-07-28,Nou,3,4.1,Da,1,Lot special
+PAR-0001,Chiureta Gracey 1/2 SG,Parodontologie,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,121.17,7,848.19,2025-05-22,24,2027-05-12,Nou,1,4.5,Nu,50,
+PAR-0039,Retractor tisular Molt 4,Parodontologie,Diagnostic,Mectron,Italia,Otel inoxidabil german,68.64,19,1304.16,2025-06-18,24,2027-06-08,Nou,2,3.7,Da,100,Recomandat de medic specialist
+PRO-0012,Lingura amprenta superioara L,Prostetica,Sterilizare,Dentsply Sirona,Germania,Aluminiu anodizat,29.51,20,590.2,2023-03-22,36,2026-03-06,Nou,3,3.9,Da,50,Recomandat de medic specialist
+GEN-0031,Chiureta universala Columbia,General,Profilaxie,GC Europe,Belgia,Otel inoxidabil german,102.82,2,205.64,2024-01-05,12,2024-12-30,Nou,1,4.0,Da,50,Lot special
+GEN-0057,Kit examinare de baza (4 piese),General,Chirurgie,Kerr Dental,SUA,Otel inoxidabil german,211.18,13,2745.34,2023-10-09,6,2024-04-06,Nou,3,3.8,Da,100,
+PRO-0016,Lingura amprenta inferioara M,Prostetica,Auxiliar,Dentsply Sirona,Germania,Aluminiu anodizat,39.96,7,279.72,2023-09-15,24,2025-09-04,Reconditionat,4,4.9,Da,200,
+IMP-0016,Surubelnita implant manuala,Implantologie,Profilaxie,Nobel Biocare,Elvetia,Titan,205.57,11,2261.27,2023-04-08,36,2026-03-23,Reconditionat,2,4.0,Da,1,Verificat la receptie
+CHI-0047,Retractor Langenbeck,Chirurgie Orala,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil german,75.27,10,752.7,2022-03-24,24,2024-03-13,Nou,2,5.0,Nu,100,
+RAD-0005,Senzor RVG Size 2 Carestream,Radiologie,Tratament,Dentsply Sirona,Germania,Aliaj titan-nichel,3831.79,3,11495.37,2023-03-08,36,2026-02-20,Nou,4,4.5,Da,500,
+RAD-0030,Tablier protectie plumb adult,Radiologie,Tratament,Dentsply Sirona,Germania,Silicon medical,347.86,12,4174.32,2022-01-25,12,2023-01-20,Nou,1,4.5,Da,200,Necesita calibrare anuala
+END-0043,Cavit W temporar (kit),Endodontie,Auxiliar,KaVo Kerr,Germania,Silicon medical,89.05,9,801.45,2024-08-04,60,2029-07-09,Nou,1,4.2,Da,500,
+CHI-0003,Bisturiu maner nr.4,Chirurgie Orala,Sterilizare,GC Europe,Belgia,Otel inoxidabil german,70.79,3,212.37,2022-07-30,36,2025-07-14,Nou,1,3.5,Nu,Nelimitat,Lot special
+GEN-0015,Spatula de ciment,General,Profilaxie,Densply Romania,Romania,Otel inoxidabil,50.21,7,351.47,2023-06-30,36,2026-06-14,Demo,3,4.2,Da,50,Lot special
+GEN-0012,Excavator dublu 17/18,General,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil,87.23,10,872.3,2025-09-10,60,2030-08-15,Nou,3,4.6,Da,500,Lot special
+ORT-0008,Cleste taiere ligatura,Ortodontie,Sterilizare,3M Oral Care,SUA,Carbon,173.02,18,3114.36,2024-04-05,24,2026-03-26,Nou,4,4.8,Da,50,
+PAR-0005,Chiureta Gracey 5/6 SG,Parodontologie,Diagnostic,Satelec,Franta,Otel inoxidabil german,134.92,16,2158.72,2024-09-23,12,2025-09-18,Nou,1,5.0,Nu,500,
+PRO-0018,Lingura amprenta inferioara M,Prostetica,Chirurgie,Kerr Dental,SUA,Aluminiu anodizat,31.66,1,31.66,2022-05-03,60,2027-04-07,Nou,3,3.6,Da,100,
+RAD-0003,Senzor radiologie digitala Planmeca,Radiologie,Tratament,Dentsply Sirona,Germania,Aliaj titan-nichel,8321.14,19,158101.66,2021-12-11,24,2023-12-01,Nou,3,3.7,Da,500,Sterilizabil autoclav
+PED-0012,Cleste extractie 150S pediatric,Pedodontie,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil german,120.17,20,2403.4,2025-04-11,24,2027-04-01,Nou,1,4.1,Da,Nelimitat,Verificat la receptie
+END-0022,Motor endodontic X-Smart Plus,Endodontie,Auxiliar,NSK Europe,Japonia,Aliaj titan-nichel,2871.91,9,25847.19,2022-05-08,12,2023-05-03,Nou,3,3.9,Da,1,
+END-0001,Ace K-File 21mm nr.10 (6 buc),Endodontie,Auxiliar,Acteon Group,Franta,Aliaj titan-nichel,18.81,18,338.58,2023-11-19,6,2024-05-17,Reconditionat,1,4.6,Da,1,Sterilizabil autoclav
+PRO-0065,Brunissoir sferic nr.2,Prostetica,Sterilizare,Kerr Dental,SUA,Otel inoxidabil german,91.21,2,182.42,2024-07-18,6,2025-01-14,Nou,5,4.2,Da,1000,Inlocuieste modelul anterior
+ORT-0036,Bracket metalic MBT (set 20),Ortodontie,Profilaxie,Ormco,SUA,Otel inoxidabil,392.0,5,1960.0,2021-10-06,60,2026-09-10,Nou,1,3.9,Nu,500,Inlocuieste modelul anterior
+ORT-0072,Cleste formator arc tip Burstone,Ortodontie,Sterilizare,3M Oral Care,SUA,Otel inoxidabil german,166.7,9,1500.3,2022-10-19,6,2023-04-17,Nou,2,4.2,Da,100,Sterilizabil autoclav
+END-0016,Ace rotative ProTaper Gold (set 6),Endodontie,Profilaxie,Dentsply Sirona,Germania,Aliaj titan-nichel,172.93,12,2075.16,2021-08-05,60,2026-07-10,Reconditionat,4,4.3,Da,1,
+CHI-0045,Retractor Langenbeck,Chirurgie Orala,Tratament,Henry Schein Dental,SUA,Otel inoxidabil german,126.66,9,1139.94,2024-04-11,6,2024-10-08,Nou,2,4.1,Da,50,Livrare urgenta
+GEN-0065,Dispozitiv detartraj ultrasonic EMS,General,Profilaxie,Hu-Friedy Europe,Germania,Aliaj titan-nichel,2092.92,14,29300.88,2022-07-13,60,2027-06-17,Nou,4,3.9,Da,500,Recomandat de medic specialist
+RAD-0037,Tablier protectie plumb pediatric,Radiologie,Tratament,Henry Schein Dental,SUA,Silicon medical,402.51,14,5635.14,2024-12-17,24,2026-12-07,Nou,4,4.6,Da,50,Sterilizabil autoclav
+PAR-0051,Spatula osoasa Lucas,Parodontologie,Tratament,Satelec,Franta,Otel inoxidabil,85.93,19,1632.67,2021-10-22,36,2024-10-06,Nou,1,3.7,Da,1000,Recomandat de medic specialist
+PED-0052,Set freze pediatrie (10 buc),Pedodontie,Auxiliar,Henry Schein Dental,SUA,Carbon,244.57,12,2934.84,2021-11-24,12,2022-11-19,Nou,4,3.8,Da,500,Lot special
+STE-0066,Manusi nitril marime M (100 buc),Sterilizare,Chirurgie,Densply Romania,Romania,Silicon medical,31.84,9,286.56,2023-10-30,12,2024-10-24,Nou,1,4.6,Da,200,Recomandat de medic specialist
+END-0015,Ace rotative ProTaper Gold (set 6),Endodontie,Chirurgie,Dentsply Sirona,Germania,Aliaj titan-nichel,180.51,8,1444.08,2024-05-09,24,2026-04-29,Reconditionat,2,3.8,Da,500,Recomandat de medic specialist
+RAD-0038,Tablier protectie plumb pediatric,Radiologie,Diagnostic,Dentsply Sirona,Germania,Silicon medical,259.29,17,4407.93,2023-10-05,6,2024-04-02,Reconditionat,5,4.6,Nu,1000,
+CHI-0079,Cleste Rongeur Luer,Chirurgie Orala,Auxiliar,Henry Schein Dental,SUA,Otel inoxidabil german,127.72,13,1660.36,2021-07-16,6,2022-01-12,Nou,5,4.9,Da,200,Recomandat de medic specialist
+PRO-0063,Portamalgam Dentsply,Prostetica,Diagnostic,GC Europe,Belgia,Otel inoxidabil german,107.88,13,1402.44,2021-03-13,24,2023-03-03,Nou,4,4.6,Da,1,
+ORT-0028,Arc NiTi rotund 0.014 (10 buc),Ortodontie,Sterilizare,Dentsply Sirona,Germania,Aliaj titan-nichel,57.06,15,855.9,2020-10-28,6,2021-04-26,Nou,2,3.6,Da,200,Verificat la receptie
+IMP-0007,Trusa implant Straumann (set complet),Implantologie,Sterilizare,NSK Europe,Japonia,Titan,5908.14,18,106346.52,2023-09-20,36,2026-09-04,Nou,2,4.7,Da,1,
+PAR-0012,Chiureta Gracey 13/14 SG,Parodontologie,Sterilizare,Acteon Group,Franta,Otel inoxidabil german,131.5,15,1972.5,2023-10-28,24,2025-10-17,Nou,2,4.8,Nu,1000,Necesita calibrare anuala
+CHI-0034,Cleste extractie molar superior 53L,Chirurgie Orala,Sterilizare,KaVo Kerr,Germania,Otel inoxidabil german,260.47,3,781.41,2022-05-12,12,2023-05-07,Nou,1,3.6,Da,1,Livrare urgenta
+PAR-0037,Foarfece Castroviejo,Parodontologie,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,153.73,13,1998.49,2020-12-14,24,2022-12-04,Nou,3,3.8,Da,50,Inlocuieste modelul anterior
+CHI-0073,Trusa extractie completa (20 piese),Chirurgie Orala,Tratament,KaVo Kerr,Germania,Otel inoxidabil german,1832.96,4,7331.84,2023-06-03,36,2026-05-18,Nou,3,3.8,Da,500,Lot special
+PAR-0013,Chiureta Gracey 13/14 SG,Parodontologie,Sterilizare,Mectron,Italia,Otel inoxidabil german,137.44,4,549.76,2021-02-03,12,2022-01-29,Nou,3,4.7,Da,1000,Verificat la receptie
+END-0056,Ruler endodontic,Endodontie,Auxiliar,NSK Europe,Japonia,Otel inoxidabil,44.88,16,718.08,2024-01-11,12,2025-01-05,Nou,4,3.5,Da,50,
+END-0059,Endo stand 10 gauri,Endodontie,Sterilizare,NSK Europe,Japonia,Plastic autoclavabil,21.68,4,86.72,2025-11-01,24,2027-10-22,Nou,2,4.1,Da,100,
+END-0018,Ace rotative WaveOne Gold Primary,Endodontie,Auxiliar,NSK Europe,Japonia,Aliaj titan-nichel,70.96,5,354.8,2021-08-03,6,2022-01-30,Nou,3,4.9,Nu,500,Necesita calibrare anuala
+PRO-0050,Matrice Tofflemire set complet,Prostetica,Sterilizare,3M Oral Care,SUA,Otel inoxidabil,157.08,18,2827.44,2022-08-15,36,2025-07-30,Nou,4,4.2,Nu,1,
+PAR-0009,Chiureta Gracey 7/8 SG,Parodontologie,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,69.13,6,414.78,2025-09-01,36,2028-08-16,Nou,2,3.6,Da,100,Livrare urgenta
+IMP-0028,Foret secvential 3.5mm,Implantologie,Chirurgie,Zimmer Biomet,SUA,Carbura de tungsten,126.87,20,2537.4,2021-12-07,24,2023-11-27,Reconditionat,5,3.6,Da,50,
+STE-0043,Distilator apa Aqua 4 Melag,Sterilizare,Chirurgie,Densply Romania,Romania,Aluminiu anodizat,1517.23,6,9103.38,2020-07-22,36,2023-07-07,Nou,5,3.9,Da,500,
+CHI-0040,Cleste extractie molar inferior 23,Chirurgie Orala,Chirurgie,KaVo Kerr,Germania,Otel inoxidabil german,146.11,18,2629.98,2024-11-25,36,2027-11-10,Nou,4,4.7,Da,200,
+ORT-0002,Cleste bracket Weingart,Ortodontie,Profilaxie,Ormco,SUA,Otel inoxidabil german,172.44,5,862.2,2025-08-03,24,2027-07-24,Nou,3,4.1,Da,200,Livrare urgenta
+END-0052,Microscop dentar Global D Vario,Endodontie,Tratament,KaVo Kerr,Germania,Aluminiu anodizat,15899.94,16,254399.04,2023-09-24,12,2024-09-18,Nou,1,3.5,Da,500,Verificat la receptie
+END-0010,Ace Hedstrom 25mm (6 buc),Endodontie,Chirurgie,Acteon Group,Franta,Aliaj titan-nichel,21.92,19,416.48,2024-11-09,36,2027-10-25,Nou,4,4.5,Da,50,
+ORT-0070,Cleste formator arc tip Burstone,Ortodontie,Tratament,3M Oral Care,SUA,Otel inoxidabil german,184.53,6,1107.18,2020-05-07,12,2021-05-02,Nou,4,3.6,Da,100,
+GEN-0005,Penseta dentara anatomica,General,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil,32.75,8,262.0,2023-03-31,6,2023-09-27,Nou,1,4.1,Da,50,Livrare urgenta
+PED-0029,Deschizator buze pediatric,Pedodontie,Chirurgie,Hu-Friedy Europe,Germania,Plastic autoclavabil,31.15,10,311.5,2022-03-02,12,2023-02-25,Nou,4,4.7,Da,200,Lot special
+RAD-0027,Dispozitiv pozitionare senzor XCP,Radiologie,Profilaxie,Henry Schein Dental,SUA,Plastic autoclavabil,142.99,11,1572.89,2025-06-14,60,2030-05-19,Nou,5,4.8,Da,500,Livrare urgenta
+CHI-0009,Lame bisturiu nr.15 (100 buc),Chirurgie Orala,Sterilizare,KaVo Kerr,Germania,Otel inoxidabil,87.83,13,1141.79,2022-04-14,36,2025-03-29,Nou,5,4.2,Nu,100,Necesita calibrare anuala
+PAR-0049,Electrobisturiu periochirurgie,Parodontologie,Profilaxie,Acteon Group,Franta,Aliaj titan-nichel,2329.47,12,27953.64,2023-11-14,36,2026-10-29,Nou,5,3.5,Da,50,
+PED-0008,Matrice sectoriala pediatrica (set),Pedodontie,Auxiliar,Kerr Dental,SUA,Otel inoxidabil,59.94,15,899.1,2022-04-15,24,2024-04-04,Nou,3,4.8,Da,200,Necesita calibrare anuala
+END-0023,Motor endodontic X-Smart Plus,Endodontie,Diagnostic,Acteon Group,Franta,Aliaj titan-nichel,2851.73,14,39924.22,2021-11-12,36,2024-10-27,Nou,4,4.0,Nu,Nelimitat,Sterilizabil autoclav
+PAR-0038,Foarfece Castroviejo,Parodontologie,Profilaxie,Acteon Group,Franta,Otel inoxidabil german,111.49,9,1003.41,2022-03-06,6,2022-09-02,Nou,5,4.8,Da,100,Lot special
+RAD-0001,Senzor radiologie digitala Planmeca,Radiologie,Diagnostic,Dentsply Sirona,Germania,Aliaj titan-nichel,5361.25,2,10722.5,2023-06-12,6,2023-12-09,Nou,2,4.8,Da,200,
+CHI-0062,Needle holder Hegar 15cm,Chirurgie Orala,Auxiliar,Henry Schein Dental,SUA,Otel inoxidabil german,131.88,18,2373.84,2022-11-06,24,2024-10-26,Reconditionat,4,4.9,Da,100,
+RAD-0020,Halter film radiologic tip Kim,Radiologie,Sterilizare,Dentsply Sirona,Germania,Plastic autoclavabil,51.31,9,461.79,2022-04-28,6,2022-10-25,Nou,3,4.6,Da,1,
+STE-0057,Solutie dezinfectant Optim 33 (1L),Sterilizare,Auxiliar,Densply Romania,Romania,Silicon medical,43.16,9,388.44,2020-01-24,24,2022-01-13,Reconditionat,5,4.9,Da,50,Necesita calibrare anuala
+END-0006,Ace K-File 25mm nr.15 (6 buc),Endodontie,Diagnostic,KaVo Kerr,Germania,Aliaj titan-nichel,33.37,15,500.55,2022-12-21,6,2023-06-19,Nou,3,4.7,Da,Nelimitat,Recomandat de medic specialist
+RAD-0024,Negatoscop LED dentar,Radiologie,Diagnostic,Henry Schein Dental,SUA,Aluminiu anodizat,416.21,3,1248.63,2022-02-10,36,2025-01-25,Nou,4,4.8,Da,50,Verificat la receptie
+STE-0027,Cassete Hu-Friedy IMS marime M,Sterilizare,Diagnostic,Densply Romania,Romania,Aluminiu anodizat,124.81,15,1872.15,2023-01-02,60,2027-12-07,Nou,4,4.9,Da,100,Inlocuieste modelul anterior
+STE-0032,Cassete Hu-Friedy IMS marime L,Sterilizare,Auxiliar,SciCan,Canada,Aluminiu anodizat,171.52,5,857.6,2022-08-24,6,2023-02-20,Nou,5,4.9,Da,200,Lot special
+STE-0018,Sigilator pungi sterilizare Melag,Sterilizare,Chirurgie,W&H Dentalwerk,Austria,Aluminiu anodizat,1407.35,13,18295.55,2022-12-14,36,2025-11-28,Nou,4,4.4,Da,1,Necesita calibrare anuala
+GEN-0030,Chiureta universala Columbia,General,Profilaxie,Densply Romania,Romania,Otel inoxidabil german,70.87,3,212.61,2021-09-02,60,2026-08-07,Nou,3,4.4,Da,1,
+STE-0005,Autoclav clasa B W&H Lexa B,Sterilizare,Tratament,SciCan,Canada,Aluminiu anodizat,4469.56,9,40226.04,2023-11-25,24,2025-11-14,Nou,5,4.7,Da,1,Recomandat de medic specialist
+PRO-0004,Spatula amestec silicon (set 3),Prostetica,Tratament,3M Oral Care,SUA,Otel inoxidabil,42.85,6,257.1,2023-10-04,60,2028-09-07,Nou,2,3.7,Da,200,
+PAR-0008,Chiureta Gracey 7/8 SG,Parodontologie,Auxiliar,Mectron,Italia,Otel inoxidabil german,118.35,20,2367.0,2021-01-25,36,2024-01-10,Nou,2,4.2,Nu,50,Inlocuieste modelul anterior
+PAR-0018,Set chiurete Gracey complet (7 piese),Parodontologie,Chirurgie,Acteon Group,Franta,Otel inoxidabil german,573.21,11,6305.31,2023-04-19,36,2026-04-03,Nou,2,4.1,Da,1000,Lot special
+RAD-0018,Halter film radiologic tip Kim,Radiologie,Auxiliar,Dentsply Sirona,Germania,Plastic autoclavabil,70.62,3,211.86,2020-03-06,36,2023-02-19,Nou,2,4.6,Da,200,Recomandat de medic specialist
+CHI-0017,Elevator Cryer stanga,Chirurgie Orala,Chirurgie,KaVo Kerr,Germania,Otel inoxidabil german,138.85,19,2638.15,2022-10-21,36,2025-10-05,Reconditionat,5,4.2,Nu,1000,
+IMP-0001,Trusa implant Nobel Biocare (set complet),Implantologie,Diagnostic,Zimmer Biomet,SUA,Titan,3023.67,20,60473.4,2025-06-02,36,2028-05-17,Nou,5,4.3,Da,500,
+GEN-0032,Chiureta universala Columbia,General,Auxiliar,Henry Schein Dental,SUA,Otel inoxidabil german,157.86,6,947.16,2024-08-15,6,2025-02-11,Nou,3,4.7,Da,100,Sterilizabil autoclav
+IMP-0022,Cheie dinamometrica implant,Implantologie,Profilaxie,Zimmer Biomet,SUA,Titan,488.19,19,9275.61,2025-08-11,12,2026-08-06,Nou,1,4.2,Da,1,Verificat la receptie
+ORT-0011,Cleste indoire arc Tweed,Ortodontie,Diagnostic,American Orthodontics,SUA,Otel inoxidabil german,167.16,19,3176.04,2021-08-09,12,2022-08-04,Nou,3,4.2,Nu,100,Inlocuieste modelul anterior
+CHI-0024,Cleste extractie 150 superior,Chirurgie Orala,Profilaxie,Henry Schein Dental,SUA,Otel inoxidabil german,159.01,4,636.04,2025-10-23,36,2028-10-07,Nou,1,3.5,Da,100,
+IMP-0005,Trusa implant Nobel Biocare (set complet),Implantologie,Diagnostic,Zimmer Biomet,SUA,Titan,4893.67,4,19574.68,2025-12-03,6,2026-06-01,Nou,5,4.2,Da,500,
+PED-0014,Cleste extractie 151S pediatric,Pedodontie,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil german,101.08,4,404.32,2024-06-01,24,2026-05-22,Nou,3,4.3,Da,500,Necesita calibrare anuala
+PED-0026,Plugger compozit pediatric,Pedodontie,Profilaxie,GC Europe,Belgia,Otel inoxidabil,67.48,2,134.96,2021-01-01,60,2025-12-06,Nou,1,4.9,Da,1,
+PRO-0014,Lingura amprenta superioara L,Prostetica,Sterilizare,3M Oral Care,SUA,Aluminiu anodizat,33.76,4,135.04,2022-04-29,60,2027-04-03,Demo,4,3.6,Da,1,Necesita calibrare anuala
+GEN-0036,Scaler sickle H6/H7,General,Diagnostic,GC Europe,Belgia,Otel inoxidabil german,94.91,17,1613.47,2021-04-18,36,2024-04-02,Nou,2,3.9,Da,100,Sterilizabil autoclav
+CHI-0078,Cleste Rongeur Luer,Chirurgie Orala,Sterilizare,Henry Schein Dental,SUA,Otel inoxidabil german,209.5,17,3561.5,2023-02-03,6,2023-08-02,Nou,4,4.8,Da,50,
+CHI-0041,Cleste extractie dinte de minte 222,Chirurgie Orala,Diagnostic,KaVo Kerr,Germania,Otel inoxidabil german,174.82,18,3146.76,2023-01-06,36,2025-12-21,Nou,1,3.8,Nu,500,Verificat la receptie
+RAD-0017,Sortier radiologie panoramica,Radiologie,Tratament,Henry Schein Dental,SUA,Aluminiu anodizat,1303.47,4,5213.88,2025-01-27,36,2028-01-12,Nou,5,4.6,Da,100,Sterilizabil autoclav
+GEN-0006,Penseta dentara anatomica,General,Profilaxie,GC Europe,Belgia,Otel inoxidabil,51.32,9,461.88,2020-10-19,60,2025-09-23,Nou,5,4.6,Nu,100,
+CHI-0023,Cleste extractie 150 superior,Chirurgie Orala,Diagnostic,GC Europe,Belgia,Otel inoxidabil german,126.09,19,2395.71,2021-06-09,6,2021-12-06,Nou,4,4.2,Da,200,Lot special
+ORT-0001,Cleste bracket Weingart,Ortodontie,Tratament,Ormco,SUA,Otel inoxidabil german,88.9,20,1778.0,2022-09-07,12,2023-09-02,Nou,1,4.3,Da,200,
+PRO-0043,Polisher ceramica (set 5),Prostetica,Profilaxie,Dentsply Sirona,Germania,Carbon,74.62,3,223.86,2023-07-03,60,2028-06-06,Nou,3,4.3,Nu,500,
+GEN-0016,Spatula de ciment,General,Tratament,Henry Schein Dental,SUA,Otel inoxidabil,22.56,1,22.56,2022-07-31,60,2027-07-05,Nou,1,4.6,Da,1,
+STE-0033,Cassete Hu-Friedy IMS marime L,Sterilizare,Profilaxie,SciCan,Canada,Aluminiu anodizat,146.9,4,587.6,2023-07-07,24,2025-06-26,Nou,4,4.7,Da,50,
+PAR-0029,Sonda parodontala Williams,Parodontologie,Profilaxie,Mectron,Italia,Otel inoxidabil german,72.31,20,1446.2,2022-09-25,6,2023-03-24,Nou,3,4.1,Da,500,
+CHI-0035,Cleste extractie molar superior 53L,Chirurgie Orala,Chirurgie,GC Europe,Belgia,Otel inoxidabil german,193.84,3,581.52,2021-03-01,24,2023-02-19,Nou,1,4.5,Da,50,Sterilizabil autoclav
+RAD-0002,Senzor radiologie digitala Planmeca,Radiologie,Sterilizare,Henry Schein Dental,SUA,Aliaj titan-nichel,8495.88,8,67967.04,2020-09-15,12,2021-09-10,Nou,4,4.0,Da,100,Inlocuieste modelul anterior
+CHI-0065,Aspirator chirurgical Frazier,Chirurgie Orala,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil,66.38,19,1261.22,2022-06-09,6,2022-12-06,Nou,4,3.8,Da,1,Recomandat de medic specialist
+IMP-0034,Elevator periost Molt 9,Implantologie,Profilaxie,Straumann Group,Elvetia,Otel inoxidabil german,147.28,8,1178.24,2023-05-04,6,2023-10-31,Nou,3,4.8,Da,Nelimitat,
+IMP-0009,Implant titan 3.5x10mm,Implantologie,Sterilizare,NSK Europe,Japonia,Titan,297.74,12,3572.88,2024-03-17,36,2027-03-02,Nou,5,4.5,Da,Nelimitat,
+IMP-0011,Implant titan 4.1x12mm,Implantologie,Profilaxie,Zimmer Biomet,SUA,Titan,389.14,4,1556.56,2021-06-26,6,2021-12-23,Nou,4,4.3,Da,1,Lot special
+IMP-0019,Surubelnita implant manuala,Implantologie,Sterilizare,NSK Europe,Japonia,Titan,94.25,20,1885.0,2025-05-16,60,2030-04-20,Nou,5,4.9,Da,Nelimitat,Sterilizabil autoclav
+CHI-0039,Cleste extractie molar inferior 23,Chirurgie Orala,Tratament,KaVo Kerr,Germania,Otel inoxidabil german,192.42,1,192.42,2025-07-07,36,2028-06-21,Nou,4,4.7,Da,500,Recomandat de medic specialist
+PRO-0031,Spatula laborator cearã,Prostetica,Diagnostic,3M Oral Care,SUA,Otel inoxidabil,43.04,14,602.56,2022-09-04,60,2027-08-09,Nou,2,5.0,Da,50,Sterilizabil autoclav
+RAD-0007,Suport film radiologic adult (set 3),Radiologie,Sterilizare,Dentsply Sirona,Germania,Plastic autoclavabil,117.98,7,825.86,2021-04-26,60,2026-03-31,Reconditionat,5,4.0,Da,200,Lot special
+CHI-0032,Cleste extractie molar superior 53L,Chirurgie Orala,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil german,122.66,11,1349.26,2022-07-23,24,2024-07-12,Nou,3,4.6,Nu,100,Recomandat de medic specialist
+IMP-0015,Implant titan 4.8x10mm,Implantologie,Sterilizare,NSK Europe,Japonia,Titan,409.06,11,4499.66,2024-12-08,24,2026-11-28,Nou,5,3.7,Da,200,Necesita calibrare anuala
+END-0011,Ace Hedstrom 25mm (6 buc),Endodontie,Profilaxie,NSK Europe,Japonia,Aliaj titan-nichel,30.63,5,153.15,2020-05-21,60,2025-04-25,Nou,2,4.5,Nu,1,Livrare urgenta
+PRO-0003,Spatula amestec silicon (set 3),Prostetica,Auxiliar,GC Europe,Belgia,Otel inoxidabil,86.69,4,346.76,2021-01-08,6,2021-07-07,Nou,3,3.6,Da,200,Sterilizabil autoclav
+CHI-0014,Elevator Apexo nr.301,Chirurgie Orala,Profilaxie,Hu-Friedy Europe,Germania,Otel inoxidabil german,85.58,1,85.58,2021-10-06,6,2022-04-04,Demo,4,4.0,Da,500,Sterilizabil autoclav
+ORT-0004,Cleste bracket Weingart,Ortodontie,Sterilizare,Ormco,SUA,Otel inoxidabil german,123.18,10,1231.8,2025-06-28,12,2026-06-23,Nou,4,4.0,Nu,200,Lot special
+PRO-0022,Lingura amprenta partiala,Prostetica,Diagnostic,Kerr Dental,SUA,Aluminiu anodizat,25.02,4,100.08,2025-10-15,12,2026-10-10,Nou,1,4.2,Da,100,Lot special
+PAR-0020,Set chiurete Gracey complet (7 piese),Parodontologie,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,846.03,18,15228.54,2025-05-21,60,2030-04-25,Nou,4,4.5,Nu,Nelimitat,Lot special
+PAR-0002,Chiureta Gracey 1/2 SG,Parodontologie,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,143.61,3,430.83,2021-02-18,24,2023-02-08,Nou,4,5.0,Nu,1,Verificat la receptie
+PED-0037,Caseta sterilizare pediatrie,Pedodontie,Auxiliar,Hu-Friedy Europe,Germania,Aluminiu anodizat,149.53,2,299.06,2020-10-09,36,2023-09-24,Nou,4,3.8,Nu,100,
+STE-0056,Solutie dezinfectant Optim 33 (1L),Sterilizare,Diagnostic,Acteon Group,Franta,Silicon medical,52.25,4,209.0,2024-06-02,24,2026-05-23,Nou,1,4.8,Da,200,
+CHI-0015,Elevator Apexo nr.301,Chirurgie Orala,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,117.64,3,352.92,2021-01-04,60,2025-12-09,Nou,5,4.9,Da,50,Necesita calibrare anuala
+PAR-0046,Electrobisturiu periochirurgie,Parodontologie,Tratament,Acteon Group,Franta,Aliaj titan-nichel,2419.44,19,45969.36,2021-08-21,36,2024-08-05,Reconditionat,1,3.8,Da,100,Livrare urgenta
+PED-0043,Canula aspiratie pediatrica,Pedodontie,Auxiliar,GC Europe,Belgia,Plastic autoclavabil,27.53,17,468.01,2022-06-24,36,2025-06-08,Nou,1,4.3,Da,1000,Recomandat de medic specialist
+ORT-0063,Retractor obraz Lip Bumper,Ortodontie,Auxiliar,Ormco,SUA,Plastic autoclavabil,42.25,12,507.0,2022-11-04,6,2023-05-03,Nou,1,4.0,Da,Nelimitat,Inlocuieste modelul anterior
+GEN-0044,Oglinda frontala cu maner,General,Auxiliar,Kerr Dental,SUA,Otel inoxidabil,64.25,8,514.0,2023-02-09,60,2028-01-14,Nou,2,3.9,Da,50,
+ORT-0014,Cleste debonding ceramic,Ortodontie,Chirurgie,Dentsply Sirona,Germania,Otel inoxidabil german,243.25,10,2432.5,2022-07-31,60,2027-07-05,Nou,2,4.5,Da,1000,Recomandat de medic specialist
+IMP-0058,Kit sinus lift (6 piese),Implantologie,Tratament,Zimmer Biomet,SUA,Titan,908.4,11,9992.4,2023-01-16,6,2023-07-15,Nou,1,4.3,Da,Nelimitat,
+ORT-0073,Cleste formator arc tip Burstone,Ortodontie,Tratament,3M Oral Care,SUA,Otel inoxidabil german,214.13,7,1498.91,2023-03-15,36,2026-02-27,Nou,2,4.8,Nu,1,Livrare urgenta
+PED-0027,Plugger compozit pediatric,Pedodontie,Chirurgie,Kerr Dental,SUA,Otel inoxidabil,100.16,6,600.96,2023-03-31,6,2023-09-27,Nou,5,4.4,Nu,1000,Necesita calibrare anuala
+IMP-0042,Abutment titan standard,Implantologie,Chirurgie,Straumann Group,Elvetia,Titan,183.37,9,1650.33,2020-12-03,24,2022-11-23,Nou,2,3.6,Da,200,Inlocuieste modelul anterior
+CHI-0043,Cleste extractie dinte de minte 222,Chirurgie Orala,Profilaxie,KaVo Kerr,Germania,Otel inoxidabil german,172.11,15,2581.65,2020-02-03,12,2021-01-28,Nou,1,4.2,Da,Nelimitat,Necesita calibrare anuala
+STE-0014,Baie ultrasunet Biosonic UC300,Sterilizare,Auxiliar,SciCan,Canada,Aluminiu anodizat,1574.31,13,20466.03,2023-09-01,12,2024-08-26,Nou,5,3.6,Nu,Nelimitat,
+ORT-0052,Pin pusher instrucor,Ortodontie,Auxiliar,American Orthodontics,SUA,Otel inoxidabil,54.73,5,273.65,2021-09-26,6,2022-03-25,Nou,1,4.3,Da,1000,Lot special
+GEN-0004,Sonda parodontala CP-15,General,Auxiliar,GC Europe,Belgia,Otel inoxidabil german,90.28,2,180.56,2025-02-24,60,2030-01-29,Nou,4,3.6,Da,500,Verificat la receptie
+STE-0013,Baie ultrasunet Biosonic UC300,Sterilizare,Diagnostic,Densply Romania,Romania,Aluminiu anodizat,779.39,9,7014.51,2025-06-27,36,2028-06-11,Nou,2,3.5,Nu,1000,
+CHI-0022,Elevator Cryer dreapta,Chirurgie Orala,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,128.78,18,2318.04,2020-06-22,36,2023-06-07,Nou,3,4.2,Nu,50,Recomandat de medic specialist
+RAD-0034,Tablier protectie plumb pediatric,Radiologie,Sterilizare,Henry Schein Dental,SUA,Silicon medical,391.01,15,5865.15,2024-01-03,6,2024-07-01,Nou,5,4.5,Da,Nelimitat,Recomandat de medic specialist
+RAD-0044,Film radiologie Speed D (150 buc),Radiologie,Tratament,Henry Schein Dental,SUA,Silicon medical,199.01,12,2388.12,2020-07-18,24,2022-07-08,Nou,1,4.3,Da,500,Inlocuieste modelul anterior
+RAD-0025,Negatoscop LED dentar,Radiologie,Chirurgie,KaVo Kerr,Germania,Aluminiu anodizat,321.45,5,1607.25,2025-07-25,12,2026-07-20,Nou,5,4.9,Nu,1000,
+CHI-0063,Needle holder Hegar 15cm,Chirurgie Orala,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil german,149.7,10,1497.0,2020-01-27,24,2022-01-16,Demo,2,4.8,Da,500,
+STE-0022,Pungi sterilizare 90x230mm (200 buc),Sterilizare,Profilaxie,SciCan,Canada,Silicon medical,73.28,19,1392.32,2020-04-01,24,2022-03-22,Nou,4,4.0,Da,1000,
+GEN-0071,Varf ultrasonic universal,General,Profilaxie,GC Europe,Belgia,Aliaj titan-nichel,69.57,6,417.42,2025-04-11,60,2030-03-16,Nou,3,3.8,Nu,1,Recomandat de medic specialist
+CHI-0048,Retractor Langenbeck,Chirurgie Orala,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil german,68.39,9,615.51,2021-05-05,36,2024-04-19,Nou,1,5.0,Nu,1000,Recomandat de medic specialist
+PRO-0053,Matrice Tofflemire set complet,Prostetica,Auxiliar,GC Europe,Belgia,Otel inoxidabil,155.77,19,2959.63,2022-03-09,60,2027-02-11,Nou,2,4.0,Da,Nelimitat,
+PED-0039,Caseta sterilizare pediatrie,Pedodontie,Profilaxie,Kerr Dental,SUA,Aluminiu anodizat,148.17,8,1185.36,2020-01-15,6,2020-07-13,Demo,4,4.5,Nu,Nelimitat,Lot special
+PAR-0011,Chiureta Gracey 7/8 SG,Parodontologie,Diagnostic,Satelec,Franta,Otel inoxidabil german,111.37,4,445.48,2025-07-30,6,2026-01-26,Nou,4,3.6,Da,Nelimitat,Lot special
+ORT-0005,Cleste bracket Weingart,Ortodontie,Auxiliar,3M Oral Care,SUA,Otel inoxidabil german,202.4,8,1619.2,2024-04-17,12,2025-04-12,Nou,4,3.6,Nu,200,Livrare urgenta
+GEN-0051,Sonda exploratoare nr.23,General,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil,94.69,2,189.38,2020-05-07,12,2021-05-02,Nou,1,4.4,Nu,1000,
+PRO-0051,Matrice Tofflemire set complet,Prostetica,Auxiliar,Kerr Dental,SUA,Otel inoxidabil,176.99,15,2654.85,2024-04-13,24,2026-04-03,Reconditionat,1,3.6,Da,Nelimitat,Lot special
+CHI-0004,Bisturiu maner nr.4,Chirurgie Orala,Diagnostic,Henry Schein Dental,SUA,Otel inoxidabil german,71.33,6,427.98,2025-05-03,60,2030-04-07,Nou,5,4.3,Nu,1000,
+IMP-0055,Osteotom Summers 4mm,Implantologie,Auxiliar,Zimmer Biomet,SUA,Titan,197.61,4,790.44,2020-04-30,24,2022-04-20,Nou,3,4.3,Da,200,Verificat la receptie
+IMP-0059,Motor implant NSK Surgic Pro,Implantologie,Tratament,NSK Europe,Japonia,Aliaj titan-nichel,4865.31,15,72979.65,2023-03-02,24,2025-02-19,Nou,5,4.2,Da,500,Necesita calibrare anuala
+CHI-0019,Elevator Cryer dreapta,Chirurgie Orala,Diagnostic,GC Europe,Belgia,Otel inoxidabil german,145.99,17,2481.83,2020-02-09,24,2022-01-29,Nou,1,4.1,Da,200,Necesita calibrare anuala
+IMP-0026,Foret secvential 3.5mm,Implantologie,Tratament,NSK Europe,Japonia,Carbura de tungsten,105.34,13,1369.42,2020-01-19,12,2021-01-13,Nou,1,4.4,Da,100,Lot special
+PAR-0042,Needle holder Castroviejo,Parodontologie,Sterilizare,Mectron,Italia,Otel inoxidabil german,153.31,4,613.24,2021-12-20,60,2026-11-24,Nou,3,4.8,Da,100,
+PED-0002,Oglinda pediatrica nr.2,Pedodontie,Auxiliar,GC Europe,Belgia,Otel inoxidabil,37.92,16,606.72,2025-11-23,36,2028-11-07,Nou,5,3.6,Da,200,Necesita calibrare anuala
+CHI-0001,Bisturiu maner nr.3,Chirurgie Orala,Diagnostic,Henry Schein Dental,SUA,Otel inoxidabil german,38.35,9,345.15,2022-01-07,60,2026-12-12,Reconditionat,5,5.0,Da,1,Inlocuieste modelul anterior
+ORT-0007,Cleste taiere ligatura,Ortodontie,Auxiliar,American Orthodontics,SUA,Carbon,122.15,5,610.75,2020-11-02,36,2023-10-18,Nou,3,4.0,Da,Nelimitat,Sterilizabil autoclav
+PED-0038,Caseta sterilizare pediatrie,Pedodontie,Diagnostic,Kerr Dental,SUA,Aluminiu anodizat,139.34,13,1811.42,2024-03-18,6,2024-09-14,Nou,5,3.7,Da,500,Necesita calibrare anuala
+PRO-0007,Lingura amprenta superioara S,Prostetica,Tratament,3M Oral Care,SUA,Aluminiu anodizat,17.38,20,347.6,2020-01-27,12,2021-01-21,Nou,3,4.4,Da,50,Lot special
+STE-0036,Indicator chimic sterilizare clasa 5 (250 buc),Sterilizare,Diagnostic,SciCan,Canada,Silicon medical,60.46,8,483.68,2022-11-02,60,2027-10-07,Nou,3,4.9,Da,Nelimitat,Inlocuieste modelul anterior
+CHI-0074,Pensa Kocher dreapta,Chirurgie Orala,Diagnostic,GC Europe,Belgia,Otel inoxidabil german,96.73,5,483.65,2020-03-16,36,2023-03-01,Nou,5,3.6,Da,50,
+ORT-0047,Cleste Nance,Ortodontie,Sterilizare,3M Oral Care,SUA,Otel inoxidabil german,141.55,17,2406.35,2021-09-09,6,2022-03-08,Nou,3,5.0,Da,1,
+PED-0024,Portamalgam pediatric,Pedodontie,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil german,120.41,19,2287.79,2022-09-07,12,2023-09-02,Nou,5,3.8,Da,200,
+ORT-0034,Arc NiTi dreptunghic 0.019x0.025 (10 buc),Ortodontie,Auxiliar,3M Oral Care,SUA,Aliaj titan-nichel,36.59,9,329.31,2023-06-19,24,2025-06-08,Nou,2,4.8,Nu,1,Recomandat de medic specialist
+GEN-0043,Oglinda frontala cu maner,General,Profilaxie,Kerr Dental,SUA,Otel inoxidabil,78.39,18,1411.02,2023-07-23,36,2026-07-07,Nou,5,4.1,Da,1000,Lot special
+ORT-0031,Arc NiTi dreptunghic 0.019x0.025 (10 buc),Ortodontie,Diagnostic,Dentsply Sirona,Germania,Aliaj titan-nichel,38.69,3,116.07,2021-01-16,36,2024-01-01,Nou,3,4.7,Da,1000,Lot special
+ORT-0035,Bracket metalic MBT (set 20),Ortodontie,Auxiliar,Ormco,SUA,Otel inoxidabil,202.02,17,3434.34,2022-05-31,36,2025-05-15,Nou,3,3.7,Da,Nelimitat,Verificat la receptie
+ORT-0040,Bracket ceramic (set 20),Ortodontie,Profilaxie,Ormco,SUA,Silicon medical,507.57,15,7613.55,2020-11-14,24,2022-11-04,Nou,5,4.1,Da,1,Inlocuieste modelul anterior
+PRO-0009,Lingura amprenta superioara M,Prostetica,Tratament,3M Oral Care,SUA,Aluminiu anodizat,44.81,6,268.86,2023-03-10,60,2028-02-12,Nou,5,4.4,Nu,1000,Lot special
+STE-0001,Autoclav clasa B Melag 22B,Sterilizare,Tratament,SciCan,Canada,Aluminiu anodizat,6286.73,3,18860.19,2021-04-22,12,2022-04-17,Reconditionat,4,4.0,Nu,500,Necesita calibrare anuala
+GEN-0052,Sonda exploratoare nr.23,General,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil,79.48,7,556.36,2025-03-19,24,2027-03-09,Nou,2,4.4,Da,1,
+ORT-0033,Arc NiTi dreptunghic 0.019x0.025 (10 buc),Ortodontie,Sterilizare,Dentsply Sirona,Germania,Aliaj titan-nichel,47.33,4,189.32,2023-12-05,60,2028-11-08,Nou,3,4.4,Da,500,Sterilizabil autoclav
+PED-0007,Matrice sectoriala pediatrica (set),Pedodontie,Auxiliar,Hu-Friedy Europe,Germania,Otel inoxidabil,64.88,18,1167.84,2023-04-01,24,2025-03-21,Nou,4,3.9,Da,50,
+END-0013,Ace rotative ProTaper Gold (set 6),Endodontie,Chirurgie,Acteon Group,Franta,Aliaj titan-nichel,153.06,16,2448.96,2023-11-10,60,2028-10-14,Nou,4,3.9,Da,1,
+GEN-0048,Pensa pentru vata,General,Sterilizare,Kerr Dental,SUA,Otel inoxidabil,49.28,13,640.64,2023-10-08,36,2026-09-22,Nou,4,4.9,Da,200,Recomandat de medic specialist
+PAR-0043,Needle holder Castroviejo,Parodontologie,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil german,184.57,1,184.57,2025-09-08,6,2026-03-07,Nou,5,4.1,Da,500,Recomandat de medic specialist
+PAR-0028,Sonda parodontala Williams,Parodontologie,Auxiliar,Acteon Group,Franta,Otel inoxidabil german,87.11,11,958.21,2024-01-17,24,2026-01-06,Nou,5,4.3,Da,1,Lot special
+END-0004,Ace K-File 25mm nr.15 (6 buc),Endodontie,Tratament,KaVo Kerr,Germania,Aliaj titan-nichel,26.05,9,234.45,2023-07-14,36,2026-06-28,Nou,3,4.0,Da,50,Verificat la receptie
+PRO-0039,Freza ceramica (set 10),Prostetica,Diagnostic,GC Europe,Belgia,Carbon,101.78,3,305.34,2020-03-05,12,2021-02-28,Nou,4,4.5,Da,1000,
+IMP-0029,Formator os rotund,Implantologie,Tratament,Straumann Group,Elvetia,Titan,82.39,5,411.95,2025-09-23,36,2028-09-07,Nou,2,4.4,Nu,1000,Sterilizabil autoclav
+ORT-0050,Cleste distal end cutter,Ortodontie,Auxiliar,American Orthodontics,SUA,Carbon,213.76,10,2137.6,2024-05-24,12,2025-05-19,Nou,1,4.0,Da,Nelimitat,Sterilizabil autoclav
+IMP-0032,Formator os rotund,Implantologie,Sterilizare,Straumann Group,Elvetia,Titan,140.61,8,1124.88,2023-04-11,6,2023-10-08,Nou,5,3.9,Nu,500,Livrare urgenta
+ORT-0043,Banda molar cu tub (set 4),Ortodontie,Auxiliar,3M Oral Care,SUA,Otel inoxidabil,71.33,5,356.65,2022-08-25,6,2023-02-21,Nou,2,3.8,Da,50,
+CHI-0069,Trusa extractie completa (20 piese),Chirurgie Orala,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,3115.57,9,28040.13,2020-12-14,36,2023-11-29,Nou,2,4.6,Da,200,Livrare urgenta
+PAR-0025,Varf ultrasonic paro TFI-10,Parodontologie,Diagnostic,Hu-Friedy Europe,Germania,Aliaj titan-nichel,71.4,14,999.6,2023-02-17,60,2028-01-22,Nou,2,4.4,Da,200,Verificat la receptie
+STE-0016,Baie ultrasunet Biosonic UC300,Sterilizare,Diagnostic,SciCan,Canada,Aluminiu anodizat,1591.45,4,6365.8,2024-04-20,36,2027-04-05,Nou,4,4.2,Da,500,
+GEN-0033,Chiureta universala Columbia,General,Chirurgie,Henry Schein Dental,SUA,Otel inoxidabil german,140.86,4,563.44,2024-04-15,6,2024-10-12,Nou,2,3.8,Da,Nelimitat,Livrare urgenta
+PRO-0056,Pana interdentara lemn (100 buc),Prostetica,Chirurgie,Kerr Dental,SUA,Silicon medical,18.78,3,56.34,2025-01-31,24,2027-01-21,Nou,3,3.9,Da,200,
+PED-0031,Deschizator buze pediatric,Pedodontie,Profilaxie,GC Europe,Belgia,Plastic autoclavabil,27.14,19,515.66,2020-02-16,24,2022-02-05,Nou,2,3.6,Da,50,
+PED-0015,Cleste extractie 151S pediatric,Pedodontie,Sterilizare,Kerr Dental,SUA,Otel inoxidabil german,147.51,2,295.02,2020-06-08,12,2021-06-03,Nou,4,4.3,Da,100,
+PAR-0045,Electrobisturiu periochirurgie,Parodontologie,Tratament,Hu-Friedy Europe,Germania,Aliaj titan-nichel,2114.21,17,35941.57,2020-02-13,12,2021-02-07,Nou,5,4.5,Nu,50,Lot special
+END-0007,Ace K-File 25mm nr.15 (6 buc),Endodontie,Diagnostic,NSK Europe,Japonia,Aliaj titan-nichel,23.04,8,184.32,2023-12-28,36,2026-12-12,Nou,3,3.9,Nu,Nelimitat,
+PAR-0047,Electrobisturiu periochirurgie,Parodontologie,Auxiliar,Mectron,Italia,Aliaj titan-nichel,1821.23,7,12748.61,2025-10-22,24,2027-10-12,Nou,4,4.8,Da,1,
+GEN-0019,Deschizator de gura Molt,General,Chirurgie,GC Europe,Belgia,Otel inoxidabil german,96.04,4,384.16,2022-10-15,12,2023-10-10,Nou,4,3.7,Nu,50,
+GEN-0049,Pensa pentru vata,General,Profilaxie,Densply Romania,Romania,Otel inoxidabil,53.22,1,53.22,2020-12-09,36,2023-11-24,Nou,4,3.8,Da,50,Verificat la receptie
+STE-0067,Masca chirurgicala tip IIR (50 buc),Sterilizare,Auxiliar,SciCan,Canada,Silicon medical,21.08,1,21.08,2021-12-04,36,2024-11-18,Nou,4,4.8,Nu,100,Recomandat de medic specialist
+IMP-0040,Membrane colagenica resorbabila,Implantologie,Diagnostic,Zimmer Biomet,SUA,Silicon medical,252.53,11,2777.83,2021-06-18,60,2026-05-23,Nou,3,4.8,Da,1000,
+END-0050,Lupе binoculare 3.5x,Endodontie,Diagnostic,NSK Europe,Japonia,Aluminiu anodizat,1147.74,15,17216.1,2021-04-27,36,2024-04-11,Nou,5,4.4,Nu,50,Recomandat de medic specialist
+PRO-0046,Spatula composite Goldstein,Prostetica,Diagnostic,Dentsply Sirona,Germania,Otel inoxidabil german,77.05,3,231.15,2023-02-12,24,2025-02-01,Nou,3,3.9,Da,500,Verificat la receptie
+STE-0034,Cassete Hu-Friedy IMS marime L,Sterilizare,Chirurgie,SciCan,Canada,Aluminiu anodizat,137.15,9,1234.35,2024-12-05,36,2027-11-20,Nou,5,3.6,Da,100,Lot special
+ORT-0030,Arc NiTi dreptunghic 0.019x0.025 (10 buc),Ortodontie,Chirurgie,American Orthodontics,SUA,Aliaj titan-nichel,57.76,15,866.4,2024-06-21,36,2027-06-06,Nou,3,4.1,Da,50,Inlocuieste modelul anterior
+PRO-0044,Polisher ceramica (set 5),Prostetica,Auxiliar,3M Oral Care,SUA,Carbon,100.92,11,1110.12,2024-09-20,24,2026-09-10,Reconditionat,3,3.9,Da,1000,
+PED-0013,Cleste extractie 150S pediatric,Pedodontie,Profilaxie,Kerr Dental,SUA,Otel inoxidabil german,130.74,13,1699.62,2020-07-28,60,2025-07-02,Nou,3,4.3,Nu,Nelimitat,
+IMP-0004,Trusa implant Nobel Biocare (set complet),Implantologie,Profilaxie,Straumann Group,Elvetia,Titan,3145.95,13,40897.35,2024-03-24,60,2029-02-26,Nou,1,4.6,Nu,1000,
+PED-0030,Deschizator buze pediatric,Pedodontie,Profilaxie,Hu-Friedy Europe,Germania,Plastic autoclavabil,16.8,5,84.0,2025-05-09,24,2027-04-29,Reconditionat,1,3.9,Da,100,
+ORT-0059,Elastice ortodontice 1/4 (100 buc),Ortodontie,Diagnostic,American Orthodontics,SUA,Silicon medical,10.34,10,103.4,2025-04-19,12,2026-04-14,Nou,4,4.2,Da,100,
+PRO-0035,Lupе binoculare protetic 2.5x,Prostetica,Chirurgie,GC Europe,Belgia,Aluminiu anodizat,760.84,10,7608.4,2024-05-16,60,2029-04-20,Nou,2,3.8,Da,200,Necesita calibrare anuala
+STE-0060,Container deseuri taioase 1L (10 buc),Sterilizare,Profilaxie,Densply Romania,Romania,Plastic autoclavabil,40.08,10,400.8,2021-06-21,24,2023-06-11,Nou,3,4.3,Nu,200,Livrare urgenta
+END-0029,Spatula amestec MTA,Endodontie,Tratament,Acteon Group,Franta,Otel inoxidabil,46.09,13,599.17,2024-02-22,12,2025-02-16,Nou,3,4.2,Da,500,Verificat la receptie
+IMP-0012,Implant titan 4.1x12mm,Implantologie,Auxiliar,Straumann Group,Elvetia,Titan,285.25,3,855.75,2023-08-21,36,2026-08-05,Nou,4,4.1,Da,500,
+STE-0006,Autoclav clasa S SciCan Statim 5000,Sterilizare,Auxiliar,W&H Dentalwerk,Austria,Aluminiu anodizat,9794.87,10,97948.7,2021-12-04,60,2026-11-08,Nou,1,4.9,Nu,100,Lot special
+PRO-0024,Articulator semiadaptabil Whip-Mix,Prostetica,Chirurgie,GC Europe,Belgia,Aliaj titan-nichel,476.27,9,4286.43,2025-12-20,24,2027-12-10,Nou,1,3.9,Da,1,
+PAR-0048,Electrobisturiu periochirurgie,Parodontologie,Sterilizare,Mectron,Italia,Aliaj titan-nichel,2902.77,9,26124.93,2021-12-13,36,2024-11-27,Nou,3,4.4,Da,200,
+CHI-0055,Foarfece chirurgical Dean,Chirurgie Orala,Tratament,KaVo Kerr,Germania,Otel inoxidabil german,81.6,17,1387.2,2020-09-30,6,2021-03-29,Nou,2,3.8,Da,200,
+CHI-0028,Cleste extractie 151 inferior,Chirurgie Orala,Diagnostic,Henry Schein Dental,SUA,Otel inoxidabil german,234.38,17,3984.46,2025-12-27,24,2027-12-17,Nou,3,3.9,Nu,1,Recomandat de medic specialist
+END-0040,Termoplastor Obtura III Max,Endodontie,Chirurgie,KaVo Kerr,Germania,Aliaj titan-nichel,1856.46,7,12995.22,2020-08-24,12,2021-08-19,Nou,1,4.9,Da,Nelimitat,
+ORT-0061,Ligatura metalica (1000 buc),Ortodontie,Sterilizare,Dentsply Sirona,Germania,Otel inoxidabil,16.88,16,270.08,2020-03-08,60,2025-02-10,Nou,2,3.9,Da,50,
+PRO-0020,Lingura amprenta inferioara M,Prostetica,Tratament,3M Oral Care,SUA,Aluminiu anodizat,17.6,8,140.8,2024-03-02,36,2027-02-15,Nou,3,3.8,Da,100,Verificat la receptie
+PAR-0027,Varf ultrasonic paro TFI-10,Parodontologie,Profilaxie,Mectron,Italia,Aliaj titan-nichel,81.78,6,490.68,2025-11-02,6,2026-05-01,Nou,2,4.1,Da,100,Lot special
+IMP-0024,Foret pilot 2.0mm,Implantologie,Sterilizare,Zimmer Biomet,SUA,Carbura de tungsten,48.35,4,193.4,2020-04-02,24,2022-03-23,Nou,2,4.9,Da,500,
+PRO-0060,Cheie silicon inregistrare ocluzie,Prostetica,Auxiliar,Kerr Dental,SUA,Silicon medical,51.66,19,981.54,2020-01-16,60,2024-12-20,Nou,4,4.2,Da,500,Sterilizabil autoclav
+STE-0023,Pungi sterilizare 150x300mm (200 buc),Sterilizare,Diagnostic,Acteon Group,Franta,Silicon medical,83.76,11,921.36,2021-11-13,60,2026-10-18,Nou,4,3.8,Da,100,Inlocuieste modelul anterior
+CHI-0077,Pensa Kocher dreapta,Chirurgie Orala,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,52.98,17,900.66,2023-06-02,24,2025-05-22,Nou,2,3.5,Da,1000,Inlocuieste modelul anterior
+PAR-0032,Sonda Nabers furcatie,Parodontologie,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil german,71.45,14,1000.3,2020-10-22,12,2021-10-17,Nou,3,3.6,Da,Nelimitat,
+PRO-0021,Lingura amprenta partiala,Prostetica,Profilaxie,GC Europe,Belgia,Aluminiu anodizat,51.97,15,779.55,2025-09-03,6,2026-03-02,Nou,5,3.7,Da,Nelimitat,Necesita calibrare anuala
+PED-0049,Set freze pediatrie (10 buc),Pedodontie,Tratament,GC Europe,Belgia,Carbon,172.43,12,2069.16,2025-10-01,36,2028-09-15,Nou,4,4.6,Da,100,Necesita calibrare anuala
+END-0034,Spreader endodontic D11T,Endodontie,Sterilizare,Dentsply Sirona,Germania,Otel inoxidabil german,112.92,20,2258.4,2025-11-10,36,2028-10-25,Nou,2,3.7,Da,1,Recomandat de medic specialist
+PED-0018,Coroana metalica prefabricata NiCr (set 5),Pedodontie,Tratament,Kerr Dental,SUA,Aliaj titan-nichel,69.49,20,1389.8,2024-04-06,12,2025-04-01,Nou,2,3.5,Da,200,
+GEN-0022,Pensa hemostaza Halsted,General,Diagnostic,Densply Romania,Romania,Otel inoxidabil,104.64,16,1674.24,2021-09-26,12,2022-09-21,Nou,1,4.4,Da,1,Lot special
+STE-0063,Container deseuri taioase 1L (10 buc),Sterilizare,Diagnostic,Densply Romania,Romania,Plastic autoclavabil,27.01,5,135.05,2023-05-15,12,2024-05-09,Nou,3,4.4,Da,500,Lot special
+CHI-0088,Spatula Tucker,Chirurgie Orala,Profilaxie,Hu-Friedy Europe,Germania,Otel inoxidabil,84.04,17,1428.68,2020-07-20,12,2021-07-15,Nou,4,4.8,Da,200,Verificat la receptie
+PAR-0035,Chiureta Langer 1/2,Parodontologie,Tratament,Mectron,Italia,Otel inoxidabil german,121.41,10,1214.1,2024-11-27,36,2027-11-12,Nou,1,4.2,Da,1000,Lot special
+PRO-0047,Spatula composite Goldstein,Prostetica,Profilaxie,GC Europe,Belgia,Otel inoxidabil german,151.46,5,757.3,2025-01-03,24,2026-12-24,Nou,3,4.7,Da,Nelimitat,
+STE-0053,Gel lubrifiant instrumente (500ml),Sterilizare,Diagnostic,Densply Romania,Romania,Silicon medical,58.13,16,930.08,2020-06-16,36,2023-06-01,Nou,5,4.2,Da,1,Livrare urgenta
+PRO-0025,Articulator mediu Hanau Wide-Vue,Prostetica,Diagnostic,GC Europe,Belgia,Aliaj titan-nichel,775.52,18,13959.36,2023-07-28,24,2025-07-17,Nou,3,4.4,Da,500,
+CHI-0056,Foarfece chirurgical Dean,Chirurgie Orala,Tratament,Henry Schein Dental,SUA,Otel inoxidabil german,80.37,19,1527.03,2024-05-10,36,2027-04-25,Nou,5,3.9,Da,1,Necesita calibrare anuala
+END-0014,Ace rotative ProTaper Gold (set 6),Endodontie,Tratament,NSK Europe,Japonia,Aliaj titan-nichel,92.32,16,1477.12,2025-12-08,24,2027-11-28,Nou,2,5.0,Da,100,
+GEN-0066,Dispozitiv detartraj ultrasonic EMS,General,Sterilizare,Densply Romania,Romania,Aliaj titan-nichel,1296.37,4,5185.48,2022-05-01,12,2023-04-26,Nou,1,3.7,Da,50,
+RAD-0041,Guler tiroidian protectie,Radiologie,Profilaxie,Henry Schein Dental,SUA,Silicon medical,148.25,10,1482.5,2024-09-04,12,2025-08-30,Nou,2,3.5,Da,500,Verificat la receptie
+PAR-0003,Chiureta Gracey 1/2 SG,Parodontologie,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil german,146.88,2,293.76,2023-04-05,24,2025-03-25,Nou,3,4.1,Da,1,
+STE-0055,Solutie dezinfectant Optim 33 (1L),Sterilizare,Diagnostic,SciCan,Canada,Silicon medical,46.04,19,874.76,2022-01-09,36,2024-12-24,Reconditionat,2,4.7,Da,1,Inlocuieste modelul anterior
+GEN-0020,Deschizator de gura Molt,General,Tratament,Hu-Friedy Europe,Germania,Otel inoxidabil german,71.02,18,1278.36,2021-02-05,6,2021-08-04,Nou,5,4.8,Da,200,
+RAD-0015,Sortier radiologie panoramica,Radiologie,Auxiliar,Dentsply Sirona,Germania,Aluminiu anodizat,1323.45,17,22498.65,2025-06-26,12,2026-06-21,Nou,4,3.9,Da,50,Sterilizabil autoclav
+GEN-0063,Tava instrument inox,General,Tratament,Henry Schein Dental,SUA,Otel inoxidabil,73.7,16,1179.2,2021-02-24,6,2021-08-23,Nou,4,4.2,Da,100,Necesita calibrare anuala
+IMP-0037,Elevator periost Goldman-Fox,Implantologie,Profilaxie,NSK Europe,Japonia,Otel inoxidabil german,176.06,9,1584.54,2021-06-03,12,2022-05-29,Nou,3,4.7,Nu,50,Inlocuieste modelul anterior
+STE-0045,Distilator apa Aqua 4 Melag,Sterilizare,Profilaxie,Densply Romania,Romania,Aluminiu anodizat,1811.32,14,25358.48,2022-04-26,60,2027-03-31,Nou,3,4.6,Da,200,
+PRO-0066,Brunissoir sferic nr.2,Prostetica,Diagnostic,GC Europe,Belgia,Otel inoxidabil german,100.11,2,200.22,2021-08-02,36,2024-07-17,Nou,4,4.9,Da,1000,Recomandat de medic specialist
+PRO-0038,Freza ceramica (set 10),Prostetica,Profilaxie,3M Oral Care,SUA,Carbon,132.7,18,2388.6,2022-05-15,12,2023-05-10,Nou,2,4.3,Da,100,Necesita calibrare anuala
+CHI-0038,Cleste extractie molar inferior 23,Chirurgie Orala,Diagnostic,GC Europe,Belgia,Otel inoxidabil german,204.05,3,612.15,2024-12-14,24,2026-12-04,Nou,3,3.7,Da,100,
+PRO-0040,Freza ceramica (set 10),Prostetica,Profilaxie,3M Oral Care,SUA,Carbon,192.52,20,3850.4,2024-10-09,60,2029-09-13,Nou,5,4.1,Da,50,Livrare urgenta
+GEN-0038,Scaler sickle H6/H7,General,Profilaxie,GC Europe,Belgia,Otel inoxidabil german,104.35,7,730.45,2024-09-18,36,2027-09-03,Nou,2,4.4,Da,100,Verificat la receptie
+END-0037,Termoplastor Obtura III Max,Endodontie,Tratament,Dentsply Sirona,Germania,Aliaj titan-nichel,1238.55,10,12385.5,2023-06-27,24,2025-06-16,Nou,1,5.0,Da,1000,
+RAD-0042,Guler tiroidian protectie,Radiologie,Chirurgie,Henry Schein Dental,SUA,Silicon medical,114.79,16,1836.64,2024-11-21,24,2026-11-11,Nou,4,5.0,Da,Nelimitat,
+STE-0021,Pungi sterilizare 90x230mm (200 buc),Sterilizare,Sterilizare,Acteon Group,Franta,Silicon medical,41.3,6,247.8,2020-03-21,60,2025-02-23,Nou,4,4.5,Nu,100,Sterilizabil autoclav
+PRO-0048,Spatula composite Goldstein,Prostetica,Profilaxie,Dentsply Sirona,Germania,Otel inoxidabil german,97.57,3,292.71,2021-08-17,60,2026-07-22,Reconditionat,2,4.8,Da,1000,Sterilizabil autoclav
+CHI-0054,Pensa Adson cu dinti,Chirurgie Orala,Sterilizare,Hu-Friedy Europe,Germania,Otel inoxidabil german,91.08,18,1639.44,2024-05-06,12,2025-05-01,Nou,4,4.6,Da,100,
+CHI-0071,Trusa extractie completa (20 piese),Chirurgie Orala,Chirurgie,GC Europe,Belgia,Otel inoxidabil german,2816.5,12,33798.0,2022-02-19,24,2024-02-09,Nou,1,4.7,Nu,500,
+ORT-0032,Arc NiTi dreptunghic 0.019x0.025 (10 buc),Ortodontie,Tratament,Ormco,SUA,Aliaj titan-nichel,57.59,14,806.26,2020-07-29,24,2022-07-19,Nou,3,3.7,Da,1000,Lot special
+GEN-0009,Excavator dublu 17/18,General,Auxiliar,Henry Schein Dental,SUA,Otel inoxidabil,94.84,5,474.2,2025-09-18,36,2028-09-02,Nou,1,4.8,Da,Nelimitat,
+PAR-0021,Scaler ultrasonic Cavitron,Parodontologie,Chirurgie,Hu-Friedy Europe,Germania,Aliaj titan-nichel,2270.76,5,11353.8,2020-08-05,6,2021-02-01,Nou,2,5.0,Da,Nelimitat,Inlocuieste modelul anterior
+GEN-0053,Sonda exploratoare nr.23,General,Tratament,Densply Romania,Romania,Otel inoxidabil,41.8,10,418.0,2024-03-17,36,2027-03-02,Reconditionat,2,3.6,Da,1000,Inlocuieste modelul anterior
+CHI-0030,Cleste extractie molar superior 53R,Chirurgie Orala,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,175.88,12,2110.56,2022-03-25,60,2027-02-27,Nou,5,3.8,Da,1000,Verificat la receptie
+STE-0012,Baie ultrasunet Biosonic UC300,Sterilizare,Sterilizare,Densply Romania,Romania,Aluminiu anodizat,936.24,19,17788.56,2023-01-23,36,2026-01-07,Nou,5,4.9,Da,50,Livrare urgenta
+END-0041,Cavit W temporar (kit),Endodontie,Sterilizare,Acteon Group,Franta,Silicon medical,86.3,4,345.2,2020-05-05,12,2021-04-30,Nou,5,4.2,Da,100,Livrare urgenta
+IMP-0006,Trusa implant Straumann (set complet),Implantologie,Tratament,Nobel Biocare,Elvetia,Titan,6915.07,11,76065.77,2020-03-05,12,2021-02-28,Nou,4,4.9,Da,500,Verificat la receptie
+IMP-0048,Cover screw implant,Implantologie,Auxiliar,Straumann Group,Elvetia,Titan,58.92,10,589.2,2022-04-21,60,2027-03-26,Nou,2,4.6,Da,Nelimitat,Verificat la receptie
+STE-0028,Cassete Hu-Friedy IMS marime M,Sterilizare,Chirurgie,Densply Romania,Romania,Aluminiu anodizat,115.68,5,578.4,2023-05-14,36,2026-04-28,Nou,1,4.5,Da,1000,Sterilizabil autoclav
+PRO-0001,Spatula amestec silicon (set 3),Prostetica,Auxiliar,Dentsply Sirona,Germania,Otel inoxidabil,84.85,5,424.25,2025-03-13,36,2028-02-26,Nou,5,3.7,Da,200,Recomandat de medic specialist
+GEN-0021,Pensa hemostaza Halsted,General,Chirurgie,Kerr Dental,SUA,Otel inoxidabil,71.03,13,923.39,2020-08-28,12,2021-08-23,Nou,4,3.9,Nu,1000,Livrare urgenta
+PRO-0023,Articulator semiadaptabil Whip-Mix,Prostetica,Auxiliar,Dentsply Sirona,Germania,Aliaj titan-nichel,546.64,2,1093.28,2021-02-26,60,2026-01-31,Nou,3,3.5,Da,100,Verificat la receptie
+PRO-0037,Lupе binoculare protetic 2.5x,Prostetica,Profilaxie,Dentsply Sirona,Germania,Aluminiu anodizat,480.52,18,8649.36,2024-01-11,6,2024-07-09,Nou,1,3.9,Da,1000,Recomandat de medic specialist
+CHI-0084,Malet chirurgical inox,Chirurgie Orala,Tratament,KaVo Kerr,Germania,Otel inoxidabil,72.55,16,1160.8,2021-07-03,60,2026-06-07,Nou,4,4.6,Nu,200,Necesita calibrare anuala
+PED-0009,Matrice sectoriala pediatrica (set),Pedodontie,Tratament,Henry Schein Dental,SUA,Otel inoxidabil,80.64,17,1370.88,2021-03-10,24,2023-02-28,Nou,1,3.9,Da,1,
+PED-0023,Portamalgam pediatric,Pedodontie,Chirurgie,GC Europe,Belgia,Otel inoxidabil german,150.98,3,452.94,2023-11-19,36,2026-11-03,Nou,4,3.8,Da,50,Lot special
+ORT-0046,Banda molar cu tub (set 4),Ortodontie,Auxiliar,3M Oral Care,SUA,Otel inoxidabil,107.38,3,322.14,2021-01-04,60,2025-12-09,Nou,4,4.2,Da,200,Lot special
+GEN-0023,Pensa hemostaza Halsted,General,Diagnostic,Hu-Friedy Europe,Germania,Otel inoxidabil,98.81,17,1679.77,2025-12-15,12,2026-12-10,Nou,5,3.6,Da,1000,
+CHI-0061,Needle holder Hegar 15cm,Chirurgie Orala,Sterilizare,KaVo Kerr,Germania,Otel inoxidabil german,153.76,11,1691.36,2024-03-02,36,2027-02-15,Nou,4,4.7,Da,500,Necesita calibrare anuala
+PRO-0026,Articulator mediu Hanau Wide-Vue,Prostetica,Diagnostic,Kerr Dental,SUA,Aliaj titan-nichel,774.35,2,1548.7,2021-06-16,6,2021-12-13,Nou,1,3.7,Nu,200,
+PED-0004,Sonda pediatrica angulata,Pedodontie,Chirurgie,Henry Schein Dental,SUA,Otel inoxidabil,58.38,6,350.28,2023-08-14,12,2024-08-08,Nou,5,4.8,Da,1000,
+PRO-0015,Lingura amprenta superioara L,Prostetica,Diagnostic,GC Europe,Belgia,Aluminiu anodizat,35.7,9,321.3,2020-10-04,24,2022-09-24,Nou,5,4.0,Da,100,
+END-0048,Lupе binoculare 3.5x,Endodontie,Auxiliar,NSK Europe,Japonia,Aluminiu anodizat,1267.57,8,10140.56,2025-12-29,36,2028-12-13,Nou,3,4.3,Da,100,
+ORT-0015,Cleste debonding ceramic,Ortodontie,Chirurgie,Ormco,SUA,Otel inoxidabil german,254.54,2,509.08,2023-06-19,36,2026-06-03,Nou,3,4.6,Da,1000,
+PED-0048,Oglinda pediatrica cu iluminare LED,Pedodontie,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil,101.02,16,1616.32,2022-09-20,60,2027-08-25,Nou,4,4.9,Da,200,Lot special
+RAD-0026,Dispozitiv pozitionare senzor XCP,Radiologie,Sterilizare,KaVo Kerr,Germania,Plastic autoclavabil,143.54,15,2153.1,2020-03-28,24,2022-03-18,Nou,1,4.8,Da,200,
+CHI-0075,Pensa Kocher dreapta,Chirurgie Orala,Chirurgie,KaVo Kerr,Germania,Otel inoxidabil german,53.98,1,53.98,2020-09-29,36,2023-09-14,Nou,3,4.8,Nu,50,
+IMP-0047,Cover screw implant,Implantologie,Auxiliar,NSK Europe,Japonia,Titan,37.58,5,187.9,2022-10-11,24,2024-09-30,Nou,2,4.3,Da,Nelimitat,Recomandat de medic specialist
+PED-0001,Oglinda pediatrica nr.2,Pedodontie,Tratament,Henry Schein Dental,SUA,Otel inoxidabil,55.57,1,55.57,2024-01-18,60,2028-12-22,Nou,4,4.7,Da,1,Lot special
+PRO-0033,Lupе binoculare protetic 2.5x,Prostetica,Sterilizare,Kerr Dental,SUA,Aluminiu anodizat,824.15,15,12362.25,2021-12-22,24,2023-12-12,Reconditionat,1,4.4,Nu,100,Inlocuieste modelul anterior
+IMP-0014,Implant titan 4.8x10mm,Implantologie,Diagnostic,Straumann Group,Elvetia,Titan,293.89,8,2351.12,2025-07-23,60,2030-06-27,Nou,4,3.7,Nu,100,Verificat la receptie
+GEN-0028,Chiureta Gracey 11/12,General,Chirurgie,Hu-Friedy Europe,Germania,Otel inoxidabil german,128.11,5,640.55,2023-01-20,24,2025-01-09,Nou,3,3.8,Nu,100,Inlocuieste modelul anterior

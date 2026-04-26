@@ -1,0 +1,379 @@
+{% extends 'base.html' %}
+
+{% block titlu %}{{ titlu }}{% endblock %}
+
+{% block continut %}
+<h2 class="mb-4">{{ titlu }}</h2>
+
+<form method="POST" id="formProgramare">
+    {{ form.hidden_tag() }}
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    {{ form.pacient_id.label(class='form-label') }}
+                    {{ form.pacient_id(class='form-select') }}
+                    {% for err in form.pacient_id.errors %}
+                        <div class="text-danger small">{{ err }}</div>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6">
+                    {{ form.medic_id.label(class='form-label') }}
+                    {{ form.medic_id(class='form-select', id='selectMedic') }}
+                    {% for err in form.medic_id.errors %}
+                        <div class="text-danger small">{{ err }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    {{ form.status.label(class='form-label') }}
+                    {{ form.status(class='form-select') }}
+                </div>
+            </div>
+            <div class="mb-3">
+                {{ form.motiv.label(class='form-label') }}
+                {{ form.motiv(class='form-control', rows=3) }}
+                {% for err in form.motiv.errors %}
+                    <div class="text-danger small">{{ err }}</div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" name="data" id="inputData">
+    <input type="hidden" name="ora" id="inputOra">
+    <input type="hidden" name="ora_sfarsit" id="inputOraSfarsit">
+
+    <div class="alert alert-info mb-3" id="selectieInfo">
+        📅 Trage pe calendar pentru a selecta intervalul programării (start → sfârșit).
+    </div>
+    <div class="alert alert-success mb-3 d-none" id="selectieConfirmata">
+        ✅ Programare: <strong id="textSelectie"></strong>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <button type="button" class="btn btn-outline-secondary btn-sm" id="btnSaptPrev">← Anterioară</button>
+            <strong id="titluSaptamana"></strong>
+            <button type="button" class="btn btn-outline-secondary btn-sm" id="btnSaptNext">Următoare →</button>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-bordered mb-0 calendar-table" id="calendarTable">
+                    <thead class="table-dark"><tr id="headerZile"></tr></thead>
+                    <tbody id="bodyCalendar"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex gap-2 mt-3">
+        {{ form.submit(class='btn btn-primary', id='btnSubmit') }}
+        <a href="{{ url_for('programari.lista') }}" class="btn btn-secondary">Anulează</a>
+    </div>
+
+    </form>
+
+    {% if programare is defined and programare %}
+    <form method="POST" action="{{ url_for('programari.sterge', id=programare.id) }}"
+          class="mt-2"
+          onsubmit="return confirm('Ești sigur că vrei să ștergi această programare?')">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <button type="submit" class="btn btn-danger">🗑 Șterge programarea</button>
+    </form>
+    {% endif %}
+</form>
+
+<style>
+.calendar-table td, .calendar-table th { padding: 0; }
+.slot {
+    height: 32px;
+    box-sizing: border-box;
+    padding: 2px 4px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    user-select: none;
+}
+.slot-liber { background: #f8f9fa; }
+.slot-liber:hover { background: #e2f0e2; }
+.slot-ocupat { background: #f8d7da; cursor: not-allowed; color: #721c24; }
+.slot-drag { background: #cce5ff !important; border-color: #339af0 !important; }
+.slot-selectat { background: #74c0fc !important; border-color: #1971c2 !important; font-weight: 600; }
+.ora-label {
+    font-size: 0.72rem; color: #6c757d;
+    white-space: nowrap; padding: 0 6px;
+    height: 32px; vertical-align: middle;
+    width: 52px;
+}
+</style>
+
+<script>
+let programariExistente = [];
+let saptamanaCurenta = new Date();
+let dragStart = null;
+let dragEnd = null;
+let isDragging = false;
+
+// Valori existente (pentru editare)
+let dataSelectata = '{{ programare.data.strftime("%Y-%m-%d") if programare is defined and programare.data else "" }}';
+let oraStartSelectata = '{{ programare.ora if programare is defined and programare.ora else "" }}';
+let oraSfarsitSelectata = '{{ programare.ora_sfarsit if programare is defined and programare.ora_sfarsit else "" }}';
+
+// Pre-populam campurile hidden cu valorile existente
+document.getElementById('inputData').value = dataSelectata;
+document.getElementById('inputOra').value = oraStartSelectata;
+document.getElementById('inputOraSfarsit').value = oraSfarsitSelectata || oraStartSelectata;
+
+const ORE = [];
+for (let h = 8; h <= 17; h++) {
+    ORE.push(`${String(h).padStart(2,'0')}:00`);
+    if (h < 17) ORE.push(`${String(h).padStart(2,'0')}:30`);
+}
+const ZILE_NUME = ['Luni', 'Marți', 'Miercuri', 'Joi', 'Vineri', 'Sâmbătă', 'Duminică'];
+
+function getStartSaptamana(date) {
+    const d = new Date(date);
+    const day = d.getDay();
+    const diff = day === 0 ? -6 : 1 - day;
+    d.setDate(d.getDate() + diff);
+    d.setHours(0,0,0,0);
+    return d;
+}
+function formatData(d) { return d.toISOString().split('T')[0]; }
+function formatDataRo(d) { return d.toLocaleDateString('ro-RO', {day:'2-digit',month:'2-digit',year:'numeric'}); }
+function getMedic() { return document.getElementById('selectMedic').value; }
+
+// Verifica daca un slot e ocupat de alta programare
+// (ignora programarea curenta daca editam)
+const idProgramareCurenta = {{ programare.id if programare is defined and programare.id else 'null' }};
+
+function esteOcupat(dataStr, oraIdx) {
+    const medicId = getMedic();
+    return programariExistente.some(p => {
+        if (String(p.medic_id) !== String(medicId)) return false;
+        if (p.data !== dataStr) return false;
+        if (p.status === 'Anulat') return false;
+        if (p.id === idProgramareCurenta) return false; // ignora programarea curenta
+        const idxStart = ORE.indexOf(p.ora);
+        const idxSfarsit = ORE.indexOf(p.ora_sfarsit || p.ora);
+        return oraIdx >= idxStart && oraIdx <= idxSfarsit;
+    });
+}
+
+function getProgramareOcupata(dataStr, oraIdx) {
+    const medicId = getMedic();
+    return programariExistente.find(p => {
+        if (String(p.medic_id) !== String(medicId)) return false;
+        if (p.data !== dataStr) return false;
+        if (p.status === 'Anulat') return false;
+        if (p.id === idProgramareCurenta) return false;
+        const idxStart = ORE.indexOf(p.ora);
+        const idxSfarsit = ORE.indexOf(p.ora_sfarsit || p.ora);
+        return oraIdx >= idxStart && oraIdx <= idxSfarsit;
+    });
+}
+
+function getSlotId(dataStr, oraIdx) { return `slot-${dataStr}-${oraIdx}`; }
+
+function aplicaHighlight() {
+    document.querySelectorAll('.slot-drag, .slot-selectat').forEach(el => {
+        const ds = el.dataset.data;
+        const oi = parseInt(el.dataset.oraIdx);
+        if (!esteOcupat(ds, oi)) {
+            el.className = 'slot slot-liber';
+            el.textContent = '';
+        }
+    });
+
+    if (!dragStart || !dragEnd) return;
+    if (dragStart.col !== dragEnd.col) return;
+
+    const minIdx = Math.min(dragStart.oraIdx, dragEnd.oraIdx);
+    const maxIdx = Math.max(dragStart.oraIdx, dragEnd.oraIdx);
+    const dataStr = dragStart.dataStr;
+
+    for (let i = minIdx; i <= maxIdx; i++) {
+        const el = document.getElementById(getSlotId(dataStr, i));
+        if (el && !esteOcupat(dataStr, i)) {
+            el.className = isDragging ? 'slot slot-drag' : 'slot slot-selectat';
+            if (i === minIdx) el.textContent = ORE[minIdx];
+            else if (i === maxIdx && maxIdx !== minIdx) el.textContent = '→ ' + ORE[maxIdx];
+            else el.textContent = '';
+        }
+    }
+}
+
+function getColPentruData(dataStr) {
+    const start = getStartSaptamana(saptamanaCurenta);
+    for (let i = 0; i < 7; i++) {
+        const zi = new Date(start);
+        zi.setDate(start.getDate() + i);
+        if (formatData(zi) === dataStr) return i;
+    }
+    return -1;
+}
+
+async function incarcaProgramari() {
+    const resp = await fetch('/programari/api/programari');
+    programariExistente = await resp.json();
+
+    // Daca editam, ne pozitionam pe saptamana programarii
+    if (dataSelectata) {
+        saptamanaCurenta = new Date(dataSelectata + 'T12:00:00');
+    }
+
+    randeazaCalendar();
+
+    // Daca editam, marcam intervalul existent pe calendar
+    if (dataSelectata && oraStartSelectata) {
+        const startIdx = ORE.indexOf(oraStartSelectata);
+        const endIdx = oraSfarsitSelectata ? ORE.indexOf(oraSfarsitSelectata) : startIdx;
+        const col = getColPentruData(dataSelectata);
+
+        if (startIdx !== -1 && col !== -1) {
+            dragStart = { dataStr: dataSelectata, oraIdx: startIdx, col };
+            dragEnd = { dataStr: dataSelectata, oraIdx: endIdx !== -1 ? endIdx : startIdx, col };
+            isDragging = false;
+            aplicaHighlight();
+
+            const dataRo = new Date(dataSelectata + 'T12:00:00')
+                .toLocaleDateString('ro-RO', {day:'2-digit',month:'2-digit',year:'numeric'});
+            const durata = (dragEnd.oraIdx - dragStart.oraIdx) * 30 + 30;
+            document.getElementById('textSelectie').textContent =
+                `${dataRo}, ${oraStartSelectata}–${oraSfarsitSelectata || oraStartSelectata} (${durata} min)`;
+            document.getElementById('selectieInfo').classList.add('d-none');
+            document.getElementById('selectieConfirmata').classList.remove('d-none');
+        }
+    }
+}
+
+function randeazaCalendar() {
+    const start = getStartSaptamana(saptamanaCurenta);
+    const medicId = getMedic();
+
+    const header = document.getElementById('headerZile');
+    header.innerHTML = '<th style="width:52px"></th>';
+    for (let i = 0; i < 7; i++) {
+        const zi = new Date(start); zi.setDate(start.getDate() + i);
+        const th = document.createElement('th');
+        th.textContent = `${ZILE_NUME[i]} ${formatDataRo(zi)}`;
+        th.style.cssText = 'font-size:0.78rem; padding:6px 4px; text-align:center;';
+        header.appendChild(th);
+    }
+
+    const sfarsit = new Date(start); sfarsit.setDate(start.getDate() + 6);
+    document.getElementById('titluSaptamana').textContent =
+        `${formatDataRo(start)} – ${formatDataRo(sfarsit)}`;
+
+    const body = document.getElementById('bodyCalendar');
+    body.innerHTML = '';
+
+    ORE.forEach((ora, oraIdx) => {
+        const tr = document.createElement('tr');
+        const tdOra = document.createElement('td');
+        tdOra.className = 'ora-label';
+        tdOra.textContent = ora;
+        tr.appendChild(tdOra);
+
+        for (let i = 0; i < 7; i++) {
+            const zi = new Date(start); zi.setDate(start.getDate() + i);
+            const dataStr = formatData(zi);
+            const td = document.createElement('td');
+            const slot = document.createElement('div');
+            slot.id = getSlotId(dataStr, oraIdx);
+            slot.dataset.data = dataStr;
+            slot.dataset.oraIdx = oraIdx;
+            slot.dataset.col = i;
+
+            if (!medicId) {
+                slot.className = 'slot slot-liber';
+                slot.title = 'Selectează mai întâi un medic';
+            } else if (esteOcupat(dataStr, oraIdx)) {
+                const pr = getProgramareOcupata(dataStr, oraIdx);
+                slot.className = 'slot slot-ocupat';
+                slot.textContent = '🔴';
+                slot.title = pr ? `${pr.pacient} – ${pr.motiv}` : 'Ocupat';
+            } else {
+                slot.className = 'slot slot-liber';
+                slot.addEventListener('mousedown', e => onMouseDown(e, dataStr, oraIdx, i));
+                slot.addEventListener('mouseenter', e => onMouseEnter(e, dataStr, oraIdx, i));
+            }
+
+            td.appendChild(slot);
+            tr.appendChild(td);
+        }
+        body.appendChild(tr);
+    });
+}
+
+function onMouseDown(e, dataStr, oraIdx, col) {
+    e.preventDefault();
+    isDragging = true;
+    dragStart = { dataStr, oraIdx, col };
+    dragEnd = { dataStr, oraIdx, col };
+    aplicaHighlight();
+}
+
+function onMouseEnter(e, dataStr, oraIdx, col) {
+    if (!isDragging) return;
+    if (col !== dragStart.col) return;
+    dragEnd = { dataStr, oraIdx, col };
+    aplicaHighlight();
+}
+
+function onMouseUp() {
+    if (!isDragging) return;
+    isDragging = false;
+    if (!dragStart || !dragEnd || dragStart.col !== dragEnd.col) {
+        dragStart = dragEnd = null;
+        return;
+    }
+    const minIdx = Math.min(dragStart.oraIdx, dragEnd.oraIdx);
+    const maxIdx = Math.max(dragStart.oraIdx, dragEnd.oraIdx);
+    dataSelectata = dragStart.dataStr;
+    oraStartSelectata = ORE[minIdx];
+    oraSfarsitSelectata = ORE[maxIdx];
+
+    document.getElementById('inputData').value = dataSelectata;
+    document.getElementById('inputOra').value = oraStartSelectata;
+    document.getElementById('inputOraSfarsit').value = oraSfarsitSelectata;
+
+    aplicaHighlight();
+
+    const dataRo = new Date(dataSelectata + 'T12:00:00')
+        .toLocaleDateString('ro-RO', {day:'2-digit',month:'2-digit',year:'numeric'});
+    const durata = (maxIdx - minIdx) * 30 + 30;
+    document.getElementById('textSelectie').textContent =
+        `${dataRo}, ${oraStartSelectata}–${oraSfarsitSelectata} (${durata} min)`;
+    document.getElementById('selectieInfo').classList.add('d-none');
+    document.getElementById('selectieConfirmata').classList.remove('d-none');
+}
+
+document.getElementById('btnSaptPrev').addEventListener('click', () => {
+    saptamanaCurenta.setDate(saptamanaCurenta.getDate() - 7);
+    randeazaCalendar();
+});
+document.getElementById('btnSaptNext').addEventListener('click', () => {
+    saptamanaCurenta.setDate(saptamanaCurenta.getDate() + 7);
+    randeazaCalendar();
+});
+document.getElementById('selectMedic').addEventListener('change', () => {
+    dragStart = dragEnd = null;
+    randeazaCalendar();
+});
+
+document.addEventListener('mouseup', onMouseUp);
+
+document.getElementById('formProgramare').addEventListener('submit', function(e) {
+    if (!document.getElementById('inputData').value ||
+        !document.getElementById('inputOra').value) {
+        e.preventDefault();
+        alert('Te rugăm să selectezi un interval din calendar!');
+    }
+});
+
+incarcaProgramari();
+</script>
+{% endblock %}

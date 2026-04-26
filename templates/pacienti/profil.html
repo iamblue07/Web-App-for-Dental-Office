@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block titlu %}Profil - {{ pacient.nume }} {{ pacient.prenume }}{% endblock %}
+
+{% block continut %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>{{ pacient.nume }} {{ pacient.prenume }}</h2>
+    <div>
+        <a href="{{ url_for('pacienti.editeaza', id=pacient.id) }}"
+           class="btn btn-warning">Editează</a>
+        <form method="POST" action="{{ url_for('pacienti.sterge', id=pacient.id) }}"
+              style="display:inline;"
+              onsubmit="return confirm('Ești sigur că vrei să ștergi acest pacient?')">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <button type="submit" class="btn btn-danger">Șterge</button>
+        </form>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header"><strong>Date personale</strong></div>
+    <div class="card-body">
+        <p><strong>Email:</strong> {{ pacient.email }}</p>
+        <p><strong>Telefon:</strong> {{ pacient.telefon }}</p>
+        <p><strong>Data nașterii:</strong>
+            {{ pacient.data_nasterii.strftime('%d.%m.%Y') if pacient.data_nasterii else 'N/A' }}
+        </p>
+        <p><strong>Adresă:</strong> {{ pacient.adresa or 'N/A' }}</p>
+    </div>
+</div>
+
+<h4>Istoric programări</h4>
+{% if programari %}
+<table class="table table-hover">
+    <thead class="table-secondary">
+        <tr>
+            <th>Data</th>
+            <th>Ora</th>
+            <th>Medic</th>
+            <th>Motiv</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for pr in programari %}
+        <tr>
+            <td>{{ pr.data.strftime('%d.%m.%Y') }}</td>
+            <td>{{ pr.ora }}</td>
+            <td>Dr. {{ pr.medic.nume }} {{ pr.medic.prenume }}</td>
+            <td>{{ pr.motiv }}</td>
+            <td>
+                <span class="badge
+                    {% if pr.status == 'Programat' %}bg-primary
+                    {% elif pr.status == 'Confirmat' %}bg-success
+                    {% elif pr.status == 'Anulat' %}bg-danger
+                    {% else %}bg-secondary{% endif %}">
+                    {{ pr.status }}
+                </span>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="alert alert-info">Acest pacient nu are programări înregistrate.</div>
+{% endif %}
+
+<a href="{{ url_for('pacienti.lista') }}" class="btn btn-secondary mt-2">← Înapoi la listă</a>
+{% endblock %}

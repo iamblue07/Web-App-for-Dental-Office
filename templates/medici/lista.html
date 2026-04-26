@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block titlu %}Lista Medici{% endblock %}
+
+{% block continut %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Medici</h2>
+    <a href="{{ url_for('medici.nou') }}" class="btn btn-primary">+ Medic nou</a>
+</div>
+
+{% if medici %}
+<table class="table table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Nume</th>
+            <th>Specialitate</th>
+            <th>Email</th>
+            <th>Telefon</th>
+            <th>Acțiuni</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for m in medici %}
+        <tr>
+            <td>Dr. {{ m.nume }} {{ m.prenume }}</td>
+            <td>{{ m.specialitate }}</td>
+            <td>{{ m.email }}</td>
+            <td>{{ m.telefon or 'N/A' }}</td>
+            <td>
+                <a href="{{ url_for('medici.profil', id=m.id) }}"
+                   class="btn btn-sm btn-info">Profil</a>
+                <a href="{{ url_for('medici.editeaza', id=m.id) }}"
+                   class="btn btn-sm btn-warning">Editează</a>
+                <form method="POST" action="{{ url_for('medici.sterge', id=m.id) }}"
+                      style="display:inline;"
+                      onsubmit="return confirm('Ești sigur că vrei să ștergi acest medic?')">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <button type="submit" class="btn btn-sm btn-danger">Șterge</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="alert alert-info">Nu există medici înregistrați încă.</div>
+{% endif %}
+{% endblock %}

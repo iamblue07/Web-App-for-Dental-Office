@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+{% block titlu %}Lista Programări{% endblock %}
+
+{% block continut %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Programări</h2>
+    <div class="d-flex gap-2">
+        <a href="{{ url_for('programari.statistici') }}" class="btn btn-outline-info">📊 Statistici</a>
+        <a href="{{ url_for('programari.nou') }}" class="btn btn-primary">+ Programare nouă</a>
+    </div>
+</div>
+
+<!-- Filtre -->
+<form method="GET" class="mb-4">
+    <div class="row g-2">
+        <div class="col-md-4">
+            <select name="status" class="form-select form-select-sm">
+                <option value="">-- Toate statusurile --</option>
+                {% for s in ['Programat', 'Confirmat', 'Anulat'] %}
+                    <option value="{{ s }}" {% if filtru_status == s %}selected{% endif %}>{{ s }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-4">
+            <select name="medic_id" class="form-select form-select-sm">
+                <option value="">-- Toți medicii --</option>
+                {% for m in medici %}
+                    <option value="{{ m.id }}" {% if filtru_medic == m.id|string %}selected{% endif %}>
+                        Dr. {{ m.nume }} {{ m.prenume }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-sm btn-outline-secondary w-100">Filtrează</button>
+        </div>
+        <div class="col-md-2">
+            <a href="{{ url_for('programari.lista') }}" class="btn btn-sm btn-outline-danger w-100">Reset</a>
+        </div>
+    </div>
+</form>
+
+<!-- Calendar -->
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center py-2">
+        <button type="button" class="btn btn-outline-secondary btn-sm" id="btnSaptPrev">← Anterioară</button>
+        <strong id="titluSaptamana"></strong>
+        <button type="button" class="btn btn-outline-secondary btn-sm" id="btnSaptNext">Următoare →</button>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-bordered mb-0" id="calendarTable" style="table-layout:fixed;">
+                <thead class="table-dark"><tr id="headerZile"></tr></thead>
+                <tbody id="bodyCalendar"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Tooltip -->
+<div id="tooltip" style="
+    display:none; position:fixed;
+    background:#fff; border:1px solid #dee2e6;
+    border-radius:8px; padding:10px 14px;
+    box-shadow:0 4px 16px rgba(0,0,0,0.12);
+    z-index:9999; max-width:240px;
+    font-size:0.82rem; pointer-events:none;
+"></div>
+
+<style>
+.calendar-table td, .calendar-table th { padding: 0; }
+.slot-gol {
+    height: 32px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+.slot-cell {
+    height: 32px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    gap: 1px;
+    padding: 1px;
+    border-bottom: 1px solid #e9ecef;
+}
+.pr-chip {
+    flex: 1 1 0;
+    min-width: 0;
+    border-radius: 3px;
+    font-size: 0.68rem;
+    padding: 2px 3px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+}
+.status-Programat  { background:#cce5ff; border-left:3px solid #004085; }
+.status-Confirmat  { background:#d4edda; border-left:3px solid #155724; }
+.status-Anulat     { background:#f8d7da; border-left:3px solid #721c24; }
+.ora-label {
+    font-size:0.72rem; color:#6c757d;
+    white-space:nowrap; padding:0 6px;
+    height:32px; vertical-align:middle;
+    width:52px;
+}
+</style>
+
+<script>
+const toateProgramarile = {{ programari_json | safe }};
+let saptamanaCurenta = new Date();
+
+function getStartSaptamana(date) {
+    const d = new Date(date);
+    const day = d.getDay();
+    const diff = day === 0 ? -6 : 1 - day;
+    d.setDate(d.getDate() + diff);
+    d.setHours(0,0,0,0);
+    return d;
+}
+function formatData(d) { return d.toISOString().split('T')[0]; }
+function formatDataRo(d) { return d.toLocaleDateString('ro-RO',{day:'2-digit',month:'2-digit',year:'numeric'}); }
+
+const ORE = [];
+for (let h = 8; h <= 17; h++) {
+    ORE.push(`${String(h).padStart(2,'0')}:00`);
+    if (h < 17) ORE.push(`${String(h).padStart(2,'0')}:30`);
+}
+const ZILE_NUME = ['Luni','Marți','Miercuri','Joi','Vineri','Sâmbătă','Duminică'];
+
+function getProgramariSlot(dataStr, oraStr) {
+    return toateProgramarile.filter(p => p.data === dataStr && p.ora === oraStr);
+}
+
+function randeazaCalendar() {
+    const start = getStartSaptamana(saptamanaCurenta);
+
+    const header = document.getElementById('headerZile');
+    header.innerHTML = '<th style="width:52px;padding:6px 4px;"></th>';
+    for (let i = 0; i < 7; i++) {
+        const zi = new Date(start); zi.setDate(start.getDate() + i);
+        const th = document.createElement('th');
+        th.textContent = `${ZILE_NUME[i]} ${formatDataRo(zi)}`;
+        th.style.cssText = 'font-size:0.78rem;padding:6px 4px;text-align:center;';
+        header.appendChild(th);
+    }
+
+    const sfarsit = new Date(start); sfarsit.setDate(start.getDate() + 6);
+    document.getElementById('titluSaptamana').textContent =
+        `${formatDataRo(start)} – ${formatDataRo(sfarsit)}`;
+
+    const body = document.getElementById('bodyCalendar');
+    body.innerHTML = '';
+
+    ORE.forEach((ora, oraIdx) => {
+        const tr = document.createElement('tr');
+        const tdOra = document.createElement('td');
+        tdOra.className = 'ora-label';
+        tdOra.textContent = ora;
+        tr.appendChild(tdOra);
+
+        for (let i = 0; i < 7; i++) {
+            const zi = new Date(start); zi.setDate(start.getDate() + i);
+            const dataStr = formatData(zi);
+            const td = document.createElement('td');
+            td.style.padding = '0';
+
+            // Gasim programarile care ACOPERA aceasta ora
+            // (ora_start <= ora <= ora_sfarsit)
+            const programariActive = toateProgramarile.filter(p => {
+                if (p.data !== dataStr) return false;
+                const idxStart = ORE.indexOf(p.ora);
+                const idxSfarsit = ORE.indexOf(p.ora_sfarsit || p.ora);
+                return oraIdx >= idxStart && oraIdx <= idxSfarsit;
+            });
+
+            if (programariActive.length === 0) {
+                const div = document.createElement('div');
+                div.className = 'slot-gol';
+                td.appendChild(div);
+            } else {
+                const cell = document.createElement('div');
+                cell.className = 'slot-cell';
+                programariActive.forEach(pr => {
+                    const idxStart = ORE.indexOf(pr.ora);
+                    const chip = document.createElement('div');
+                    chip.className = `pr-chip status-${pr.status}`;
+                    // Afisam numele doar pe primul slot
+                    chip.textContent = oraIdx === idxStart ? pr.pacient.split(' ')[0] : '';
+                    chip.title = pr.pacient;
+                    chip.addEventListener('mouseenter', e => afiseazaTooltip(e, pr));
+                    chip.addEventListener('mousemove', mutaTooltip);
+                    chip.addEventListener('mouseleave', ascundeTooltip);
+                    chip.addEventListener('click', () => {
+                        window.location.href = `/programari/${pr.id}/editeaza`;
+                    });
+                    cell.appendChild(chip);
+                });
+                td.appendChild(cell);
+            }
+            tr.appendChild(td);
+        }
+        body.appendChild(tr);
+    });
+}
+
+const tooltip = document.getElementById('tooltip');
+function afiseazaTooltip(e, pr) {
+    tooltip.innerHTML = `
+        <strong>${pr.pacient}</strong><br>
+        👨‍⚕️ ${pr.medic}<br>
+        🕐 ${pr.ora}<br>
+        📋 ${pr.motiv}<br>
+        <span class="badge bg-${pr.status==='Confirmat'?'success':pr.status==='Anulat'?'danger':'primary'}">${pr.status}</span>
+    `;
+    tooltip.style.display = 'block';
+    mutaTooltip(e);
+}
+function mutaTooltip(e) {
+    tooltip.style.left = (e.clientX + 15) + 'px';
+    tooltip.style.top  = (e.clientY + 15) + 'px';
+}
+function ascundeTooltip() { tooltip.style.display = 'none'; }
+
+document.getElementById('btnSaptPrev').addEventListener('click', () => {
+    saptamanaCurenta.setDate(saptamanaCurenta.getDate() - 7);
+    randeazaCalendar();
+});
+document.getElementById('btnSaptNext').addEventListener('click', () => {
+    saptamanaCurenta.setDate(saptamanaCurenta.getDate() + 7);
+    randeazaCalendar();
+});
+
+randeazaCalendar();
+</script>
+{% endblock %}

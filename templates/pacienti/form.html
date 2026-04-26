@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block titlu %}{{ titlu }}{% endblock %}
+
+{% block continut %}
+<h2 class="mb-4">{{ titlu }}</h2>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <div class="card">
+        <div class="card-body">
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    {{ form.nume.label(class='form-label') }}
+                    {{ form.nume(class='form-control') }}
+                    {% for err in form.nume.errors %}
+                        <div class="text-danger small">{{ err }}</div>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6">
+                    {{ form.prenume.label(class='form-label') }}
+                    {{ form.prenume(class='form-control') }}
+                    {% for err in form.prenume.errors %}
+                        <div class="text-danger small">{{ err }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    {{ form.email.label(class='form-label') }}
+                    {{ form.email(class='form-control') }}
+                    {% for err in form.email.errors %}
+                        <div class="text-danger small">{{ err }}</div>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6">
+                    {{ form.telefon.label(class='form-label') }}
+                    {{ form.telefon(class='form-control') }}
+                    {% for err in form.telefon.errors %}
+                        <div class="text-danger small">{{ err }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    {{ form.data_nasterii.label(class='form-label') }}
+                    {{ form.data_nasterii(class='form-control') }}
+                    {% for err in form.data_nasterii.errors %}
+                        <div class="text-danger small">{{ err }}</div>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6">
+                    {{ form.adresa.label(class='form-label') }}
+                    {{ form.adresa(class='form-control') }}
+                    {% for err in form.adresa.errors %}
+                        <div class="text-danger small">{{ err }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+        <div class="card-footer">
+            {{ form.submit(class='btn btn-primary') }}
+            <a href="{{ url_for('pacienti.lista') }}" class="btn btn-secondary">Anulează</a>
+        </div>
+    </div>
+</form>
+{% endblock %}

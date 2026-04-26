@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block titlu %}Profil - Dr. {{ medic.nume }} {{ medic.prenume }}{% endblock %}
+
+{% block continut %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Dr. {{ medic.nume }} {{ medic.prenume }}</h2>
+    <div>
+        <a href="{{ url_for('medici.editeaza', id=medic.id) }}"
+           class="btn btn-warning">Editează</a>
+        <form method="POST" action="{{ url_for('medici.sterge', id=medic.id) }}"
+              style="display:inline;"
+              onsubmit="return confirm('Ești sigur că vrei să ștergi acest medic?')">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <button type="submit" class="btn btn-danger">Șterge</button>
+        </form>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header"><strong>Date medic</strong></div>
+    <div class="card-body">
+        <p><strong>Specialitate:</strong> {{ medic.specialitate }}</p>
+        <p><strong>Email:</strong> {{ medic.email }}</p>
+        <p><strong>Telefon:</strong> {{ medic.telefon or 'N/A' }}</p>
+    </div>
+</div>
+
+<h4>Programări viitoare</h4>
+{% if medic.programari %}
+<table class="table table-hover">
+    <thead class="table-secondary">
+        <tr>
+            <th>Data</th>
+            <th>Ora</th>
+            <th>Pacient</th>
+            <th>Motiv</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for pr in medic.programari %}
+        <tr>
+            <td>{{ pr.data.strftime('%d.%m.%Y') }}</td>
+            <td>{{ pr.ora }}</td>
+            <td>{{ pr.pacient.nume }} {{ pr.pacient.prenume }}</td>
+            <td>{{ pr.motiv }}</td>
+            <td>
+                <span class="badge
+                    {% if pr.status == 'Programat' %}bg-primary
+                    {% elif pr.status == 'Confirmat' %}bg-success
+                    {% elif pr.status == 'Anulat' %}bg-danger
+                    {% else %}bg-secondary{% endif %}">
+                    {{ pr.status }}
+                </span>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="alert alert-info">Acest medic nu are programări înregistrate.</div>
+{% endif %}
+
+<a href="{{ url_for('medici.lista') }}" class="btn btn-secondary mt-2">← Înapoi la listă</a>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block titlu %}Lista Pacienți{% endblock %}
+
+{% block continut %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Pacienți</h2>
+    <a href="{{ url_for('pacienti.nou') }}" class="btn btn-primary">+ Pacient nou</a>
+</div>
+
+<form method="GET" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="cautare" class="form-control"
+               placeholder="Caută după nume, prenume sau email..."
+               value="{{ cautare }}">
+        <button class="btn btn-outline-secondary" type="submit">Caută</button>
+        {% if cautare %}
+            <a href="{{ url_for('pacienti.lista') }}" class="btn btn-outline-danger">✕</a>
+        {% endif %}
+    </div>
+</form>
+
+{% if pacienti %}
+<table class="table table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Nume</th>
+            <th>Email</th>
+            <th>Telefon</th>
+            <th>Acțiuni</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for p in pacienti %}
+        <tr>
+            <td>{{ p.nume }} {{ p.prenume }}</td>
+            <td>{{ p.email }}</td>
+            <td>{{ p.telefon }}</td>
+            <td>
+                <a href="{{ url_for('pacienti.profil', id=p.id) }}"
+                   class="btn btn-sm btn-info">Profil</a>
+                <a href="{{ url_for('pacienti.editeaza', id=p.id) }}"
+                   class="btn btn-sm btn-warning">Editează</a>
+                <form method="POST" action="{{ url_for('pacienti.sterge', id=p.id) }}"
+                      style="display:inline;"
+                      onsubmit="return confirm('Ești sigur că vrei să ștergi acest pacient?')">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <button type="submit" class="btn btn-sm btn-danger">Șterge</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="alert alert-info">
+    {% if cautare %}
+        Niciun pacient găsit pentru "<strong>{{ cautare }}</strong>".
+    {% else %}
+        Nu există pacienți înregistrați încă.
+    {% endif %}
+</div>
+{% endif %}
+{% endblock %}
